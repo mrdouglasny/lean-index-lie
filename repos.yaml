@@ -1,0 +1,9 @@
+repos:
+  - url: https://github.com/ocfnash/LieClassification
+    description: "Classification of finite-dimensional Lie algebras"
+  - url: https://github.com/LieLean/LowDimSolvClassification
+    description: "Low-dimensional solvable Lie algebra classification"
+  - url: https://github.com/smmercuri/lie-theory-lean4
+    description: "Lie theory in Lean 4"
+  - url: https://github.com/erdOne/lie_algebras
+    description: "Lie algebras in Lean"

@@ -1,0 +1,83 @@
+topics:
+  - name: lie-algebras
+    search_keywords:
+      - "Lie algebra"
+      - "Cartan subalgebra"
+      - "semisimple Lie"
+      - "nilpotent Lie"
+      - "solvable Lie"
+      - "Killing form"
+      - "adjoint representation"
+    matchers:
+      module_prefixes:
+        - "Mathlib.Algebra.Lie."
+        - "Mathlib.Geometry.Manifold.Algebra.LieGroup"
+        - "Mathlib.Geometry.Manifold.GroupLieAlgebra"
+      type_mentions:
+        - "LieAlgebra"
+        - "LieRing"
+        - "LieGroup"
+        - "LieSubalgebra"
+        - "LieIdeal"
+        - "LieModule"
+        - "LieHom"
+        - "LieEquiv"
+        - "LieSubmodule"
+        - "killingForm"
+        - "IsSl2Triple"
+      name_patterns:
+        - ".*[Ll]ie[A-Z].*"
+        - ".*[Cc]artan[A-Z].*"
+        - ".*[Kk]illing[A-Z].*"
+        - ".*[Ee]ngel.*"
+
+  - name: root-systems
+    search_keywords:
+      - "root system"
+      - "Dynkin diagram"
+      - "Weyl group"
+      - "Coxeter group"
+      - "Cartan matrix"
+      - "root pairing"
+    matchers:
+      module_prefixes:
+        - "Mathlib.LinearAlgebra.RootSystem."
+        - "Mathlib.GroupTheory.Coxeter."
+        - "Mathlib.Data.Matrix.Cartan"
+      type_mentions:
+        - "RootSystem"
+        - "RootPairing"
+        - "CoxeterMatrix"
+        - "CoxeterGroup"
+        - "WeylGroup"
+        - "CartanMatrix"
+      name_patterns:
+        - ".*[Rr]oot[SP].*"
+        - ".*[Dd]ynkin.*"
+        - ".*[Ww]eyl.*"
+        - ".*[Cc]oxeter.*"
+
+  - name: representation-theory
+    search_keywords:
+      - "representation theory"
+      - "Lie module"
+      - "weight space"
+      - "highest weight"
+      - "irreducible representation"
+      - "Schur lemma"
+    matchers:
+      module_prefixes:
+        - "Mathlib.RepresentationTheory."
+        - "Mathlib.Algebra.Lie.Weights."
+      type_mentions:
+        - "Representation"
+        - "LieModule"
+        - "Weight"
+        - "IsWeight"
+        - "genWeightSpace"
+        - "rootSpace"
+      name_patterns:
+        - ".*[Ww]eight.*"
+        - ".*[Ii]rreducible.*"
+        - ".*[Ss]chur.*"
+        - ".*[Rr]epresentation.*"

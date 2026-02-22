@@ -1,0 +1,39 @@
+name: Update Index
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'  # Weekly Monday 6 AM UTC
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install lean-index
+        run: pip install git+https://github.com/mrdouglasny/lean-index.git
+
+      - name: Initialize and update index
+        run: |
+          lean-index init
+          lean-index update
+
+      - name: Generate reports
+        run: |
+          lean-index stats > STATS.md
+          lean-index changelog --since $(date -d '7 days ago' +%Y-%m-%d) > CHANGELOG.md
+
+      - name: Publish database as release
+        run: |
+          gh release create "$(date +%Y-%m-%d)" data/index.db \
+            --title "Index $(date +%Y-%m-%d)" \
+            --notes "$(cat CHANGELOG.md)"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
