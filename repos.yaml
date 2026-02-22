@@ -1,9 +1,7 @@
 repos:
-  - url: https://github.com/ocfnash/LieClassification
-    description: "Classification of finite-dimensional Lie algebras"
   - url: https://github.com/LieLean/LowDimSolvClassification
-    description: "Low-dimensional solvable Lie algebra classification"
-  - url: https://github.com/smmercuri/lie-theory-lean4
-    description: "Lie theory in Lean 4"
-  - url: https://github.com/erdOne/lie_algebras
-    description: "Lie algebras in Lean"
+    description: "Low-dimensional solvable Lie algebra classification (Lean 4)"
+  - url: https://github.com/ocfnash/LieClassification
+    description: "Classification of finite-dimensional Lie algebras (Lean 4)"
+  - url: https://github.com/bicmr-ai4math/Group6-Formalization-on-Lie-algebra-rep
+    description: "Formalization of finite-dimensional Lie algebra representations (Lean 4)"

@@ -15,16 +15,15 @@ See [SELECTION.md](SELECTION.md) for exact selection criteria.
 
 Only the topic-relevant subset is indexed. See [SELECTION.md](SELECTION.md) for the full filtering criteria.
 
-### Curated Repos
+### Non-Mathlib Repos
 
-| Repository | Description |
-|-----------|-------------|
-| [ocfnash/LieClassification](https://github.com/ocfnash/LieClassification) | Classification of finite-dimensional Lie algebras |
-| [LieLean/LowDimSolvClassification](https://github.com/LieLean/LowDimSolvClassification) | Low-dimensional solvable Lie algebra classification |
-| [smmercuri/lie-theory-lean4](https://github.com/smmercuri/lie-theory-lean4) | Lie theory in Lean 4 |
-| [erdOne/lie_algebras](https://github.com/erdOne/lie_algebras) | Lie algebras in Lean |
+| Repository | Stars | Description |
+|-----------|-------|-------------|
+| [LieLean/LowDimSolvClassification](https://github.com/LieLean/LowDimSolvClassification) | 9 | Low-dimensional solvable Lie algebra classification |
+| [ocfnash/LieClassification](https://github.com/ocfnash/LieClassification) | 4 | Classification of finite-dimensional Lie algebras |
+| [bicmr-ai4math/Group6-Formalization-on-Lie-algebra-rep](https://github.com/bicmr-ai4math/Group6-Formalization-on-Lie-algebra-rep) | 2 | Lie algebra representation formalization |
 
-Additional repos are discovered automatically from Lean Reservoir and GitHub search.
+This is the **complete list** of known non-Mathlib Lean 4 repos with Lie algebra content (as of 2026-02-22). Additional repos are discovered automatically during `lean-index update` via Lean Reservoir and GitHub search.
 
 ## Usage
 
