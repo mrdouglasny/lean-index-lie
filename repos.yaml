@@ -3,5 +3,7 @@ repos:
     description: "Low-dimensional solvable Lie algebra classification (Lean 4)"
   - url: https://github.com/ocfnash/LieClassification
     description: "Classification of finite-dimensional Lie algebras (Lean 4)"
+    branch: master
   - url: https://github.com/bicmr-ai4math/Group6-Formalization-on-Lie-algebra-rep
     description: "Formalization of finite-dimensional Lie algebra representations (Lean 4)"
+    branch: master

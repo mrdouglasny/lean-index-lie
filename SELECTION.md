@@ -1,6 +1,6 @@
 # Selection Criteria
 
-This document describes exactly which Mathlib declarations are included in this index. Only declarations matching at least one criterion below are indexed — everything else (number theory, combinatorics, etc.) is excluded.
+This document describes exactly which declarations are included in this index. Only declarations matching at least one criterion below are indexed — everything else (number theory, combinatorics, etc.) is excluded.
 
 ## Topic: lie-algebras
 
@@ -22,7 +22,7 @@ Declarations whose fully qualified name matches:
 - `.*Lie[A-Z].*` — names containing "Lie" followed by uppercase
 - `.*Cartan[A-Z].*` — Cartan-related names
 - `.*Killing[A-Z].*` — Killing form related
-- `.*Engel.*` — Engel's theorem related
+- `.*Engel[A-Z].*` — Engel's theorem related
 
 ### Search keywords (for GitHub/Reservoir discovery)
 - "Lie algebra", "Cartan subalgebra", "semisimple Lie"
@@ -41,8 +41,8 @@ Declarations whose fully qualified name matches:
 - `WeylGroup`, `CartanMatrix`
 
 ### Name patterns (confidence: 0.6)
-- `.*Root[SP].*` — RootSystem, RootPairing
-- `.*Dynkin.*`, `.*Weyl.*`, `.*Coxeter.*`
+- `.*RootSystem.*`, `.*RootPairing.*`, `.*RootSpace.*`
+- `.*Dynkin.*`, `.*WeylGroup.*`, `.*Coxeter.*`
 
 ### Search keywords
 - "root system", "Dynkin diagram", "Weyl group"
@@ -56,12 +56,13 @@ Declarations whose fully qualified name matches:
 
 ### Type signature mentions (confidence: 0.8)
 - `Representation`, `LieModule`
-- `Weight`, `IsWeight`
-- `genWeightSpace`, `rootSpace`
+- `IsWeight`, `genWeightSpace`
+- `rootSpace`, `WeightSpace`
 
 ### Name patterns (confidence: 0.6)
-- `.*Weight.*`, `.*Irreducible.*`
-- `.*Schur.*`, `.*Representation.*`
+- `.*WeightSpace.*`, `.*HighestWeight.*`
+- `.*Irreducible[MR].*`, `.*Schur[A-Z].*`
+- `.*Representation[A-Z].*`
 
 ### Search keywords
 - "representation theory", "Lie module", "weight space"
@@ -72,9 +73,11 @@ Declarations whose fully qualified name matches:
 ## How selection works
 
 1. **Mathlib declarations** are downloaded from the official docs cache (~384K total).
-2. Each declaration is tested against the criteria above.
-3. Only declarations matching **at least one criterion** from **any topic** are stored.
-4. Confidence scores indicate match quality:
+2. **Non-Mathlib repos** are discovered from Lean Reservoir (565+ packages) and GitHub search.
+3. Repos are **pre-filtered** by name/description matching topic keywords before cloning.
+4. Each declaration is tested against the criteria above.
+5. Only declarations matching **at least one criterion** from **any topic** are stored in REPOS.md.
+6. Confidence scores indicate match quality:
    - **1.0** (module prefix): definite match, the declaration is in a relevant module
    - **0.8** (type mention): high confidence, the declaration uses relevant types
    - **0.6** (name pattern): moderate confidence, regex match on name
@@ -90,7 +93,3 @@ lean-index preview-topics
 # Show how many declarations would be selected with a modified topics.yaml
 lean-index preview-topics --config /path/to/modified/topics.yaml
 ```
-
-## Non-Mathlib repos
-
-Repos discovered from Lean Reservoir and GitHub search are indexed **in full** (all declarations), since they were discovered via topic-relevant keywords. The curated repos in `repos.yaml` are also indexed in full.

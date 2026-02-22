@@ -29,7 +29,7 @@ topics:
         - ".*[Ll]ie[A-Z].*"
         - ".*[Cc]artan[A-Z].*"
         - ".*[Kk]illing[A-Z].*"
-        - ".*[Ee]ngel.*"
+        - ".*[Ee]ngel[A-Z].*"
 
   - name: root-systems
     search_keywords:
@@ -52,9 +52,11 @@ topics:
         - "WeylGroup"
         - "CartanMatrix"
       name_patterns:
-        - ".*[Rr]oot[SP].*"
+        - ".*[Rr]ootSystem.*"
+        - ".*[Rr]ootPairing.*"
+        - ".*[Rr]ootSpace.*"
         - ".*[Dd]ynkin.*"
-        - ".*[Ww]eyl.*"
+        - ".*[Ww]eylGroup.*"
         - ".*[Cc]oxeter.*"
 
   - name: representation-theory
@@ -72,12 +74,13 @@ topics:
       type_mentions:
         - "Representation"
         - "LieModule"
-        - "Weight"
         - "IsWeight"
         - "genWeightSpace"
         - "rootSpace"
+        - "WeightSpace"
       name_patterns:
-        - ".*[Ww]eight.*"
-        - ".*[Ii]rreducible.*"
-        - ".*[Ss]chur.*"
-        - ".*[Rr]epresentation.*"
+        - ".*[Ww]eightSpace.*"
+        - ".*[Hh]ighestWeight.*"
+        - ".*[Ii]rreducible[MR].*"
+        - ".*[Ss]chur[A-Z].*"
+        - ".*[Rr]epresentation[A-Z].*"
