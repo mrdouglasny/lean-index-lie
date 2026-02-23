@@ -1,0 +1,241 @@
+# Changelog (since 2026-02-16)
+
+## New Declarations (5414)
+
+### Group6-Formalization-on-Lie-algebra-rep (+56)
+
+- `life_decieves_you` (def) in Exercise.test
+- `group_theory_prob1` (theorem) in Exercise.abstract_algebra
+- `card_eq_card_quotient_mul_card_subgroup'` (theorem) in Exercise.abstract_algebra
+- `comm_of_cyclic_over_center` (lemma) in Exercise.abstract_algebra
+- `p_eq_of_p_dvd_psq` (lemma) in Exercise.abstract_algebra
+- `no_center_of_order_prime_pow` (lemma) in Exercise.abstract_algebra
+- `center_eq_top'` (lemma) in Exercise.abstract_algebra
+- `center_normal'` (lemma) in Exercise.abstract_algebra
+- `group_theory_prob2` (theorem) in Exercise.abstract_algebra
+- `ring_theory_prob` (theorem) in Exercise.abstract_algebra
+- `Representation` (abbrev) in LieAlgRep.lie_algebra
+- `IsAssociativeBilForm` (def) in LieAlgRep.lie_algebra
+- `CasimirElement` (def) in LieAlgRep.lie_algebra
+- `bracket_in_glV` (lemma) in LieAlgRep.lie_algebra
+- `comm_zero_bracket` (lemma) in LieAlgRep.lie_algebra
+- `CasimirIntertwin` (lemma) in LieAlgRep.CasimirElement
+- `hello` (def) in LieAlgRep.Basic
+- `Ideal.IsPrime_not_mem_mul` (theorem) in LieAlgRep.prime_ideal_aviod_Thm
+- `Ideal.multiset_not_mem` (theorem) in LieAlgRep.prime_ideal_aviod_Thm
+- `Ideal.multiset_mem_in` (theorem) in LieAlgRep.prime_ideal_aviod_Thm
+- `Multiset.erase_refl` (theorem) in LieAlgRep.prime_ideal_aviod_Thm
+- `prime_ideal_finset_version` (theorem) in LieAlgRep.prime_ideal_aviod_Thm
+- `Representation.asLieModule` (def) in LieAlgRep.lie_algebra
+- `Representation.asLieModuleEquiv` (def) in LieAlgRep.lie_algebra
+- `Representation.smul_map` (lemma) in LieAlgRep.lie_algebra
+- `Representation.kernel` (def) in LieAlgRep.lie_algebra
+- `Representation.mem_kernel` (theorem) in LieAlgRep.lie_algebra
+- `Representation.lie_ring_module_of_lie_hom` (instance) in LieAlgRep.lie_algebra
+- `Representation.lie_module_of_lie_hom` (instance) in LieAlgRep.lie_algebra
+- `Representation.lie_module_of_lie_hom_apply` (lemma) in LieAlgRep.lie_algebra
+- `Representation.coe_add` (lemma) in LieAlgRep.lie_algebra
+- `Representation.coe_zero` (lemma) in LieAlgRep.lie_algebra
+- `Representation.coe_smul` (lemma) in LieAlgRep.lie_algebra
+- `Representation.LieSubmodule'.liesubtype` (def) in LieAlgRep.lie_algebra
+- `Representation.domRestrict'` (def) in LieAlgRep.lie_algebra
+- `Representation.dom_restrict'_add` (theorem) in LieAlgRep.lie_algebra
+- `Representation.dom_restrict'_zero` (theorem) in LieAlgRep.lie_algebra
+- `Representation.dom_restrict'_smul` (theorem) in LieAlgRep.lie_algebra
+- `Representation.dom_restrict'_map_lie` (theorem) in LieAlgRep.lie_algebra
+- `Representation.LieModuleHomResScalar` (def) in LieAlgRep.lie_algebra
+- `Representation.mem_LieModuleHomResScalar` (lemma) in LieAlgRep.lie_algebra
+- `Representation.ResScalar` (lemma) in LieAlgRep.lie_algebra
+- `Representation.obtain_scalar` (def) in LieAlgRep.lie_algebra
+- `Representation.lie_apply_of_lie_hom_res_scalar` (lemma) in LieAlgRep.lie_algebra
+- `Representation.LieModuleHomResZero` (def) in LieAlgRep.lie_algebra
+- `Representation.LieModuleHomResZero'` (def) in LieAlgRep.lie_algebra
+- `Representation.mem_LieModuleHomResZero'` (lemma) in LieAlgRep.lie_algebra
+- `Representation.ResZero` (lemma) in LieAlgRep.lie_algebra
+- `Representation.IsIrreducible` (class) in LieAlgRep.lie_algebra
+- `Representation.IsCompletelyReducible` (class) in LieAlgRep.lie_algebra
+- ... and 6 more
+
+### LieClassification (+3)
+
+- `LieAlgebra.IsKilling.isSimple_of_isIrreducible_rootSystem` (lemma) in LieClassification.Algebra.Lie.Weights.RootSystem
+- `RootPairing.Base.cartanMatrix_sub_four_det_ne_zero` (lemma) in LieClassification.LinearAlgebra.RootSystem.CartanMatrix
+- `RootPairing.GeckConstruction.rootSystem_cartanSubalgebra_equiv_self` (def) in LieClassification.LinearAlgebra.RootSystem.LieAlgebra
+
+### LowDimSolvClassification (+300)
+
+- `LieAlgebra.Dim2.Abelian` (abbrev) in Lie.InstancesLowDim
+- `LieAlgebra.Dim2.Affine` (def) in Lie.InstancesLowDim
+- `LieAlgebra.Dim2.Affine.bracket` (theorem) in Lie.InstancesLowDim
+- `LieAlgebra.Dim2.Affine.equivToLieAlgOfAffineEquiv` (def) in Lie.InstancesLowDim
+- `LieAlgebra.Dim2.Affine.equivToRealHyperbolic` (def) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Abelian` (abbrev) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Heisenberg` (def) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Heisenberg.bracket` (theorem) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.AffinePlusAbelian` (def) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.AffinePlusAbelian.bracket` (theorem) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Hyperbolic` (def) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Hyperbolic.bracket` (theorem) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Family` (def) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Family.bracket` (theorem) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Heisenberg.semidirectAux'` (def) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Heisenberg.semidirectAux` (def) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Heisenberg.equivToSemidirect` (def) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.AffinePlusAbelian.equivToDirectSum` (def) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.AffinePlusAbelian.semidirectAux'` (def) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.AffinePlusAbelian.semidirectAux` (def) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.AffinePlusAbelian.equivToSemidirect` (def) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Hyperbolic.equivToRealHyperbolic` (def) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Hyperbolic.e₁` (def) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Hyperbolic.e₁_def` (theorem) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Hyperbolic.e₂` (def) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Hyperbolic.e₂_def` (theorem) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Hyperbolic.e₃` (def) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Hyperbolic.e₃_def` (theorem) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Hyperbolic.commutator_is_span_e₂e₃` (theorem) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Hyperbolic.commutator_repr` (theorem) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Hyperbolic.stdBasis` (def) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Hyperbolic.stdBasis₁` (theorem) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Hyperbolic.stdBasis₂` (theorem) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Hyperbolic.stdBasis₃` (theorem) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Hyperbolic.commutatorBasis` (def) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Hyperbolic.dim_commutator` (theorem) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Hyperbolic.adjoint` (def) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Hyperbolic.ade₁` (def) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Hyperbolic.ad_preserves_commutator` (theorem) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Hyperbolic.ad_restr` (def) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Hyperbolic.ad_restr_apply` (theorem) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Hyperbolic.ad_restr_add` (theorem) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Hyperbolic.ad_restr_smul` (theorem) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Hyperbolic.lie_e₁e₂` (theorem) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Hyperbolic.lie_e₁e₃` (theorem) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Hyperbolic.lie_e₂e₃` (theorem) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Hyperbolic.ade₁_restr_id` (theorem) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Hyperbolic.ad_comm_restr` (theorem) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Family.semidirectAux'` (def) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Family.semidirectAux` (def) in Lie.InstancesLowDim
+- ... and 250 more
+
+### finite-groups (+54)
+
+- `FG.schur_lemma.projection_annihilates_vanish` (lemma) in src.schur_lemma
+- `FG.schur_lemma.schur_lemma₁` (lemma) in src.schur_lemma
+- `FG.schur_lemma.schur_lemma₂` (lemma) in src.schur_lemma
+- `FG.matrix_representation` (structure) in src.matrix_representation
+- `FG.matrix_representation.is_equivalent_symm` (lemma) in src.matrix_representation
+- `FG.matrix_representation.is_equivalent_iff` (lemma) in src.matrix_representation
+- `FG.matrix_representation.is_block_diagonal` (def) in src.matrix_representation
+- `FG.matrix_representation.irreducible_representation` (def) in src.matrix_representation
+- `FG.example_parity.ℤ₂` (inductive) in src.examples.Z2
+- `FG.example_parity.ℤ₂.rep` (def) in src.examples.Z2
+- `FG.example_S₃.S₃` (inductive) in src.examples.S3
+- `FG.example_S₃.S₃.is_non_abelian` (lemma) in src.examples.S3
+- `FG.example_int.group_int` (structure) in src.examples.int_addition
+- `FG.example_int.group_int.rep` (def) in src.examples.int_addition
+- `FG.example_int.group_int.rep.is_reducible_by_P` (lemma) in src.examples.int_addition
+- `FG.finite_group` (class) in src.basic.finite_group
+- `FG.linear_operator` (def) in src.basic.representation
+- `FG.representation` (class) in src.basic.representation
+- `FG.matrix_func` (def) in src.linear_space.square_matrix
+- `FG.square_matrix` (def) in src.linear_space.square_matrix
+- `FG.square_matrix.is_invertible` (def) in src.linear_space.square_matrix
+- `FG.square_matrix.det1_eq` (lemma) in src.linear_space.square_matrix
+- `FG.square_matrix.det2_eq` (lemma) in src.linear_space.square_matrix
+- `FG.invertible_matrix` (def) in src.linear_space.invertible_matrix
+- `FG.block_diagonal` (inductive) in src.linear_space.block_diagonal
+- `FG.block_diagonal.to_func` (def) in src.linear_space.block_diagonal
+- `FG.block_diagonal.reduce` (def) in src.linear_space.block_diagonal
+- `FG.vec` (def) in src.linear_space.vector
+- `FG.vec.smul` (def) in src.linear_space.vector
+- `FG.miscs.vector_annihilates_right` (def) in src.linear_space.miscs
+- `FG.miscs.vector_annihilates_left` (def) in src.linear_space.miscs
+- `FG.miscs.vector_annihilates` (def) in src.linear_space.miscs
+- `FG.miscs.vector_annihilates_det_eq_zero_iff` (lemma) in src.linear_space.miscs
+- `FG.miscs.vector_annihilates_or_ivertible` (lemma) in src.linear_space.miscs
+- `FG.vec3` (structure) in src.linear_space3.data
+- `FG.vec3.vector3` (def) in src.linear_space3.data
+- `FG.vec3.from_vector_eq` (lemma) in src.linear_space3.data
+- `FG.vec3.equiv_vector` (def) in src.linear_space3.data
+- `FG.mat3` (structure) in src.linear_space3.data
+- `FG.mat3.matrix3` (def) in src.linear_space3.data
+- `FG.mat3.from_matrix_eq` (lemma) in src.linear_space3.data
+- `FG.mat3.equiv_matrix` (def) in src.linear_space3.data
+- `FG.mat3.mat_dot_vec_assoc` (lemma) in src.linear_space3.data
+- `FG.mat3.is_invertible` (def) in src.linear_space3.invertible_mat3
+- `FG.mat3.unitary_is_inverible` (lemma) in src.linear_space3.invertible_mat3
+- `FG.mat3.inverse` (def) in src.linear_space3.invertible_mat3
+- `FG.mat3.det_iff` (theorem) in src.linear_space3.invertible_mat3
+- `FG.mat3.inverse_invertible` (lemma) in src.linear_space3.invertible_mat3
+- `FG.mat3_representation` (class) in src.linear_space3.mat3_representation
+- `FG.example_Z₃.Z₃` (inductive) in src.linear_space3.examples.Z3
+- ... and 4 more
+
+### joyalRepresentationTheorem (+9)
+
+- `toBoundedLatticeHom` (def) in JoyalRepresentationTheorem
+- `BoundedLatticeSpectrum` (def) in JoyalRepresentationTheorem
+- `BoundedLatticeSpectrum.exists_of_filter` (lemma) in JoyalRepresentationTheorem
+- `joyalRepresentation` (def) in JoyalRepresentationTheorem
+- `joyalRepresentation.latticeHom` (def) in JoyalRepresentationTheorem
+- `joyalRepresentation.embedding` (lemma) in JoyalRepresentationTheorem
+- `joyalRepresentation.injective` (theorem) in JoyalRepresentationTheorem
+- `joyalRepresentation.orderEmbedding` (def) in JoyalRepresentationTheorem
+- `joyalRepresentation.heytingHom` (def) in JoyalRepresentationTheorem
+
+### mathlib4 (+4992)
+
+- `AddGroupLieAlgebra` (def) in Mathlib.Geometry.Manifold.GroupLieAlgebra
+- `AddGroupLieAlgebra.bracket_def` (theorem) in Mathlib.Geometry.Manifold.GroupLieAlgebra
+- `AlgEquiv.toLieEquiv` (def) in Mathlib.Algebra.Lie.OfAssociative
+- `AlgEquiv.toLieEquiv_apply` (theorem) in Mathlib.Algebra.Lie.OfAssociative
+- `AlgEquiv.toLieEquiv_symm_apply` (theorem) in Mathlib.Algebra.Lie.OfAssociative
+- `AlgHom.coe_toLieHom` (theorem) in Mathlib.Algebra.Lie.OfAssociative
+- `AlgHom.instCoeLieHom` (instance) in Mathlib.Algebra.Lie.OfAssociative
+- `AlgHom.toLieHom` (def) in Mathlib.Algebra.Lie.OfAssociative
+- `AlgHom.toLieHom_apply` (theorem) in Mathlib.Algebra.Lie.OfAssociative
+- `AlgHom.toLieHom_comp` (theorem) in Mathlib.Algebra.Lie.OfAssociative
+- `AlgHom.toLieHom_id` (theorem) in Mathlib.Algebra.Lie.OfAssociative
+- `AlgHom.toLieHom_injective` (theorem) in Mathlib.Algebra.Lie.OfAssociative
+- `AlgebraicGeometry.instGeometricallyIrreducibleMorphismRestrict` (instance) in Mathlib.AlgebraicGeometry.Geometrically.Irreducible
+- `Array.toSubarray_eq_min` (theorem) in Init.Data.Slice.Array.Lemmas
+- `CartanMatrix.A` (def) in Mathlib.Data.Matrix.Cartan
+- `CartanMatrix.A_apply_le_zero_of_ne` (theorem) in Mathlib.Data.Matrix.Cartan
+- `CartanMatrix.A_diag` (theorem) in Mathlib.Data.Matrix.Cartan
+- `CartanMatrix.A_isSymm` (theorem) in Mathlib.Data.Matrix.Cartan
+- `CartanMatrix.A_one` (theorem) in Mathlib.Data.Matrix.Cartan
+- `CartanMatrix.A_three` (theorem) in Mathlib.Data.Matrix.Cartan
+- `CartanMatrix.A_transpose` (theorem) in Mathlib.Data.Matrix.Cartan
+- `CartanMatrix.A_two` (theorem) in Mathlib.Data.Matrix.Cartan
+- `CartanMatrix.B` (def) in Mathlib.Data.Matrix.Cartan
+- `CartanMatrix.B_diag` (theorem) in Mathlib.Data.Matrix.Cartan
+- `CartanMatrix.B_off_diag_nonpos` (theorem) in Mathlib.Data.Matrix.Cartan
+- `CartanMatrix.B_one` (theorem) in Mathlib.Data.Matrix.Cartan
+- `CartanMatrix.B_transpose` (theorem) in Mathlib.Data.Matrix.Cartan
+- `CartanMatrix.B_two` (theorem) in Mathlib.Data.Matrix.Cartan
+- `CartanMatrix.C` (def) in Mathlib.Data.Matrix.Cartan
+- `CartanMatrix.C_diag` (theorem) in Mathlib.Data.Matrix.Cartan
+- `CartanMatrix.C_off_diag_nonpos` (theorem) in Mathlib.Data.Matrix.Cartan
+- `CartanMatrix.C_one` (theorem) in Mathlib.Data.Matrix.Cartan
+- `CartanMatrix.C_transpose` (theorem) in Mathlib.Data.Matrix.Cartan
+- `CartanMatrix.C_two` (theorem) in Mathlib.Data.Matrix.Cartan
+- `CartanMatrix.D` (def) in Mathlib.Data.Matrix.Cartan
+- `CartanMatrix.D_diag` (theorem) in Mathlib.Data.Matrix.Cartan
+- `CartanMatrix.D_four` (theorem) in Mathlib.Data.Matrix.Cartan
+- `CartanMatrix.D_isSymm` (theorem) in Mathlib.Data.Matrix.Cartan
+- `CartanMatrix.D_off_diag_nonpos` (theorem) in Mathlib.Data.Matrix.Cartan
+- `CartanMatrix.D_one` (theorem) in Mathlib.Data.Matrix.Cartan
+- `CartanMatrix.D_three` (theorem) in Mathlib.Data.Matrix.Cartan
+- `CartanMatrix.D_three'` (theorem) in Mathlib.Data.Matrix.Cartan
+- `CartanMatrix.D_transpose` (theorem) in Mathlib.Data.Matrix.Cartan
+- `CartanMatrix.D_two` (theorem) in Mathlib.Data.Matrix.Cartan
+- `CartanMatrix.E₆` (def) in Mathlib.Data.Matrix.Cartan
+- `CartanMatrix.E₆_diag` (theorem) in Mathlib.Data.Matrix.Cartan
+- `CartanMatrix.E₆_isSymm` (theorem) in Mathlib.Data.Matrix.Cartan
+- `CartanMatrix.E₆_off_diag_nonpos` (theorem) in Mathlib.Data.Matrix.Cartan
+- `CartanMatrix.E₆_transpose` (theorem) in Mathlib.Data.Matrix.Cartan
+- `CartanMatrix.E₇` (def) in Mathlib.Data.Matrix.Cartan
+- ... and 4942 more
+
+## Update History (1 runs)
+
+- **2026-02-23T02:02:06.076677+00:00**: Checked 6 repos, updated 7, +422 -0 declarations
