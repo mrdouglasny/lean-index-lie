@@ -1,6 +1,6 @@
 # lean-index-lie
 
-Topic index for Lie algebra formalization in Lean 4. **[How to use this index in your project](https://github.com/mrdouglasny/lean-index/blob/main/docs/use-topic-index.md)**
+Topical index for Lie algebra formalization in Lean 4. **[How to use this index in your project](https://github.com/mrdouglasny/lean-index/blob/main/docs/use-topic-index.md)**
 
 **6,581 topic-matched declarations** across **18 repositories** (scanned 569 repos, 298K declarations).
 
