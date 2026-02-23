@@ -11,16 +11,11 @@ Tracks Lean declarations related to:
 
 See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](REPOS.md) for all indexed repositories.
 
-## Data Sources
-
-### Mathlib (~5,000 topic-matched declarations from ~384K total)
-
-Only the topic-relevant subset is indexed. See [SELECTION.md](SELECTION.md) for the full filtering criteria.
-
-### Non-Mathlib Repos
+## Indexed Repos
 
 | Repository | Topic Matches | Description |
 |-----------|:---:|-------------|
+| [leanprover-community/mathlib4](https://github.com/leanprover-community/mathlib4) | 5,000 | The math library for Lean 4 |
 | [LieLean/LowDimSolvClassification](https://github.com/LieLean/LowDimSolvClassification) | 249 | Low-dimensional solvable Lie algebra classification |
 | [kkytola/VirasoroProject](https://github.com/kkytola/VirasoroProject) | 113 | Virasoro algebra formalization |
 | [kbuzzard/ClassFieldTheory](https://github.com/kbuzzard/ClassFieldTheory) | 64 | Class field theory (uses Lie infrastructure) |
@@ -29,7 +24,7 @@ Only the topic-relevant subset is indexed. See [SELECTION.md](SELECTION.md) for 
 | [ocfnash/LieClassification](https://github.com/ocfnash/LieClassification) | 3 | Classification of finite-dimensional Lie algebras |
 | [PlanetMacro/LieRinehart](https://github.com/PlanetMacro/LieRinehart) | 3 | Lie-Rinehart algebras |
 
-Additional repos are discovered automatically during `lean-index update` via Lean Reservoir and GitHub search.
+Additional repos are discovered automatically via Lean Reservoir and GitHub search.
 
 ## Usage
 
