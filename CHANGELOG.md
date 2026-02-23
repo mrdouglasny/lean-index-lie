@@ -1,29 +1,18 @@
 # Changelog (since 2026-02-16)
 
-## New Declarations (5414)
+## New Declarations (5391)
 
-### Group6-Formalization-on-Lie-algebra-rep (+56)
+### Group6-Formalization-on-Lie-algebra-rep (+42)
 
-- `life_decieves_you` (def) in Exercise.test
-- `group_theory_prob1` (theorem) in Exercise.abstract_algebra
 - `card_eq_card_quotient_mul_card_subgroup'` (theorem) in Exercise.abstract_algebra
-- `comm_of_cyclic_over_center` (lemma) in Exercise.abstract_algebra
-- `p_eq_of_p_dvd_psq` (lemma) in Exercise.abstract_algebra
-- `no_center_of_order_prime_pow` (lemma) in Exercise.abstract_algebra
 - `center_eq_top'` (lemma) in Exercise.abstract_algebra
-- `center_normal'` (lemma) in Exercise.abstract_algebra
-- `group_theory_prob2` (theorem) in Exercise.abstract_algebra
-- `ring_theory_prob` (theorem) in Exercise.abstract_algebra
 - `Representation` (abbrev) in LieAlgRep.lie_algebra
 - `IsAssociativeBilForm` (def) in LieAlgRep.lie_algebra
 - `CasimirElement` (def) in LieAlgRep.lie_algebra
 - `bracket_in_glV` (lemma) in LieAlgRep.lie_algebra
 - `comm_zero_bracket` (lemma) in LieAlgRep.lie_algebra
-- `CasimirIntertwin` (lemma) in LieAlgRep.CasimirElement
 - `hello` (def) in LieAlgRep.Basic
 - `Ideal.IsPrime_not_mem_mul` (theorem) in LieAlgRep.prime_ideal_aviod_Thm
-- `Ideal.multiset_not_mem` (theorem) in LieAlgRep.prime_ideal_aviod_Thm
-- `Ideal.multiset_mem_in` (theorem) in LieAlgRep.prime_ideal_aviod_Thm
 - `Multiset.erase_refl` (theorem) in LieAlgRep.prime_ideal_aviod_Thm
 - `prime_ideal_finset_version` (theorem) in LieAlgRep.prime_ideal_aviod_Thm
 - `Representation.asLieModule` (def) in LieAlgRep.lie_algebra
@@ -54,13 +43,9 @@
 - `Representation.ResZero` (lemma) in LieAlgRep.lie_algebra
 - `Representation.IsIrreducible` (class) in LieAlgRep.lie_algebra
 - `Representation.IsCompletelyReducible` (class) in LieAlgRep.lie_algebra
-- ... and 6 more
-
-### LieClassification (+3)
-
-- `LieAlgebra.IsKilling.isSimple_of_isIrreducible_rootSystem` (lemma) in LieClassification.Algebra.Lie.Weights.RootSystem
-- `RootPairing.Base.cartanMatrix_sub_four_det_ne_zero` (lemma) in LieClassification.LinearAlgebra.RootSystem.CartanMatrix
-- `RootPairing.GeckConstruction.rootSystem_cartanSubalgebra_equiv_self` (def) in LieClassification.LinearAlgebra.RootSystem.LieAlgebra
+- `Schur` (lemma) in LieAlgRep.lie_algebra
+- `HasBracket` (instance) in LieAlgRep.lie_algebra
+- `Codimension` (def) in LieAlgRep.lie_algebra
 
 ### LowDimSolvClassification (+300)
 
@@ -116,15 +101,12 @@
 - `LieAlgebra.Dim3.Family.semidirectAux` (def) in Lie.InstancesLowDim
 - ... and 250 more
 
-### finite-groups (+54)
+### finite-groups (+48)
 
-- `FG.schur_lemma.projection_annihilates_vanish` (lemma) in src.schur_lemma
-- `FG.schur_lemma.schur_lemma₁` (lemma) in src.schur_lemma
 - `FG.schur_lemma.schur_lemma₂` (lemma) in src.schur_lemma
 - `FG.matrix_representation` (structure) in src.matrix_representation
 - `FG.matrix_representation.is_equivalent_symm` (lemma) in src.matrix_representation
 - `FG.matrix_representation.is_equivalent_iff` (lemma) in src.matrix_representation
-- `FG.matrix_representation.is_block_diagonal` (def) in src.matrix_representation
 - `FG.matrix_representation.irreducible_representation` (def) in src.matrix_representation
 - `FG.example_parity.ℤ₂` (inductive) in src.examples.Z2
 - `FG.example_parity.ℤ₂.rep` (def) in src.examples.Z2
@@ -144,13 +126,11 @@
 - `FG.invertible_matrix` (def) in src.linear_space.invertible_matrix
 - `FG.block_diagonal` (inductive) in src.linear_space.block_diagonal
 - `FG.block_diagonal.to_func` (def) in src.linear_space.block_diagonal
-- `FG.block_diagonal.reduce` (def) in src.linear_space.block_diagonal
 - `FG.vec` (def) in src.linear_space.vector
 - `FG.vec.smul` (def) in src.linear_space.vector
 - `FG.miscs.vector_annihilates_right` (def) in src.linear_space.miscs
 - `FG.miscs.vector_annihilates_left` (def) in src.linear_space.miscs
 - `FG.miscs.vector_annihilates` (def) in src.linear_space.miscs
-- `FG.miscs.vector_annihilates_det_eq_zero_iff` (lemma) in src.linear_space.miscs
 - `FG.miscs.vector_annihilates_or_ivertible` (lemma) in src.linear_space.miscs
 - `FG.vec3` (structure) in src.linear_space3.data
 - `FG.vec3.vector3` (def) in src.linear_space3.data
@@ -168,7 +148,9 @@
 - `FG.mat3.inverse_invertible` (lemma) in src.linear_space3.invertible_mat3
 - `FG.mat3_representation` (class) in src.linear_space3.mat3_representation
 - `FG.example_Z₃.Z₃` (inductive) in src.linear_space3.examples.Z3
-- ... and 4 more
+- `FG.example_Z₃.Z₃.rep1` (def) in src.linear_space3.examples.Z3
+- `FG.example_Z₃.Z₃.rep2` (def) in src.linear_space3.examples.Z3
+- `FG.example_Z₃.Z₃.rep2.is_reducible` (lemma) in src.linear_space3.examples.Z3
 
 ### joyalRepresentationTheorem (+9)
 
@@ -238,4 +220,4 @@
 
 ## Update History (1 runs)
 
-- **2026-02-23T02:02:06.076677+00:00**: Checked 6 repos, updated 7, +422 -0 declarations
+- **2026-02-23T06:47:47.279299+00:00**: Checked 6 repos, updated 7, +399 -0 declarations
