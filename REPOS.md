@@ -4,11 +4,11 @@ Repositories with declarations matching the configured topics.
 
 | Repository | Topic Matches | Total Decls | Source | Last Indexed |
 |-----------|:---:|:---:|--------|-------------|
-| [mathlib4](https://github.com/leanprover-community/mathlib4) | 4,992 | 4,992 | mathlib_cache | 2026-02-23 |
-| [LowDimSolvClassification](https://github.com/LieLean/LowDimSolvClassification) | 249 | 300 | curated | 2026-02-23 |
-| [Group6-Formalization-on-Lie-algebra-rep](https://github.com/bicmr-ai4math/Group6-Formalization-on-Lie-algebra-rep) | 32 | 42 | curated | 2026-02-23 |
-| [joyalRepresentationTheorem](https://github.com/awodey/joyal) | 6 | 9 | reservoir | 2026-02-23 |
+| [mathlib4](https://github.com/leanprover-community/mathlib4) | 5,056 | 5,056 | mathlib_cache | 2026-03-02 |
+| [LowDimSolvClassification](https://github.com/LieLean/LowDimSolvClassification) | 249 | 300 | curated | 2026-03-02 |
+| [Group6-Formalization-on-Lie-algebra-rep](https://github.com/bicmr-ai4math/Group6-Formalization-on-Lie-algebra-rep) | 32 | 42 | curated | 2026-03-02 |
+| [joyalRepresentationTheorem](https://github.com/awodey/joyal) | 6 | 9 | reservoir | 2026-03-02 |
 
-**5,279 topic-matched declarations across 4 repositories**
+**5,343 topic-matched declarations across 4 repositories**
 
-*Scanned 7 repositories (5,391 total declarations) from Mathlib, Lean Reservoir, GitHub search, and curated lists.*
+*Scanned 7 repositories (5,455 total declarations) from Mathlib, Lean Reservoir, GitHub search, and curated lists.*

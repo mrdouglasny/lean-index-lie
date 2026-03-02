@@ -1,20 +1,19 @@
-# Changelog (since 2026-02-16)
+# Changelog (since 2026-02-23)
 
-## New Declarations (5391)
+## New Declarations (5455)
 
 ### Group6-Formalization-on-Lie-algebra-rep (+42)
 
 - `card_eq_card_quotient_mul_card_subgroup'` (theorem) in Exercise.abstract_algebra
 - `center_eq_top'` (lemma) in Exercise.abstract_algebra
-- `Representation` (abbrev) in LieAlgRep.lie_algebra
-- `IsAssociativeBilForm` (def) in LieAlgRep.lie_algebra
-- `CasimirElement` (def) in LieAlgRep.lie_algebra
-- `bracket_in_glV` (lemma) in LieAlgRep.lie_algebra
-- `comm_zero_bracket` (lemma) in LieAlgRep.lie_algebra
-- `hello` (def) in LieAlgRep.Basic
 - `Ideal.IsPrime_not_mem_mul` (theorem) in LieAlgRep.prime_ideal_aviod_Thm
 - `Multiset.erase_refl` (theorem) in LieAlgRep.prime_ideal_aviod_Thm
 - `prime_ideal_finset_version` (theorem) in LieAlgRep.prime_ideal_aviod_Thm
+- `Representation` (abbrev) in LieAlgRep.CasimirElement
+- `IsAssociativeBilForm` (def) in LieAlgRep.CasimirElement
+- `CasimirElement` (def) in LieAlgRep.CasimirElement
+- `bracket_in_glV` (lemma) in LieAlgRep.CasimirElement
+- `comm_zero_bracket` (lemma) in LieAlgRep.CasimirElement
 - `Representation.asLieModule` (def) in LieAlgRep.lie_algebra
 - `Representation.asLieModuleEquiv` (def) in LieAlgRep.lie_algebra
 - `Representation.smul_map` (lemma) in LieAlgRep.lie_algebra
@@ -46,92 +45,75 @@
 - `Schur` (lemma) in LieAlgRep.lie_algebra
 - `HasBracket` (instance) in LieAlgRep.lie_algebra
 - `Codimension` (def) in LieAlgRep.lie_algebra
+- `hello` (def) in LieAlgRep.Basic
 
 ### LowDimSolvClassification (+300)
 
-- `LieAlgebra.Dim2.Abelian` (abbrev) in Lie.InstancesLowDim
-- `LieAlgebra.Dim2.Affine` (def) in Lie.InstancesLowDim
-- `LieAlgebra.Dim2.Affine.bracket` (theorem) in Lie.InstancesLowDim
-- `LieAlgebra.Dim2.Affine.equivToLieAlgOfAffineEquiv` (def) in Lie.InstancesLowDim
-- `LieAlgebra.Dim2.Affine.equivToRealHyperbolic` (def) in Lie.InstancesLowDim
-- `LieAlgebra.Dim3.Abelian` (abbrev) in Lie.InstancesLowDim
-- `LieAlgebra.Dim3.Heisenberg` (def) in Lie.InstancesLowDim
-- `LieAlgebra.Dim3.Heisenberg.bracket` (theorem) in Lie.InstancesLowDim
-- `LieAlgebra.Dim3.AffinePlusAbelian` (def) in Lie.InstancesLowDim
-- `LieAlgebra.Dim3.AffinePlusAbelian.bracket` (theorem) in Lie.InstancesLowDim
-- `LieAlgebra.Dim3.Hyperbolic` (def) in Lie.InstancesLowDim
-- `LieAlgebra.Dim3.Hyperbolic.bracket` (theorem) in Lie.InstancesLowDim
-- `LieAlgebra.Dim3.Family` (def) in Lie.InstancesLowDim
-- `LieAlgebra.Dim3.Family.bracket` (theorem) in Lie.InstancesLowDim
-- `LieAlgebra.Dim3.Heisenberg.semidirectAux'` (def) in Lie.InstancesLowDim
-- `LieAlgebra.Dim3.Heisenberg.semidirectAux` (def) in Lie.InstancesLowDim
-- `LieAlgebra.Dim3.Heisenberg.equivToSemidirect` (def) in Lie.InstancesLowDim
-- `LieAlgebra.Dim3.AffinePlusAbelian.equivToDirectSum` (def) in Lie.InstancesLowDim
-- `LieAlgebra.Dim3.AffinePlusAbelian.semidirectAux'` (def) in Lie.InstancesLowDim
-- `LieAlgebra.Dim3.AffinePlusAbelian.semidirectAux` (def) in Lie.InstancesLowDim
-- `LieAlgebra.Dim3.AffinePlusAbelian.equivToSemidirect` (def) in Lie.InstancesLowDim
-- `LieAlgebra.Dim3.Hyperbolic.equivToRealHyperbolic` (def) in Lie.InstancesLowDim
-- `LieAlgebra.Dim3.Hyperbolic.e₁` (def) in Lie.InstancesLowDim
-- `LieAlgebra.Dim3.Hyperbolic.e₁_def` (theorem) in Lie.InstancesLowDim
-- `LieAlgebra.Dim3.Hyperbolic.e₂` (def) in Lie.InstancesLowDim
-- `LieAlgebra.Dim3.Hyperbolic.e₂_def` (theorem) in Lie.InstancesLowDim
-- `LieAlgebra.Dim3.Hyperbolic.e₃` (def) in Lie.InstancesLowDim
-- `LieAlgebra.Dim3.Hyperbolic.e₃_def` (theorem) in Lie.InstancesLowDim
-- `LieAlgebra.Dim3.Hyperbolic.commutator_is_span_e₂e₃` (theorem) in Lie.InstancesLowDim
-- `LieAlgebra.Dim3.Hyperbolic.commutator_repr` (theorem) in Lie.InstancesLowDim
-- `LieAlgebra.Dim3.Hyperbolic.stdBasis` (def) in Lie.InstancesLowDim
-- `LieAlgebra.Dim3.Hyperbolic.stdBasis₁` (theorem) in Lie.InstancesLowDim
-- `LieAlgebra.Dim3.Hyperbolic.stdBasis₂` (theorem) in Lie.InstancesLowDim
-- `LieAlgebra.Dim3.Hyperbolic.stdBasis₃` (theorem) in Lie.InstancesLowDim
-- `LieAlgebra.Dim3.Hyperbolic.commutatorBasis` (def) in Lie.InstancesLowDim
-- `LieAlgebra.Dim3.Hyperbolic.dim_commutator` (theorem) in Lie.InstancesLowDim
-- `LieAlgebra.Dim3.Hyperbolic.adjoint` (def) in Lie.InstancesLowDim
-- `LieAlgebra.Dim3.Hyperbolic.ade₁` (def) in Lie.InstancesLowDim
-- `LieAlgebra.Dim3.Hyperbolic.ad_preserves_commutator` (theorem) in Lie.InstancesLowDim
-- `LieAlgebra.Dim3.Hyperbolic.ad_restr` (def) in Lie.InstancesLowDim
-- `LieAlgebra.Dim3.Hyperbolic.ad_restr_apply` (theorem) in Lie.InstancesLowDim
-- `LieAlgebra.Dim3.Hyperbolic.ad_restr_add` (theorem) in Lie.InstancesLowDim
-- `LieAlgebra.Dim3.Hyperbolic.ad_restr_smul` (theorem) in Lie.InstancesLowDim
-- `LieAlgebra.Dim3.Hyperbolic.lie_e₁e₂` (theorem) in Lie.InstancesLowDim
-- `LieAlgebra.Dim3.Hyperbolic.lie_e₁e₃` (theorem) in Lie.InstancesLowDim
-- `LieAlgebra.Dim3.Hyperbolic.lie_e₂e₃` (theorem) in Lie.InstancesLowDim
-- `LieAlgebra.Dim3.Hyperbolic.ade₁_restr_id` (theorem) in Lie.InstancesLowDim
-- `LieAlgebra.Dim3.Hyperbolic.ad_comm_restr` (theorem) in Lie.InstancesLowDim
-- `LieAlgebra.Dim3.Family.semidirectAux'` (def) in Lie.InstancesLowDim
-- `LieAlgebra.Dim3.Family.semidirectAux` (def) in Lie.InstancesLowDim
+- `V` (def) in Lie.Tactics
+- `AtomD.State` (structure) in Lie.Tactics
+- `AtomD.AtomD` (abbrev) in Lie.Tactics
+- `AtomD.run` (def) in Lie.Tactics
+- `AtomD.addAtomSimple` (def) in Lie.Tactics
+- `AtomD.addAtomDouble` (def) in Lie.Tactics
+- `AtomD.addAtomQ` (def) in Lie.Tactics
+- `AtomD.addAtomDoubleQ` (def) in Lie.Tactics
+- `Mathlib.Tactic.LieSolver.v` (def) in Lie.Tactics
+- `Mathlib.Tactic.LieSolver.NF` (def) in Lie.Tactics
+- `Mathlib.Tactic.LieSolver.NF.cons` (def) in Lie.Tactics
+- `Mathlib.Tactic.LieSolver.NF.eval` (def) in Lie.Tactics
+- `Mathlib.Tactic.LieSolver.NF.atom_eq_eval` (theorem) in Lie.Tactics
+- `Mathlib.Tactic.LieSolver.NF.atom_eq_evalD` (theorem) in Lie.Tactics
+- `Mathlib.Tactic.LieSolver.NF.atom_eq_evalD_skew` (theorem) in Lie.Tactics
+- `Mathlib.Tactic.LieSolver.NF.zero_eq_eval` (theorem) in Lie.Tactics
+- `Mathlib.Tactic.LieSolver.NF.add_eq_eval₁` (theorem) in Lie.Tactics
+- `Mathlib.Tactic.LieSolver.NF.add_eq_eval₂` (theorem) in Lie.Tactics
+- `Mathlib.Tactic.LieSolver.NF.add_eq_eval₃` (theorem) in Lie.Tactics
+- `Mathlib.Tactic.LieSolver.NF.add_eq_eval` (theorem) in Lie.Tactics
+- `Mathlib.Tactic.LieSolver.NF.sub_eq_eval₁` (theorem) in Lie.Tactics
+- `Mathlib.Tactic.LieSolver.NF.sub_eq_eval₂` (theorem) in Lie.Tactics
+- `Mathlib.Tactic.LieSolver.NF.sub_eq_eval₃` (theorem) in Lie.Tactics
+- `Mathlib.Tactic.LieSolver.NF.sub_eq_eval` (theorem) in Lie.Tactics
+- `Mathlib.Tactic.LieSolver.NF.eval_neg` (theorem) in Lie.Tactics
+- `Mathlib.Tactic.LieSolver.NF.zero_sub_eq_eval` (theorem) in Lie.Tactics
+- `Mathlib.Tactic.LieSolver.NF.neg_eq_eval` (theorem) in Lie.Tactics
+- `Mathlib.Tactic.LieSolver.NF.eval_smul` (theorem) in Lie.Tactics
+- `Mathlib.Tactic.LieSolver.NF.smul_eq_eval` (theorem) in Lie.Tactics
+- `Mathlib.Tactic.LieSolver.NF.eq_cons_cons` (theorem) in Lie.Tactics
+- `Mathlib.Tactic.LieSolver.NF.eq_cons_const` (theorem) in Lie.Tactics
+- `Mathlib.Tactic.LieSolver.NF.eq_const_cons` (theorem) in Lie.Tactics
+- `Mathlib.Tactic.LieSolver.NF.eq_of_eval_eq_eval` (theorem) in Lie.Tactics
+- `Mathlib.Tactic.LieSolver.NF.algebraMap` (def) in Lie.Tactics
+- `Mathlib.Tactic.LieSolver.NF.eval_algebraMap` (theorem) in Lie.Tactics
+- `Mathlib.Tactic.LieSolver.qNF` (abbrev) in Lie.Tactics
+- `Mathlib.Tactic.LieSolver.qNF.toNF` (def) in Lie.Tactics
+- `Mathlib.Tactic.LieSolver.qNF.onScalar` (def) in Lie.Tactics
+- `Mathlib.Tactic.LieSolver.qNF.add` (def) in Lie.Tactics
+- `Mathlib.Tactic.LieSolver.qNF.mkAddProof` (def) in Lie.Tactics
+- `Mathlib.Tactic.LieSolver.qNF.sub` (def) in Lie.Tactics
+- `Mathlib.Tactic.LieSolver.qNF.mkSubProof` (def) in Lie.Tactics
+- `Mathlib.Tactic.LieSolver.qNF.matchRings` (def) in Lie.Tactics
+- `Mathlib.Tactic.LieSolver.parse` (def) in Lie.Tactics
+- `Mathlib.Tactic.LieSolver.reduceCoefficientwise` (def) in Lie.Tactics
+- `Mathlib.Tactic.LieSolver.matchScalarsAux` (def) in Lie.Tactics
+- `Mathlib.Tactic.LieSolver.algebraMapThms` (def) in Lie.Tactics
+- `Mathlib.Tactic.LieSolver.postprocess` (def) in Lie.Tactics
+- `Mathlib.Tactic.LieSolver.matchScalars` (def) in Lie.Tactics
+- `lie_solver3_example` (theorem) in Lie.Tactics
 - ... and 250 more
 
 ### finite-groups (+48)
 
-- `FG.schur_lemma.schur_lemma₂` (lemma) in src.schur_lemma
 - `FG.matrix_representation` (structure) in src.matrix_representation
 - `FG.matrix_representation.is_equivalent_symm` (lemma) in src.matrix_representation
 - `FG.matrix_representation.is_equivalent_iff` (lemma) in src.matrix_representation
 - `FG.matrix_representation.irreducible_representation` (def) in src.matrix_representation
-- `FG.example_parity.ℤ₂` (inductive) in src.examples.Z2
-- `FG.example_parity.ℤ₂.rep` (def) in src.examples.Z2
-- `FG.example_S₃.S₃` (inductive) in src.examples.S3
-- `FG.example_S₃.S₃.is_non_abelian` (lemma) in src.examples.S3
-- `FG.example_int.group_int` (structure) in src.examples.int_addition
-- `FG.example_int.group_int.rep` (def) in src.examples.int_addition
-- `FG.example_int.group_int.rep.is_reducible_by_P` (lemma) in src.examples.int_addition
-- `FG.finite_group` (class) in src.basic.finite_group
-- `FG.linear_operator` (def) in src.basic.representation
-- `FG.representation` (class) in src.basic.representation
-- `FG.matrix_func` (def) in src.linear_space.square_matrix
-- `FG.square_matrix` (def) in src.linear_space.square_matrix
-- `FG.square_matrix.is_invertible` (def) in src.linear_space.square_matrix
-- `FG.square_matrix.det1_eq` (lemma) in src.linear_space.square_matrix
-- `FG.square_matrix.det2_eq` (lemma) in src.linear_space.square_matrix
-- `FG.invertible_matrix` (def) in src.linear_space.invertible_matrix
-- `FG.block_diagonal` (inductive) in src.linear_space.block_diagonal
-- `FG.block_diagonal.to_func` (def) in src.linear_space.block_diagonal
-- `FG.vec` (def) in src.linear_space.vector
-- `FG.vec.smul` (def) in src.linear_space.vector
-- `FG.miscs.vector_annihilates_right` (def) in src.linear_space.miscs
-- `FG.miscs.vector_annihilates_left` (def) in src.linear_space.miscs
-- `FG.miscs.vector_annihilates` (def) in src.linear_space.miscs
-- `FG.miscs.vector_annihilates_or_ivertible` (lemma) in src.linear_space.miscs
+- `FG.schur_lemma.schur_lemma₂` (lemma) in src.schur_lemma
+- `FG.mat3_representation` (class) in src.linear_space3.mat3_representation
+- `FG.mat3.is_invertible` (def) in src.linear_space3.invertible_mat3
+- `FG.mat3.unitary_is_inverible` (lemma) in src.linear_space3.invertible_mat3
+- `FG.mat3.inverse` (def) in src.linear_space3.invertible_mat3
+- `FG.mat3.det_iff` (theorem) in src.linear_space3.invertible_mat3
+- `FG.mat3.inverse_invertible` (lemma) in src.linear_space3.invertible_mat3
 - `FG.vec3` (structure) in src.linear_space3.data
 - `FG.vec3.vector3` (def) in src.linear_space3.data
 - `FG.vec3.from_vector_eq` (lemma) in src.linear_space3.data
@@ -141,12 +123,30 @@
 - `FG.mat3.from_matrix_eq` (lemma) in src.linear_space3.data
 - `FG.mat3.equiv_matrix` (def) in src.linear_space3.data
 - `FG.mat3.mat_dot_vec_assoc` (lemma) in src.linear_space3.data
-- `FG.mat3.is_invertible` (def) in src.linear_space3.invertible_mat3
-- `FG.mat3.unitary_is_inverible` (lemma) in src.linear_space3.invertible_mat3
-- `FG.mat3.inverse` (def) in src.linear_space3.invertible_mat3
-- `FG.mat3.det_iff` (theorem) in src.linear_space3.invertible_mat3
-- `FG.mat3.inverse_invertible` (lemma) in src.linear_space3.invertible_mat3
-- `FG.mat3_representation` (class) in src.linear_space3.mat3_representation
+- `FG.linear_operator` (def) in src.basic.representation
+- `FG.representation` (class) in src.basic.representation
+- `FG.finite_group` (class) in src.basic.finite_group
+- `FG.miscs.vector_annihilates_right` (def) in src.linear_space.miscs
+- `FG.miscs.vector_annihilates_left` (def) in src.linear_space.miscs
+- `FG.miscs.vector_annihilates` (def) in src.linear_space.miscs
+- `FG.miscs.vector_annihilates_or_ivertible` (lemma) in src.linear_space.miscs
+- `FG.invertible_matrix` (def) in src.linear_space.invertible_matrix
+- `FG.matrix_func` (def) in src.linear_space.square_matrix
+- `FG.square_matrix` (def) in src.linear_space.square_matrix
+- `FG.square_matrix.is_invertible` (def) in src.linear_space.square_matrix
+- `FG.square_matrix.det1_eq` (lemma) in src.linear_space.square_matrix
+- `FG.square_matrix.det2_eq` (lemma) in src.linear_space.square_matrix
+- `FG.block_diagonal` (inductive) in src.linear_space.block_diagonal
+- `FG.block_diagonal.to_func` (def) in src.linear_space.block_diagonal
+- `FG.vec` (def) in src.linear_space.vector
+- `FG.vec.smul` (def) in src.linear_space.vector
+- `FG.example_parity.ℤ₂` (inductive) in src.examples.Z2
+- `FG.example_parity.ℤ₂.rep` (def) in src.examples.Z2
+- `FG.example_int.group_int` (structure) in src.examples.int_addition
+- `FG.example_int.group_int.rep` (def) in src.examples.int_addition
+- `FG.example_int.group_int.rep.is_reducible_by_P` (lemma) in src.examples.int_addition
+- `FG.example_S₃.S₃` (inductive) in src.examples.S3
+- `FG.example_S₃.S₃.is_non_abelian` (lemma) in src.examples.S3
 - `FG.example_Z₃.Z₃` (inductive) in src.linear_space3.examples.Z3
 - `FG.example_Z₃.Z₃.rep1` (def) in src.linear_space3.examples.Z3
 - `FG.example_Z₃.Z₃.rep2` (def) in src.linear_space3.examples.Z3
@@ -164,7 +164,7 @@
 - `joyalRepresentation.orderEmbedding` (def) in JoyalRepresentationTheorem
 - `joyalRepresentation.heytingHom` (def) in JoyalRepresentationTheorem
 
-### mathlib4 (+4992)
+### mathlib4 (+5056)
 
 - `AddGroupLieAlgebra` (def) in Mathlib.Geometry.Manifold.GroupLieAlgebra
 - `AddGroupLieAlgebra.bracket_def` (theorem) in Mathlib.Geometry.Manifold.GroupLieAlgebra
@@ -216,8 +216,8 @@
 - `CartanMatrix.E₆_off_diag_nonpos` (theorem) in Mathlib.Data.Matrix.Cartan
 - `CartanMatrix.E₆_transpose` (theorem) in Mathlib.Data.Matrix.Cartan
 - `CartanMatrix.E₇` (def) in Mathlib.Data.Matrix.Cartan
-- ... and 4942 more
+- ... and 5006 more
 
 ## Update History (1 runs)
 
-- **2026-02-23T06:47:47.279299+00:00**: Checked 6 repos, updated 7, +399 -0 declarations
+- **2026-03-02T06:42:17.283785+00:00**: Checked 6 repos, updated 7, +399 -0 declarations
