@@ -1,6 +1,6 @@
-# Changelog (since 2026-02-23)
+# Changelog (since 2026-03-02)
 
-## New Declarations (5455)
+## New Declarations (5557)
 
 ### Group6-Formalization-on-Lie-algebra-rep (+42)
 
@@ -164,7 +164,7 @@
 - `joyalRepresentation.orderEmbedding` (def) in JoyalRepresentationTheorem
 - `joyalRepresentation.heytingHom` (def) in JoyalRepresentationTheorem
 
-### mathlib4 (+5056)
+### mathlib4 (+5158)
 
 - `AddGroupLieAlgebra` (def) in Mathlib.Geometry.Manifold.GroupLieAlgebra
 - `AddGroupLieAlgebra.bracket_def` (theorem) in Mathlib.Geometry.Manifold.GroupLieAlgebra
@@ -216,8 +216,8 @@
 - `CartanMatrix.E₆_off_diag_nonpos` (theorem) in Mathlib.Data.Matrix.Cartan
 - `CartanMatrix.E₆_transpose` (theorem) in Mathlib.Data.Matrix.Cartan
 - `CartanMatrix.E₇` (def) in Mathlib.Data.Matrix.Cartan
-- ... and 5006 more
+- ... and 5108 more
 
 ## Update History (1 runs)
 
-- **2026-03-02T06:42:17.283785+00:00**: Checked 6 repos, updated 7, +399 -0 declarations
+- **2026-03-09T06:46:33.502413+00:00**: Checked 6 repos, updated 7, +399 -0 declarations
