@@ -1,23 +1,23 @@
 # Lean Index Statistics
 
-**6,861 topic-matched declarations** across **4 repositories**
-(5,906 total declarations scanned from 8 repos)
+**6,874 topic-matched declarations** across **4 repositories**
+(5,915 total declarations scanned from 8 repos)
 
 ## By Topic
 
 | Topic                          |    Matches |
 |--------------------------------|------------|
-| lie-algebras                   |      2,838 |
-| representation-theory          |      2,793 |
+| lie-algebras                   |      2,846 |
+| representation-theory          |      2,798 |
 | root-systems                   |      1,230 |
 
 ## By Kind (topic-matched only)
 
 | Kind            |      Count |
 |-----------------|------------|
-| theorem         |      3,935 |
+| theorem         |      3,943 |
 | def             |      1,107 |
-| instance        |        548 |
+| instance        |        549 |
 | ctor            |         87 |
 | class           |         45 |
 | structure       |         32 |
@@ -29,14 +29,14 @@
 
 | Repository                          |    Matched |      Total |
 |-------------------------------------|------------|------------|
-| mathlib4                            |      5,506 |      5,506 |
+| mathlib4                            |      5,515 |      5,515 |
 | LowDimSolvClassification            |        249 |        300 |
 | Group6-Formalization-on-Lie-algebra |         32 |         42 |
 | joyalRepresentationTheorem          |          6 |          9 |
 
 ## Last Update
 
-- **When**: 2026-04-20T07:02:59.767067+00:00
+- **When**: 2026-04-27T07:16:36.741464+00:00
 - **Repos checked**: 7
 - **Repos updated**: 8
 - **New declarations**: 400
