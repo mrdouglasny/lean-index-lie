@@ -1,6 +1,6 @@
-# Changelog (since 2026-04-27)
+# Changelog (since 2026-05-04)
 
-## New Declarations (5928)
+## New Declarations (5926)
 
 ### Group6-Formalization-on-Lie-algebra-rep (+42)
 
@@ -164,7 +164,7 @@
 - `joyalRepresentation.orderEmbedding` (def) in JoyalRepresentationTheorem
 - `joyalRepresentation.heytingHom` (def) in JoyalRepresentationTheorem
 
-### mathlib4 (+5528)
+### mathlib4 (+5526)
 
 - `Action.tensor_ρ_apply` (theorem) in Mathlib.RepresentationTheory.Action
 - `AddGroupLieAlgebra` (def) in Mathlib.Geometry.Manifold.GroupLieAlgebra
@@ -179,6 +179,7 @@
 - `AlgHom.toLieHom_comp` (theorem) in Mathlib.Algebra.Lie.OfAssociative
 - `AlgHom.toLieHom_id` (theorem) in Mathlib.Algebra.Lie.OfAssociative
 - `AlgHom.toLieHom_injective` (theorem) in Mathlib.Algebra.Lie.OfAssociative
+- `Algebra.instLieAdmissibleAlgebra` (def) in Mathlib.Algebra.NonAssoc.LieAdmissible.Defs
 - `AlgebraicGeometry.instGeometricallyIrreducibleMorphismRestrict` (instance) in Mathlib.AlgebraicGeometry.Geometrically.Irreducible
 - `Array.toSubarray_eq_min` (theorem) in Init.Data.Slice.Array.Lemmas
 - `CartanMatrix.A` (def) in Mathlib.Data.Matrix.Cartan
@@ -215,8 +216,7 @@
 - `CartanMatrix.E₆_diag` (theorem) in Mathlib.Data.Matrix.Cartan
 - `CartanMatrix.E₆_isSymm` (theorem) in Mathlib.Data.Matrix.Cartan
 - `CartanMatrix.E₆_off_diag_nonpos` (theorem) in Mathlib.Data.Matrix.Cartan
-- `CartanMatrix.E₆_transpose` (theorem) in Mathlib.Data.Matrix.Cartan
-- ... and 5478 more
+- ... and 5476 more
 
 ### modularreptheory (+1)
 
@@ -224,4 +224,4 @@
 
 ## Update History (1 runs)
 
-- **2026-05-04T07:27:04.226039+00:00**: Checked 8 repos, updated 9, +400 -0 declarations
+- **2026-05-11T07:27:36.211450+00:00**: Checked 8 repos, updated 9, +400 -0 declarations
