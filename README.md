@@ -2,11 +2,11 @@
 
 Topical index for Lie algebra formalization in Lean 4. **[How to use this index in your project](https://github.com/mrdouglasny/lean-index/blob/main/docs/use-topic-index.md)**
 
-**5,813 topic-matched declarations** across **4 repositories** (scanned 9 repos, 5,926 declarations).
+**5,887 topic-matched declarations** across **4 repositories** (scanned 10 repos, 6,000 declarations).
 
 Tracks Lean declarations related to:
-- **Lie algebras**: Lie rings, subalgebras, ideals, Killing form, Engel/Lie theorems
 - **Representation theory**: Lie modules, weight spaces, irreducibility, Schur's lemma
+- **Lie algebras**: Lie rings, subalgebras, ideals, Killing form, Engel/Lie theorems
 - **Root systems**: root pairings, Dynkin diagrams, Weyl/Coxeter groups, Cartan matrices
 
 See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](REPOS.md) for all indexed repositories.
@@ -15,7 +15,7 @@ See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](RE
 
 | Repository | Topic Matches | Description |
 |-----------|:---:|-------------|
-| [leanprover-community/mathlib4](https://github.com/leanprover-community/mathlib4) | 5,526 | Mathlib: the math library for Lean 4 |
+| [leanprover-community/mathlib4](https://github.com/leanprover-community/mathlib4) | 5,600 | Mathlib: the math library for Lean 4 |
 | [LieLean/LowDimSolvClassification](https://github.com/LieLean/LowDimSolvClassification) | 249 | Low-dimensional solvable Lie algebra classification (Lean 4) |
 | [bicmr-ai4math/Group6-Formalization-on-Lie-algebra-rep](https://github.com/bicmr-ai4math/Group6-Formalization-on-Lie-algebra-rep) | 32 | Formalization of finite-dimensional Lie algebra representations (Lean 4) |
 | [awodey/joyal](https://github.com/awodey/joyal) | 6 |  |
