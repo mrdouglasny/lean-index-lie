@@ -1,6 +1,60 @@
-# Changelog (since 2026-05-11)
+# Changelog (since 2026-05-18)
 
-## New Declarations (6000)
+## New Declarations (9211)
+
+### Etingof-RepresentationTheory-draft1 (+2905)
+
+- `Etingof.UnitaryRepresentation` (structure) in EtingofRepresentationTheory.Chapter4.Definition4_6_1
+- `IrrepDecomp.blockPoly` (def) in EtingofRepresentationTheory.Chapter4.Theorem4_10_2
+- `Algebra.norm_pi` (lemma) in EtingofRepresentationTheory.Chapter4.Theorem4_10_2
+- `Algebra.norm_matrix` (lemma) in EtingofRepresentationTheory.Chapter4.Theorem4_10_2
+- `leftMulMatrix_monoidAlgebra_entry` (lemma) in EtingofRepresentationTheory.Chapter4.Theorem4_10_2
+- `IrrepDecomp.projRingHom_smul'` (lemma) in EtingofRepresentationTheory.Chapter4.Theorem4_10_2
+- `IrrepDecomp.frobeniusDet_eq_prod` (lemma) in EtingofRepresentationTheory.Chapter4.Theorem4_10_2
+- `vars_sub_mul_left` (lemma) in EtingofRepresentationTheory.Chapter4.Theorem4_10_2
+- `rename_irred` (lemma) in EtingofRepresentationTheory.Chapter4.Theorem4_10_2
+- `genDet_irreducible` (lemma) in EtingofRepresentationTheory.Chapter4.Theorem4_10_2
+- `IrrepDecomp.blockPoly_totalDegree` (lemma) in EtingofRepresentationTheory.Chapter4.Theorem4_10_2
+- `totalDegree_aeval_le_of_deg_le_one` (lemma) in EtingofRepresentationTheory.Chapter4.Theorem4_10_2
+- `IrrepDecomp.blockPoly_irreducible` (lemma) in EtingofRepresentationTheory.Chapter4.Theorem4_10_2
+- `IrrepDecomp.blockPoly_not_associated` (lemma) in EtingofRepresentationTheory.Chapter4.Theorem4_10_2
+- `IrrepDecomp.n_eq_card_conjClasses` (lemma) in EtingofRepresentationTheory.Chapter4.Theorem4_10_2
+- `Etingof.Theorem4_10_2` (theorem) in EtingofRepresentationTheory.Chapter4.Theorem4_10_2
+- `Etingof.Example4_3_S4_conj_classes` (theorem) in EtingofRepresentationTheory.Chapter4.Example4_3_S4
+- `Etingof.Example4_3_S4_sum_of_squares` (theorem) in EtingofRepresentationTheory.Chapter4.Example4_3_S4
+- `conjugatorEquiv` (def) in EtingofRepresentationTheory.Chapter4.Theorem4_5_4
+- `conjugators_empty_of_not_isConj` (theorem) in EtingofRepresentationTheory.Chapter4.Theorem4_5_4
+- `card_conjugators_eq_of_isConj` (theorem) in EtingofRepresentationTheory.Chapter4.Theorem4_5_4
+- `card_conjugators` (theorem) in EtingofRepresentationTheory.Chapter4.Theorem4_5_4
+- `card_fixedPoints_eq_card_conjugators` (theorem) in EtingofRepresentationTheory.Chapter4.Theorem4_5_4
+- `matrix_stdBasis_repr` (lemma) in EtingofRepresentationTheory.Chapter4.Theorem4_5_4
+- `matrix_single_mul_entry` (lemma) in EtingofRepresentationTheory.Chapter4.Theorem4_5_4
+- `IrrepDecomp.columnFDRep_character` (lemma) in EtingofRepresentationTheory.Chapter4.Theorem4_5_4
+- `trace_mulLeftRight_eq_sum_matrix_traces` (lemma) in EtingofRepresentationTheory.Chapter4.Theorem4_5_4
+- `trace_mulLeftRight_monoidAlgebra` (theorem) in EtingofRepresentationTheory.Chapter4.Theorem4_5_4
+- `column_orthogonality_wedderburn` (theorem) in EtingofRepresentationTheory.Chapter4.Theorem4_5_4
+- `sum_character_prod_eq_of_complete` (theorem) in EtingofRepresentationTheory.Chapter4.Theorem4_5_4
+- `IrrepDecomp.columnFDRep_is_complete` (theorem) in EtingofRepresentationTheory.Chapter4.Theorem4_5_4
+- `Etingof.Theorem4_5_4` (theorem) in EtingofRepresentationTheory.Chapter4.Theorem4_5_4
+- `Etingof.Proposition4_1_2` (theorem) in EtingofRepresentationTheory.Chapter4.Proposition4_1_2
+- `Etingof.Theorem4_1_1_semisimple` (theorem) in EtingofRepresentationTheory.Chapter4.Theorem4_1_1
+- `Etingof.Theorem4_1_1_sum_of_squares` (theorem) in EtingofRepresentationTheory.Chapter4.Theorem4_1_1
+- `Etingof.Theorem4_5_1_i` (theorem) in EtingofRepresentationTheory.Chapter4.Theorem4_5_1
+- `Etingof.Theorem4_5_1_ii` (theorem) in EtingofRepresentationTheory.Chapter4.Theorem4_5_1
+- `Etingof.Theorem4_2_1_aux.toGroupAlgebra` (def) in EtingofRepresentationTheory.Chapter4.Theorem4_2_1
+- `Etingof.Theorem4_2_1_aux.trace_toGroupAlgebra_action` (lemma) in EtingofRepresentationTheory.Chapter4.Theorem4_2_1
+- `Etingof.Theorem4_2_1_aux.toGroupAlgebra_injective` (lemma) in EtingofRepresentationTheory.Chapter4.Theorem4_2_1
+- `Etingof.Theorem4_2_1_aux.toGroupAlgebra_comm_of` (lemma) in EtingofRepresentationTheory.Chapter4.Theorem4_2_1
+- `Etingof.Theorem4_2_1_aux.toGroupAlgebra_central` (lemma) in EtingofRepresentationTheory.Chapter4.Theorem4_2_1
+- `Etingof.Theorem4_2_1_aux.matrix_central_eq_scalar` (lemma) in EtingofRepresentationTheory.Chapter4.Theorem4_2_1
+- `Etingof.Theorem4_2_1_aux.projRingHom_smul'` (lemma) in EtingofRepresentationTheory.Chapter4.Theorem4_2_1
+- `Etingof.Theorem4_2_1_aux.classFunction_eq_zero_of_orthogonal_simples` (lemma) in EtingofRepresentationTheory.Chapter4.Theorem4_2_1
+- `Etingof.classFunction_eq_zero_of_orthogonal_simples` (theorem) in EtingofRepresentationTheory.Chapter4.Theorem4_2_1
+- `Etingof.Theorem4_2_1` (theorem) in EtingofRepresentationTheory.Chapter4.Theorem4_2_1
+- `Etingof.Example4_3_Q8_conj_classes` (theorem) in EtingofRepresentationTheory.Chapter4.Example4_3_Q8
+- `Etingof.Example4_3_Q8_sum_of_squares` (theorem) in EtingofRepresentationTheory.Chapter4.Example4_3_Q8
+- `center_coeff_conj_invariant` (lemma) in EtingofRepresentationTheory.Chapter4.Corollary4_2_2
+- ... and 2855 more
 
 ### Group6-Formalization-on-Lie-algebra-rep (+42)
 
@@ -164,7 +218,7 @@
 - `joyalRepresentation.orderEmbedding` (def) in JoyalRepresentationTheorem
 - `joyalRepresentation.heytingHom` (def) in JoyalRepresentationTheorem
 
-### mathlib4 (+5600)
+### mathlib4 (+5601)
 
 - `Action.tensor_ρ_apply` (theorem) in Mathlib.RepresentationTheory.Action
 - `AddGroupLieAlgebra` (def) in Mathlib.Geometry.Manifold.GroupLieAlgebra
@@ -216,7 +270,61 @@
 - `CartanMatrix.E₆_diag` (theorem) in Mathlib.Data.Matrix.Cartan
 - `CartanMatrix.E₆_isSymm` (theorem) in Mathlib.Data.Matrix.Cartan
 - `CartanMatrix.E₆_off_diag_nonpos` (theorem) in Mathlib.Data.Matrix.Cartan
-- ... and 5550 more
+- ... and 5551 more
+
+### mini-representation-lie-theory (+305)
+
+- `main` (def) in mini-kac-moody-algebras.Main
+- `exCType` (def) in mini-kac-moody-algebras.Test.Smoke
+- `regType` (def) in mini-kac-moody-algebras.Test.Regression
+- `h` (def) in mini-kac-moody-algebras.Test.Regression
+- `exA` (def) in mini-kac-moody-algebras.Test.Examples
+- `exB` (def) in mini-kac-moody-algebras.Test.Examples
+- `prodAB` (def) in mini-kac-moody-algebras.Test.Examples
+- `homAB` (def) in mini-kac-moody-algebras.Test.Examples
+- `benchCT` (def) in mini-kac-moody-algebras.Benchmark.Harvard
+- `MiniLieGroups.geometricInterpretation` (def) in mini-lie-groups.MiniLieGroups.Bridges.ToGeometry
+- `MiniLieGroups.algebraicStructure` (def) in mini-lie-groups.MiniLieGroups.Bridges.ToAlgebra
+- `MiniLieGroups.topologicalAspect` (def) in mini-lie-groups.MiniLieGroups.Bridges.ToTopology
+- `MiniLieGroups.computationalAspect` (def) in mini-lie-groups.MiniLieGroups.Bridges.ToComputation
+- `MiniLieGroups.invariant` (def) in mini-lie-groups.MiniLieGroups.Properties.Invariants
+- `MiniLieGroups.fundamentalInvariant` (def) in mini-lie-groups.MiniLieGroups.Properties.Invariants
+- `MiniLieGroups.MiniLieGroups.preservedByHom` (def) in mini-lie-groups.MiniLieGroups.Properties.Invariants
+- `MiniLieGroups.MiniLieGroups.preservedByIso` (def) in mini-lie-groups.MiniLieGroups.Properties.Invariants
+- `MiniLieGroups.MiniLieGroups.preservationTable` (def) in mini-lie-groups.MiniLieGroups.Properties.Invariants
+- `MiniLieGroups.Classification` (structure) in mini-lie-groups.MiniLieGroups.Properties.ClassificationData
+- `MiniLieGroups.sampleClassification` (def) in mini-lie-groups.MiniLieGroups.Properties.ClassificationData
+- `MiniLieGroups.Quotient` (def) in mini-lie-groups.MiniLieGroups.Constructions.Quotients
+- `MiniLieGroups.naturalProj` (def) in mini-lie-groups.MiniLieGroups.Constructions.Quotients
+- `MiniLieGroups.Subobject` (structure) in mini-lie-groups.MiniLieGroups.Constructions.Subobjects
+- `MiniLieGroups.inclusion` (def) in mini-lie-groups.MiniLieGroups.Constructions.Subobjects
+- `MiniLieGroups.Retract` (structure) in mini-lie-groups.MiniLieGroups.Constructions.Subobjects
+- `MiniLieGroups.Product` (structure) in mini-lie-groups.MiniLieGroups.Constructions.Products
+- `MiniLieGroups.projLeft` (def) in mini-lie-groups.MiniLieGroups.Constructions.Products
+- `MiniLieGroups.projRight` (def) in mini-lie-groups.MiniLieGroups.Constructions.Products
+- `MiniLieGroups.UniversalConstruction` (structure) in mini-lie-groups.MiniLieGroups.Constructions.Universal
+- `MiniLieGroups.Hom` (structure) in mini-lie-groups.MiniLieGroups.Morphisms.Hom
+- `MiniLieGroups.homComp` (def) in mini-lie-groups.MiniLieGroups.Morphisms.Hom
+- `MiniLieGroups.idHom` (def) in mini-lie-groups.MiniLieGroups.Morphisms.Hom
+- `MiniLieGroups.isEquivalent` (def) in mini-lie-groups.MiniLieGroups.Morphisms.Equiv
+- `MiniLieGroups.equivRefl` (def) in mini-lie-groups.MiniLieGroups.Morphisms.Equiv
+- `MiniLieGroups.equivSymm` (def) in mini-lie-groups.MiniLieGroups.Morphisms.Equiv
+- `MiniLieGroups.equivTrans` (def) in mini-lie-groups.MiniLieGroups.Morphisms.Equiv
+- `MiniLieGroups.Iso` (structure) in mini-lie-groups.MiniLieGroups.Morphisms.Iso
+- `MiniLieGroups.idIso` (def) in mini-lie-groups.MiniLieGroups.Morphisms.Iso
+- `MiniLieGroups.isoComp` (def) in mini-lie-groups.MiniLieGroups.Morphisms.Iso
+- `MiniLieGroups.CoreType` (structure) in mini-lie-groups.MiniLieGroups.Core.Basic
+- `MiniLieGroups.basicOperation` (def) in mini-lie-groups.MiniLieGroups.Core.Basic
+- `MiniLieGroups.identityOp` (def) in mini-lie-groups.MiniLieGroups.Core.Basic
+- `MiniLieGroups.registerTheory` (def) in mini-lie-groups.MiniLieGroups.Core.Objects
+- `MiniLieGroups.theoryRegistry` (def) in mini-lie-groups.MiniLieGroups.Core.Objects
+- `MiniLieGroups.mainResults` (def) in mini-lie-groups.MiniLieGroups.Theorems.Main
+- `MiniLieGroups.enumerateClasses` (def) in mini-lie-groups.MiniLieGroups.Theorems.Classification
+- `MiniAlgebraicGroups.geometricInterpretation` (def) in mini-algebraic-groups.MiniAlgebraicGroups.Bridges.ToGeometry
+- `MiniAlgebraicGroups.algebraicStructure` (def) in mini-algebraic-groups.MiniAlgebraicGroups.Bridges.ToAlgebra
+- `MiniAlgebraicGroups.topologicalAspect` (def) in mini-algebraic-groups.MiniAlgebraicGroups.Bridges.ToTopology
+- `MiniAlgebraicGroups.computationalAspect` (def) in mini-algebraic-groups.MiniAlgebraicGroups.Bridges.ToComputation
+- ... and 255 more
 
 ### modularreptheory (+1)
 
@@ -224,4 +332,4 @@
 
 ## Update History (1 runs)
 
-- **2026-05-18T07:46:09.552695+00:00**: Checked 9 repos, updated 10, +400 -0 declarations
+- **2026-05-25T07:56:12.392797+00:00**: Checked 11 repos, updated 12, +3610 -0 declarations
