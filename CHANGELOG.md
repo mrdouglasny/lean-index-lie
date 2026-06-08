@@ -1,6 +1,6 @@
-# Changelog (since 2026-05-25)
+# Changelog (since 2026-06-01)
 
-## New Declarations (9205)
+## New Declarations (9202)
 
 ### Etingof-RepresentationTheory-draft1 (+2905)
 
@@ -218,7 +218,7 @@
 - `joyalRepresentation.orderEmbedding` (def) in JoyalRepresentationTheorem
 - `joyalRepresentation.heytingHom` (def) in JoyalRepresentationTheorem
 
-### mathlib4 (+5595)
+### mathlib4 (+5592)
 
 - `Action.tensor_ρ_apply` (theorem) in Mathlib.RepresentationTheory.Action
 - `AddGroupLieAlgebra` (def) in Mathlib.Geometry.Manifold.GroupLieAlgebra
@@ -236,41 +236,41 @@
 - `Algebra.instLieAdmissibleAlgebra` (def) in Mathlib.Algebra.NonAssoc.LieAdmissible.Defs
 - `AlgebraicGeometry.instGeometricallyIrreducibleMorphismRestrict` (instance) in Mathlib.AlgebraicGeometry.Geometrically.Irreducible
 - `Array.toSubarray_eq_min` (theorem) in Init.Data.Slice.Array.Lemmas
-- `CartanMatrix.A` (def) in Mathlib.Data.Matrix.Cartan
-- `CartanMatrix.A_apply_le_zero_of_ne` (theorem) in Mathlib.Data.Matrix.Cartan
-- `CartanMatrix.A_diag` (theorem) in Mathlib.Data.Matrix.Cartan
-- `CartanMatrix.A_isSymm` (theorem) in Mathlib.Data.Matrix.Cartan
-- `CartanMatrix.A_one` (theorem) in Mathlib.Data.Matrix.Cartan
-- `CartanMatrix.A_three` (theorem) in Mathlib.Data.Matrix.Cartan
-- `CartanMatrix.A_transpose` (theorem) in Mathlib.Data.Matrix.Cartan
-- `CartanMatrix.A_two` (theorem) in Mathlib.Data.Matrix.Cartan
-- `CartanMatrix.B` (def) in Mathlib.Data.Matrix.Cartan
-- `CartanMatrix.B_diag` (theorem) in Mathlib.Data.Matrix.Cartan
-- `CartanMatrix.B_off_diag_nonpos` (theorem) in Mathlib.Data.Matrix.Cartan
-- `CartanMatrix.B_one` (theorem) in Mathlib.Data.Matrix.Cartan
-- `CartanMatrix.B_transpose` (theorem) in Mathlib.Data.Matrix.Cartan
-- `CartanMatrix.B_two` (theorem) in Mathlib.Data.Matrix.Cartan
-- `CartanMatrix.C` (def) in Mathlib.Data.Matrix.Cartan
-- `CartanMatrix.C_diag` (theorem) in Mathlib.Data.Matrix.Cartan
-- `CartanMatrix.C_off_diag_nonpos` (theorem) in Mathlib.Data.Matrix.Cartan
-- `CartanMatrix.C_one` (theorem) in Mathlib.Data.Matrix.Cartan
-- `CartanMatrix.C_transpose` (theorem) in Mathlib.Data.Matrix.Cartan
-- `CartanMatrix.C_two` (theorem) in Mathlib.Data.Matrix.Cartan
-- `CartanMatrix.D` (def) in Mathlib.Data.Matrix.Cartan
-- `CartanMatrix.D_diag` (theorem) in Mathlib.Data.Matrix.Cartan
-- `CartanMatrix.D_four` (theorem) in Mathlib.Data.Matrix.Cartan
-- `CartanMatrix.D_isSymm` (theorem) in Mathlib.Data.Matrix.Cartan
-- `CartanMatrix.D_off_diag_nonpos` (theorem) in Mathlib.Data.Matrix.Cartan
-- `CartanMatrix.D_one` (theorem) in Mathlib.Data.Matrix.Cartan
-- `CartanMatrix.D_three` (theorem) in Mathlib.Data.Matrix.Cartan
-- `CartanMatrix.D_three'` (theorem) in Mathlib.Data.Matrix.Cartan
-- `CartanMatrix.D_transpose` (theorem) in Mathlib.Data.Matrix.Cartan
-- `CartanMatrix.D_two` (theorem) in Mathlib.Data.Matrix.Cartan
-- `CartanMatrix.E₆` (def) in Mathlib.Data.Matrix.Cartan
-- `CartanMatrix.E₆_diag` (theorem) in Mathlib.Data.Matrix.Cartan
-- `CartanMatrix.E₆_isSymm` (theorem) in Mathlib.Data.Matrix.Cartan
-- `CartanMatrix.E₆_off_diag_nonpos` (theorem) in Mathlib.Data.Matrix.Cartan
-- ... and 5545 more
+- `CartanMatrix.A` (def) in Mathlib.LinearAlgebra.Matrix.Cartan
+- `CartanMatrix.A_apply_le_zero_of_ne` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
+- `CartanMatrix.A_diag` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
+- `CartanMatrix.A_isSymm` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
+- `CartanMatrix.A_one` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
+- `CartanMatrix.A_three` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
+- `CartanMatrix.A_transpose` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
+- `CartanMatrix.A_two` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
+- `CartanMatrix.B` (def) in Mathlib.LinearAlgebra.Matrix.Cartan
+- `CartanMatrix.B_diag` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
+- `CartanMatrix.B_off_diag_nonpos` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
+- `CartanMatrix.B_one` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
+- `CartanMatrix.B_transpose` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
+- `CartanMatrix.B_two` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
+- `CartanMatrix.C` (def) in Mathlib.LinearAlgebra.Matrix.Cartan
+- `CartanMatrix.C_diag` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
+- `CartanMatrix.C_off_diag_nonpos` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
+- `CartanMatrix.C_one` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
+- `CartanMatrix.C_transpose` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
+- `CartanMatrix.C_two` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
+- `CartanMatrix.D` (def) in Mathlib.LinearAlgebra.Matrix.Cartan
+- `CartanMatrix.D_diag` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
+- `CartanMatrix.D_four` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
+- `CartanMatrix.D_isSymm` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
+- `CartanMatrix.D_off_diag_nonpos` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
+- `CartanMatrix.D_one` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
+- `CartanMatrix.D_three` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
+- `CartanMatrix.D_three'` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
+- `CartanMatrix.D_transpose` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
+- `CartanMatrix.D_two` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
+- `CartanMatrix.E₆` (def) in Mathlib.LinearAlgebra.Matrix.Cartan
+- `CartanMatrix.E₆_diag` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
+- `CartanMatrix.E₆_isSymm` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
+- `CartanMatrix.E₆_off_diag_nonpos` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
+- ... and 5542 more
 
 ### mini-representation-lie-theory (+305)
 
@@ -332,4 +332,4 @@
 
 ## Update History (1 runs)
 
-- **2026-06-01T07:56:27.393371+00:00**: Checked 12 repos, updated 13, +3610 -0 declarations
+- **2026-06-08T08:04:15.261593+00:00**: Checked 12 repos, updated 13, +3610 -0 declarations
