@@ -1,60 +1,6 @@
-# Changelog (since 2026-06-08)
+# Changelog (since 2026-06-15)
 
-## New Declarations (9561)
-
-### Etingof-RepresentationTheory-draft1 (+3177)
-
-- `Etingof.LeftExactFunctor` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_9_3
-- `Etingof.RightExactFunctor` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_9_3
-- `Etingof.yoneda_lemma` (theorem) in EtingofRepresentationTheory.Chapter7.Lemma7_5_1
-- `Etingof.double_dual_iso` (def) in EtingofRepresentationTheory.Chapter7.Example7_3_2
-- `Etingof.double_dual_naturality` (theorem) in EtingofRepresentationTheory.Chapter7.Example7_3_2
-- `Etingof.IsSemisimpleCategory` (def) in EtingofRepresentationTheory.Chapter7.Definition7_9_4
-- `Etingof.FullSubcategory` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_1_4
-- `Etingof.connectingHomomorphism` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_8_6
-- `Etingof.long_exact_seq_exact₁` (theorem) in EtingofRepresentationTheory.Chapter7.Definition7_8_6
-- `Etingof.long_exact_seq_exact₂` (theorem) in EtingofRepresentationTheory.Chapter7.Definition7_8_6
-- `Etingof.long_exact_seq_exact₃` (theorem) in EtingofRepresentationTheory.Chapter7.Definition7_8_6
-- `Etingof.Abelian` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_7_1
-- `Etingof.forgetful_representable` (def) in EtingofRepresentationTheory.Chapter7.Example7_5_3
-- `Etingof.Adjunction` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_6_1
-- `Etingof.frobenius_reciprocity` (def) in EtingofRepresentationTheory.Chapter7.Example7_6_3
-- `Etingof.uea_adjunction` (def) in EtingofRepresentationTheory.Chapter7.Example7_6_3
-- `Etingof.CochainComplex'` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_8_1
-- `Etingof.AdditiveFunctor` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_9_1
-- `Etingof.Category` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_1_1
-- `Etingof.hom_left_exact` (instance) in EtingofRepresentationTheory.Chapter7.Example7_9_6
-- `Etingof.tensor_right_exact` (instance) in EtingofRepresentationTheory.Chapter7.Example7_9_6
-- `Etingof.NatTrans` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_3_1
-- `Etingof.restrictScalars_additive` (instance) in EtingofRepresentationTheory.Chapter7.Example7_9_2
-- `Etingof.restrictScalars_linear` (instance) in EtingofRepresentationTheory.Chapter7.Example7_9_2
-- `Etingof.Equivalence` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_4_1
-- `Etingof.Functor` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_2_1
-- `Etingof.ShortComplex` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_8_2
-- `Etingof.maschke_semisimple` (theorem) in EtingofRepresentationTheory.Chapter7.Example7_9_5
-- `Etingof.split_exact_sequence` (def) in EtingofRepresentationTheory.Chapter7.Example7_8_3
-- `Etingof.alternantDet_eq_sign_mul_vandermondeProd` (theorem) in EtingofRepresentationTheory.Infrastructure.FrobeniusCharacterBridge
-- `Etingof.charValue_cast_complex` (theorem) in EtingofRepresentationTheory.Infrastructure.FrobeniusCharacterBridge
-- `Etingof.youngSym_coeff_cast` (lemma) in EtingofRepresentationTheory.Infrastructure.YoungSymTraceKronecker
-- `Etingof.youngSym_sq_ℂ` (lemma) in EtingofRepresentationTheory.Infrastructure.YoungSymTraceKronecker
-- `Etingof.mulLeftOnSpecht` (def) in EtingofRepresentationTheory.Infrastructure.YoungSymTraceKronecker
-- `Etingof.mulLeftOnSpecht_of` (lemma) in EtingofRepresentationTheory.Infrastructure.YoungSymTraceKronecker
-- `Etingof.mulLeftOnSpechtLinear` (def) in EtingofRepresentationTheory.Infrastructure.YoungSymTraceKronecker
-- `Etingof.sum_coeff_char_eq_trace` (lemma) in EtingofRepresentationTheory.Infrastructure.YoungSymTraceKronecker
-- `Etingof.mulLeft_youngSym_zero_of_ne` (lemma) in EtingofRepresentationTheory.Infrastructure.YoungSymTraceKronecker
-- `Etingof.youngSym_coeff_one` (lemma) in EtingofRepresentationTheory.Infrastructure.YoungSymTraceKronecker
-- `Etingof.mul_mem_specht_proportional` (lemma) in EtingofRepresentationTheory.Infrastructure.YoungSymTraceKronecker
-- `Etingof.trace_mulLeft_youngSym_eq` (lemma) in EtingofRepresentationTheory.Infrastructure.YoungSymTraceKronecker
-- `Etingof.youngSym_trace_kronecker` (theorem) in EtingofRepresentationTheory.Infrastructure.YoungSymTraceKronecker
-- `IrrepDecomp.projRingHom_smul` (lemma) in EtingofRepresentationTheory.Infrastructure.IrreducibleEnumeration
-- `IrrepDecomp.projRingHom_mulVec_mem_subrepresentation` (lemma) in EtingofRepresentationTheory.Infrastructure.ColumnRepSimple
-- `IrrepDecomp.toMatSubmodule` (def) in EtingofRepresentationTheory.Infrastructure.ColumnRepSimple
-- `IrrepDecomp.columnRep_isIrreducible` (instance) in EtingofRepresentationTheory.Infrastructure.ColumnRepSimple
-- `IrrepDecomp.columnRep_inv_mul_cancel` (lemma) in EtingofRepresentationTheory.Infrastructure.ColumnRepSimple
-- `IrrepDecomp.columnRep_mul_inv_cancel` (lemma) in EtingofRepresentationTheory.Infrastructure.ColumnRepSimple
-- `IrrepDecomp.invariantsEquivIntertwining` (def) in EtingofRepresentationTheory.Infrastructure.ColumnRepSimple
-- `Etingof.cornerLinearMap` (def) in EtingofRepresentationTheory.Infrastructure.CornerRing
-- ... and 3127 more
+## New Declarations (6488)
 
 ### Group6-Formalization-on-Lie-algebra-rep (+42)
 
@@ -100,6 +46,10 @@
 - `Ideal.IsPrime_not_mem_mul` (theorem) in LieAlgRep.prime_ideal_aviod_Thm
 - `Multiset.erase_refl` (theorem) in LieAlgRep.prime_ideal_aviod_Thm
 - `prime_ideal_finset_version` (theorem) in LieAlgRep.prime_ideal_aviod_Thm
+
+### LieClassification (+1)
+
+- `LieAlgebra.equivGeckConstruction` (def) in LieClassification.Main
 
 ### LowDimSolvClassification (+300)
 
@@ -218,7 +168,7 @@
 - `joyalRepresentation.orderEmbedding` (def) in JoyalRepresentationTheorem
 - `joyalRepresentation.heytingHom` (def) in JoyalRepresentationTheorem
 
-### mathlib4 (+5679)
+### mathlib4 (+5782)
 
 - `Action.tensor_ρ_apply` (theorem) in Mathlib.RepresentationTheory.Action
 - `AddGroupLieAlgebra` (def) in Mathlib.Geometry.Manifold.GroupLieAlgebra
@@ -270,7 +220,7 @@
 - `CartanMatrix.E₆_diag` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
 - `CartanMatrix.E₆_isSymm` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
 - `CartanMatrix.E₆_off_diag_nonpos` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
-- ... and 5629 more
+- ... and 5732 more
 
 ### mini-representation-lie-theory (+305)
 
@@ -332,4 +282,4 @@
 
 ## Update History (1 runs)
 
-- **2026-06-15T08:19:47.165661+00:00**: Checked 12 repos, updated 13, +3882 -0 declarations
+- **2026-06-22T08:21:24.629952+00:00**: Checked 11 repos, updated 12, +706 -0 declarations
