@@ -1,6 +1,60 @@
-# Changelog (since 2026-06-15)
+# Changelog (since 2026-06-22)
 
-## New Declarations (6488)
+## New Declarations (16649)
+
+### Etingof-RepresentationTheory-draft1 (+4425)
+
+- `Etingof.LeftExactFunctor` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_9_3
+- `Etingof.RightExactFunctor` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_9_3
+- `Etingof.yoneda_lemma` (theorem) in EtingofRepresentationTheory.Chapter7.Lemma7_5_1
+- `Etingof.double_dual_iso` (def) in EtingofRepresentationTheory.Chapter7.Example7_3_2
+- `Etingof.double_dual_naturality` (theorem) in EtingofRepresentationTheory.Chapter7.Example7_3_2
+- `Etingof.IsSemisimpleCategory` (def) in EtingofRepresentationTheory.Chapter7.Definition7_9_4
+- `Etingof.FullSubcategory` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_1_4
+- `Etingof.connectingHomomorphism` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_8_6
+- `Etingof.long_exact_seq_exact₁` (theorem) in EtingofRepresentationTheory.Chapter7.Definition7_8_6
+- `Etingof.long_exact_seq_exact₂` (theorem) in EtingofRepresentationTheory.Chapter7.Definition7_8_6
+- `Etingof.long_exact_seq_exact₃` (theorem) in EtingofRepresentationTheory.Chapter7.Definition7_8_6
+- `Etingof.Abelian` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_7_1
+- `Etingof.forgetful_representable` (def) in EtingofRepresentationTheory.Chapter7.Example7_5_3
+- `Etingof.Adjunction` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_6_1
+- `Etingof.frobenius_reciprocity` (def) in EtingofRepresentationTheory.Chapter7.Example7_6_3
+- `Etingof.uea_adjunction` (def) in EtingofRepresentationTheory.Chapter7.Example7_6_3
+- `Etingof.CochainComplex'` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_8_1
+- `Etingof.AdditiveFunctor` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_9_1
+- `Etingof.Category` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_1_1
+- `Etingof.adjunction_corepresents` (def) in EtingofRepresentationTheory.Chapter7.Discussion_after_Definition7_6_1
+- `Etingof.adjunction_represents` (def) in EtingofRepresentationTheory.Chapter7.Discussion_after_Definition7_6_1
+- `Etingof.hom_left_exact` (instance) in EtingofRepresentationTheory.Chapter7.Example7_9_6
+- `Etingof.tensor_right_exact` (instance) in EtingofRepresentationTheory.Chapter7.Example7_9_6
+- `Etingof.NatTrans` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_3_1
+- `Etingof.restrictScalars_additive` (instance) in EtingofRepresentationTheory.Chapter7.Example7_9_2
+- `Etingof.restrictScalars_linear` (instance) in EtingofRepresentationTheory.Chapter7.Example7_9_2
+- `Etingof.Equivalence` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_4_1
+- `Etingof.isoClassesEquivOfEquivalence` (def) in EtingofRepresentationTheory.Chapter7.Introduction_7_4
+- `Etingof.functorIsoClassesEquiv` (def) in EtingofRepresentationTheory.Chapter7.Introduction_7_4
+- `Etingof.Functor` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_2_1
+- `Etingof.ShortComplex` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_8_2
+- `Etingof.maschke_semisimple` (theorem) in EtingofRepresentationTheory.Chapter7.Example7_9_5
+- `Etingof.split_exact_sequence` (def) in EtingofRepresentationTheory.Chapter7.Example7_8_3
+- `Etingof.Cat₁` (def) in EtingofRepresentationTheory.Chapter7.Discussion_after_Definition7_4_1
+- `Etingof.Cat₂` (def) in EtingofRepresentationTheory.Chapter7.Discussion_after_Definition7_4_1
+- `Etingof.funct₁₂` (def) in EtingofRepresentationTheory.Chapter7.Discussion_after_Definition7_4_1
+- `Etingof.funct₂₁` (def) in EtingofRepresentationTheory.Chapter7.Discussion_after_Definition7_4_1
+- `Etingof.cat₁EquivCat₂` (def) in EtingofRepresentationTheory.Chapter7.Discussion_after_Definition7_4_1
+- `Etingof.alternantDet_eq_sign_mul_vandermondeProd` (theorem) in EtingofRepresentationTheory.Infrastructure.FrobeniusCharacterBridge
+- `Etingof.charValue_cast_complex` (theorem) in EtingofRepresentationTheory.Infrastructure.FrobeniusCharacterBridge
+- `Etingof.youngSym_coeff_cast` (lemma) in EtingofRepresentationTheory.Infrastructure.YoungSymTraceKronecker
+- `Etingof.youngSym_sq_ℂ` (lemma) in EtingofRepresentationTheory.Infrastructure.YoungSymTraceKronecker
+- `Etingof.mulLeftOnSpecht` (def) in EtingofRepresentationTheory.Infrastructure.YoungSymTraceKronecker
+- `Etingof.mulLeftOnSpecht_of` (lemma) in EtingofRepresentationTheory.Infrastructure.YoungSymTraceKronecker
+- `Etingof.mulLeftOnSpechtLinear` (def) in EtingofRepresentationTheory.Infrastructure.YoungSymTraceKronecker
+- `Etingof.sum_coeff_char_eq_trace` (lemma) in EtingofRepresentationTheory.Infrastructure.YoungSymTraceKronecker
+- `Etingof.mulLeft_youngSym_zero_of_ne` (lemma) in EtingofRepresentationTheory.Infrastructure.YoungSymTraceKronecker
+- `Etingof.youngSym_coeff_one` (lemma) in EtingofRepresentationTheory.Infrastructure.YoungSymTraceKronecker
+- `Etingof.mul_mem_specht_proportional` (lemma) in EtingofRepresentationTheory.Infrastructure.YoungSymTraceKronecker
+- `Etingof.trace_mulLeft_youngSym_eq` (lemma) in EtingofRepresentationTheory.Infrastructure.YoungSymTraceKronecker
+- ... and 4375 more
 
 ### Group6-Formalization-on-Lie-algebra-rep (+42)
 
@@ -168,7 +222,7 @@
 - `joyalRepresentation.orderEmbedding` (def) in JoyalRepresentationTheorem
 - `joyalRepresentation.heytingHom` (def) in JoyalRepresentationTheorem
 
-### mathlib4 (+5782)
+### mathlib4 (+5795)
 
 - `Action.tensor_ρ_apply` (theorem) in Mathlib.RepresentationTheory.Action
 - `AddGroupLieAlgebra` (def) in Mathlib.Geometry.Manifold.GroupLieAlgebra
@@ -220,61 +274,61 @@
 - `CartanMatrix.E₆_diag` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
 - `CartanMatrix.E₆_isSymm` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
 - `CartanMatrix.E₆_off_diag_nonpos` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
-- ... and 5732 more
+- ... and 5745 more
 
-### mini-representation-lie-theory (+305)
+### mini-representation-lie-theory (+6028)
 
-- `main` (def) in mini-lie-groups.Main
-- `benchCT` (def) in mini-lie-groups.Benchmark.Princeton
-- `exCType` (def) in mini-lie-groups.Test.Smoke
-- `exA` (def) in mini-lie-groups.Test.Examples
-- `exB` (def) in mini-lie-groups.Test.Examples
-- `prodAB` (def) in mini-lie-groups.Test.Examples
-- `homAB` (def) in mini-lie-groups.Test.Examples
-- `regType` (def) in mini-lie-groups.Test.Regression
-- `h` (def) in mini-lie-groups.Test.Regression
-- `MiniCharacterTheory.Hom` (structure) in mini-character-theory.MiniCharacterTheory.Morphisms.Hom
-- `MiniCharacterTheory.homComp` (def) in mini-character-theory.MiniCharacterTheory.Morphisms.Hom
-- `MiniCharacterTheory.idHom` (def) in mini-character-theory.MiniCharacterTheory.Morphisms.Hom
-- `MiniCharacterTheory.Iso` (structure) in mini-character-theory.MiniCharacterTheory.Morphisms.Iso
-- `MiniCharacterTheory.idIso` (def) in mini-character-theory.MiniCharacterTheory.Morphisms.Iso
-- `MiniCharacterTheory.isoComp` (def) in mini-character-theory.MiniCharacterTheory.Morphisms.Iso
-- `MiniCharacterTheory.isEquivalent` (def) in mini-character-theory.MiniCharacterTheory.Morphisms.Equiv
-- `MiniCharacterTheory.equivRefl` (def) in mini-character-theory.MiniCharacterTheory.Morphisms.Equiv
-- `MiniCharacterTheory.equivSymm` (def) in mini-character-theory.MiniCharacterTheory.Morphisms.Equiv
-- `MiniCharacterTheory.equivTrans` (def) in mini-character-theory.MiniCharacterTheory.Morphisms.Equiv
-- `MiniCharacterTheory.mainResults` (def) in mini-character-theory.MiniCharacterTheory.Theorems.Main
-- `MiniCharacterTheory.enumerateClasses` (def) in mini-character-theory.MiniCharacterTheory.Theorems.Classification
-- `MiniCharacterTheory.Classification` (structure) in mini-character-theory.MiniCharacterTheory.Properties.ClassificationData
-- `MiniCharacterTheory.sampleClassification` (def) in mini-character-theory.MiniCharacterTheory.Properties.ClassificationData
-- `MiniCharacterTheory.invariant` (def) in mini-character-theory.MiniCharacterTheory.Properties.Invariants
-- `MiniCharacterTheory.fundamentalInvariant` (def) in mini-character-theory.MiniCharacterTheory.Properties.Invariants
-- `MiniCharacterTheory.MiniCharacterTheory.preservedByHom` (def) in mini-character-theory.MiniCharacterTheory.Properties.Invariants
-- `MiniCharacterTheory.MiniCharacterTheory.preservedByIso` (def) in mini-character-theory.MiniCharacterTheory.Properties.Invariants
-- `MiniCharacterTheory.MiniCharacterTheory.preservationTable` (def) in mini-character-theory.MiniCharacterTheory.Properties.Invariants
-- `MiniCharacterTheory.computationalAspect` (def) in mini-character-theory.MiniCharacterTheory.Bridges.ToComputation
-- `MiniCharacterTheory.topologicalAspect` (def) in mini-character-theory.MiniCharacterTheory.Bridges.ToTopology
-- `MiniCharacterTheory.algebraicStructure` (def) in mini-character-theory.MiniCharacterTheory.Bridges.ToAlgebra
-- `MiniCharacterTheory.geometricInterpretation` (def) in mini-character-theory.MiniCharacterTheory.Bridges.ToGeometry
-- `MiniCharacterTheory.registerTheory` (def) in mini-character-theory.MiniCharacterTheory.Core.Objects
-- `MiniCharacterTheory.theoryRegistry` (def) in mini-character-theory.MiniCharacterTheory.Core.Objects
-- `MiniCharacterTheory.CoreType` (structure) in mini-character-theory.MiniCharacterTheory.Core.Basic
-- `MiniCharacterTheory.basicOperation` (def) in mini-character-theory.MiniCharacterTheory.Core.Basic
-- `MiniCharacterTheory.identityOp` (def) in mini-character-theory.MiniCharacterTheory.Core.Basic
-- `MiniCharacterTheory.Product` (structure) in mini-character-theory.MiniCharacterTheory.Constructions.Products
-- `MiniCharacterTheory.projLeft` (def) in mini-character-theory.MiniCharacterTheory.Constructions.Products
-- `MiniCharacterTheory.projRight` (def) in mini-character-theory.MiniCharacterTheory.Constructions.Products
-- `MiniCharacterTheory.Subobject` (structure) in mini-character-theory.MiniCharacterTheory.Constructions.Subobjects
-- `MiniCharacterTheory.inclusion` (def) in mini-character-theory.MiniCharacterTheory.Constructions.Subobjects
-- `MiniCharacterTheory.Retract` (structure) in mini-character-theory.MiniCharacterTheory.Constructions.Subobjects
-- `MiniCharacterTheory.UniversalConstruction` (structure) in mini-character-theory.MiniCharacterTheory.Constructions.Universal
-- `MiniCharacterTheory.Quotient` (def) in mini-character-theory.MiniCharacterTheory.Constructions.Quotients
-- `MiniCharacterTheory.naturalProj` (def) in mini-character-theory.MiniCharacterTheory.Constructions.Quotients
-- `MiniVertexAlgebras.Hom` (structure) in mini-vertex-algebras.MiniVertexAlgebras.Morphisms.Hom
-- `MiniVertexAlgebras.homComp` (def) in mini-vertex-algebras.MiniVertexAlgebras.Morphisms.Hom
-- `MiniVertexAlgebras.idHom` (def) in mini-vertex-algebras.MiniVertexAlgebras.Morphisms.Hom
-- `MiniVertexAlgebras.Iso` (structure) in mini-vertex-algebras.MiniVertexAlgebras.Morphisms.Iso
-- ... and 255 more
+- `main` (def) in mini-vertex-algebras.Test.Main
+- `MiniCharacterTheory.kernelOfCharacter` (def) in mini-character-theory.MiniCharacterTheory.Applications.ToGroupTheory
+- `MiniCharacterTheory.kernelIsNormal` (def) in mini-character-theory.MiniCharacterTheory.Applications.ToGroupTheory
+- `MiniCharacterTheory.simplicityCriterion` (def) in mini-character-theory.MiniCharacterTheory.Applications.ToGroupTheory
+- `MiniCharacterTheory.allCharKernelsIntersectTrivial` (def) in mini-character-theory.MiniCharacterTheory.Applications.ToGroupTheory
+- `MiniCharacterTheory.centerViaCharacters` (def) in mini-character-theory.MiniCharacterTheory.Applications.ToGroupTheory
+- `MiniCharacterTheory.commutatorViaCharacters` (def) in mini-character-theory.MiniCharacterTheory.Applications.ToGroupTheory
+- `MiniCharacterTheory.numLinearChars` (def) in mini-character-theory.MiniCharacterTheory.Applications.ToGroupTheory
+- `MiniCharacterTheory.sameCharTableNotIsomorphic` (def) in mini-character-theory.MiniCharacterTheory.Applications.ToGroupTheory
+- `MiniCharacterTheory.groupsOfOrderLessThan60` (def) in mini-character-theory.MiniCharacterTheory.Applications.ToGroupTheory
+- `MiniCharacterTheory.algebraicIntegers` (def) in mini-character-theory.MiniCharacterTheory.Applications.ToNumberTheory
+- `MiniCharacterTheory.characterValuesInCyclotomicField` (def) in mini-character-theory.MiniCharacterTheory.Applications.ToNumberTheory
+- `MiniCharacterTheory.galoisActionOnCharValues` (def) in mini-character-theory.MiniCharacterTheory.Applications.ToNumberTheory
+- `MiniCharacterTheory.dirichletLSeries` (def) in mini-character-theory.MiniCharacterTheory.Applications.ToNumberTheory
+- `MiniCharacterTheory.dirichletsTheorem` (def) in mini-character-theory.MiniCharacterTheory.Applications.ToNumberTheory
+- `MiniCharacterTheory.artinLFunction` (def) in mini-character-theory.MiniCharacterTheory.Applications.ToNumberTheory
+- `MiniCharacterTheory.artinReciprocity` (def) in mini-character-theory.MiniCharacterTheory.Applications.ToNumberTheory
+- `MiniCharacterTheory.langlandsCorrespondence` (def) in mini-character-theory.MiniCharacterTheory.Applications.ToNumberTheory
+- `MiniCharacterTheory.BurnsideTheorem.burnsides_paqb` (def) in mini-character-theory.MiniCharacterTheory.Theorems.Burnside
+- `MiniCharacterTheory.BurnsideTheorem.nonabelianSimpleOrder` (def) in mini-character-theory.MiniCharacterTheory.Theorems.Burnside
+- `MiniCharacterTheory.BurnsideTheorem.smallestNonabelianSimple` (def) in mini-character-theory.MiniCharacterTheory.Theorems.Burnside
+- `MiniCharacterTheory.BurnsideTheorem.cubeFreeOrderSolvable` (def) in mini-character-theory.MiniCharacterTheory.Theorems.Burnside
+- `MiniCharacterTheory.BurnsideTheorem.squarefreeOrderSolvable` (def) in mini-character-theory.MiniCharacterTheory.Theorems.Burnside
+- `MiniCharacterTheory.monomialCharacter` (def) in mini-character-theory.MiniCharacterTheory.Theorems.Burnside
+- `MiniCharacterTheory.taketasTheorem` (def) in mini-character-theory.MiniCharacterTheory.Theorems.Burnside
+- `MiniCharacterTheory.supersolvableIsMGroup` (def) in mini-character-theory.MiniCharacterTheory.Theorems.Burnside
+- `MiniCharacterTheory.frobeniusGroup` (def) in mini-character-theory.MiniCharacterTheory.Theorems.Burnside
+- `MiniCharacterTheory.frobeniusKernelTheorem` (def) in mini-character-theory.MiniCharacterTheory.Theorems.Burnside
+- `MiniCharacterTheory.frobeniusComplementTheorem` (def) in mini-character-theory.MiniCharacterTheory.Theorems.Burnside
+- `MiniCharacterTheory.feitThompsonTheorem` (def) in mini-character-theory.MiniCharacterTheory.Theorems.Burnside
+- `MiniCharacterTheory.simpleGroupsHaveEvenOrder` (def) in mini-character-theory.MiniCharacterTheory.Theorems.Burnside
+- `MiniCharacterTheory.VirtualChar` (structure) in mini-character-theory.MiniCharacterTheory.Theorems.CharacterRing
+- `MiniCharacterTheory.VirtualChar.ofCharacter` (def) in mini-character-theory.MiniCharacterTheory.Theorems.CharacterRing
+- `MiniCharacterTheory.VirtualChar.add` (def) in mini-character-theory.MiniCharacterTheory.Theorems.CharacterRing
+- `MiniCharacterTheory.VirtualChar.sub` (def) in mini-character-theory.MiniCharacterTheory.Theorems.CharacterRing
+- `MiniCharacterTheory.VirtualChar.mul` (def) in mini-character-theory.MiniCharacterTheory.Theorems.CharacterRing
+- `MiniCharacterTheory.VirtualChar.neg` (def) in mini-character-theory.MiniCharacterTheory.Theorems.CharacterRing
+- `MiniCharacterTheory.CharacterRing.isRing` (def) in mini-character-theory.MiniCharacterTheory.Theorems.CharacterRing
+- `MiniCharacterTheory.CharacterRing.irrCharsFormBasis` (def) in mini-character-theory.MiniCharacterTheory.Theorems.CharacterRing
+- `MiniCharacterTheory.CharacterRing.rankOfR` (def) in mini-character-theory.MiniCharacterTheory.Theorems.CharacterRing
+- `MiniCharacterTheory.CharacterRing.unitGroup` (def) in mini-character-theory.MiniCharacterTheory.Theorems.CharacterRing
+- `MiniCharacterTheory.adamsOperation` (def) in mini-character-theory.MiniCharacterTheory.Theorems.CharacterRing
+- `MiniCharacterTheory.adamsRingHomomorphism` (def) in mini-character-theory.MiniCharacterTheory.Theorems.CharacterRing
+- `MiniCharacterTheory.adamsPermutesIrr` (def) in mini-character-theory.MiniCharacterTheory.Theorems.CharacterRing
+- `MiniCharacterTheory.lambdaRingStructure` (def) in mini-character-theory.MiniCharacterTheory.Theorems.CharacterRing
+- `MiniCharacterTheory.powerMapRingHom` (def) in mini-character-theory.MiniCharacterTheory.Theorems.CharacterRing
+- `MiniCharacterTheory.adamsOperationsComposition` (def) in mini-character-theory.MiniCharacterTheory.Theorems.CharacterRing
+- `MiniCharacterTheory.adamsCongruence` (def) in mini-character-theory.MiniCharacterTheory.Theorems.CharacterRing
+- `MiniCharacterTheory.augmentationMap` (def) in mini-character-theory.MiniCharacterTheory.Theorems.CharacterRing
+- `MiniCharacterTheory.tensorInduction` (def) in mini-character-theory.MiniCharacterTheory.Theorems.CharacterRing
+- ... and 5978 more
 
 ### modularreptheory (+1)
 
@@ -282,4 +336,4 @@
 
 ## Update History (1 runs)
 
-- **2026-06-22T08:21:24.629952+00:00**: Checked 11 repos, updated 12, +706 -0 declarations
+- **2026-06-29T08:00:12.372057+00:00**: Checked 12 repos, updated 13, +10854 -0 declarations
