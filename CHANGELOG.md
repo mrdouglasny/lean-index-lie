@@ -1,60 +1,60 @@
-# Changelog (since 2026-06-22)
+# Changelog (since 2026-06-29)
 
-## New Declarations (16649)
+## New Declarations (17488)
 
-### Etingof-RepresentationTheory-draft1 (+4425)
+### Etingof-RepresentationTheory-draft1 (+5135)
 
 - `Etingof.LeftExactFunctor` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_9_3
 - `Etingof.RightExactFunctor` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_9_3
 - `Etingof.yoneda_lemma` (theorem) in EtingofRepresentationTheory.Chapter7.Lemma7_5_1
 - `Etingof.double_dual_iso` (def) in EtingofRepresentationTheory.Chapter7.Example7_3_2
 - `Etingof.double_dual_naturality` (theorem) in EtingofRepresentationTheory.Chapter7.Example7_3_2
+- `Etingof.linearEquiv_dualDual_iff_finiteDimensional` (theorem) in EtingofRepresentationTheory.Chapter7.Example7_3_2
+- `Etingof.doubleDualFunctor` (def) in EtingofRepresentationTheory.Chapter7.Example7_3_2
+- `Etingof.doubleDualNatIso` (def) in EtingofRepresentationTheory.Chapter7.Example7_3_2
+- `Etingof.linearEquiv_dual_iff_finiteDimensional` (theorem) in EtingofRepresentationTheory.Chapter7.Example7_3_2
+- `Etingof.dual_gl_natural_eq_zero` (theorem) in EtingofRepresentationTheory.Chapter7.Example7_3_2
+- `Etingof.not_bijective_of_gl_natural_dual` (theorem) in EtingofRepresentationTheory.Chapter7.Example7_3_2
+- `Etingof.contragredientFunctor` (def) in EtingofRepresentationTheory.Chapter7.Example7_3_2
+- `Etingof.not_natIso_id_contragredientFunctor` (theorem) in EtingofRepresentationTheory.Chapter7.Example7_3_2
+- `Etingof.forgetful_natEnd_eq_smul` (theorem) in EtingofRepresentationTheory.Chapter7.Example7_3_2
+- `Etingof.forgetful_smul_comp` (theorem) in EtingofRepresentationTheory.Chapter7.Example7_3_2
+- `Etingof.idFunctor_natEnd_eq_smul` (theorem) in EtingofRepresentationTheory.Chapter7.Example7_3_2
+- `Etingof.idFunctor_natEnd_central` (theorem) in EtingofRepresentationTheory.Chapter7.Example7_3_2
 - `Etingof.IsSemisimpleCategory` (def) in EtingofRepresentationTheory.Chapter7.Definition7_9_4
 - `Etingof.FullSubcategory` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_1_4
 - `Etingof.connectingHomomorphism` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_8_6
 - `Etingof.long_exact_seq_exact₁` (theorem) in EtingofRepresentationTheory.Chapter7.Definition7_8_6
 - `Etingof.long_exact_seq_exact₂` (theorem) in EtingofRepresentationTheory.Chapter7.Definition7_8_6
 - `Etingof.long_exact_seq_exact₃` (theorem) in EtingofRepresentationTheory.Chapter7.Definition7_8_6
+- `Etingof.additiveFunctor_shortExact_of_isSemisimpleCategory` (theorem) in EtingofRepresentationTheory.Chapter7.Discussion_after_Example7_9_5
 - `Etingof.Abelian` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_7_1
 - `Etingof.forgetful_representable` (def) in EtingofRepresentationTheory.Chapter7.Example7_5_3
+- `Etingof.Example753.forgetfulHom` (def) in EtingofRepresentationTheory.Chapter7.Example7_5_3
+- `Etingof.Example753.mem_forgetfulHom_iff` (theorem) in EtingofRepresentationTheory.Chapter7.Example7_5_3
+- `Etingof.Example753.forgetfulHom_eq_bot_of_not_hasEigenvalue` (theorem) in EtingofRepresentationTheory.Chapter7.Example7_5_3
+- `Etingof.Example753.exists_forgetfulHom_eq_bot` (theorem) in EtingofRepresentationTheory.Chapter7.Example7_5_3
+- `Etingof.Example753.forgetful_not_representable` (theorem) in EtingofRepresentationTheory.Chapter7.Example7_5_3
+- `homotopyRel` (def) in EtingofRepresentationTheory.Chapter7.Example7_1_3
+- `HomotopyTopCat` (abbrev) in EtingofRepresentationTheory.Chapter7.Example7_1_3
 - `Etingof.Adjunction` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_6_1
+- `Etingof.tensor_dual_adjunction_left` (def) in EtingofRepresentationTheory.Chapter7.Example7_6_3
+- `Etingof.tensor_dual_adjunction_right` (def) in EtingofRepresentationTheory.Chapter7.Example7_6_3
 - `Etingof.frobenius_reciprocity` (def) in EtingofRepresentationTheory.Chapter7.Example7_6_3
+- `Etingof.frobenius_reciprocity_res_ind` (def) in EtingofRepresentationTheory.Chapter7.Example7_6_3
 - `Etingof.uea_adjunction` (def) in EtingofRepresentationTheory.Chapter7.Example7_6_3
+- `Etingof.group_algebra_adjunction` (def) in EtingofRepresentationTheory.Chapter7.Example7_6_3
+- `Etingof.tensor_algebra_adjunction` (def) in EtingofRepresentationTheory.Chapter7.Example7_6_3
+- `Etingof.symmetric_algebra_adjunction` (def) in EtingofRepresentationTheory.Chapter7.Example7_6_3
 - `Etingof.CochainComplex'` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_8_1
+- `Etingof.differential` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_8_1
+- `Etingof.cohomology` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_8_1
+- `Etingof.ExactAt` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_8_1
+- `Etingof.IsExactSequence` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_8_1
+- `EtingofRepresentationTheory.Example722.funZPrecomp` (def) in EtingofRepresentationTheory.Chapter7.Example7_2_2
 - `Etingof.AdditiveFunctor` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_9_1
-- `Etingof.Category` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_1_1
-- `Etingof.adjunction_corepresents` (def) in EtingofRepresentationTheory.Chapter7.Discussion_after_Definition7_6_1
-- `Etingof.adjunction_represents` (def) in EtingofRepresentationTheory.Chapter7.Discussion_after_Definition7_6_1
-- `Etingof.hom_left_exact` (instance) in EtingofRepresentationTheory.Chapter7.Example7_9_6
-- `Etingof.tensor_right_exact` (instance) in EtingofRepresentationTheory.Chapter7.Example7_9_6
-- `Etingof.NatTrans` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_3_1
-- `Etingof.restrictScalars_additive` (instance) in EtingofRepresentationTheory.Chapter7.Example7_9_2
-- `Etingof.restrictScalars_linear` (instance) in EtingofRepresentationTheory.Chapter7.Example7_9_2
-- `Etingof.Equivalence` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_4_1
-- `Etingof.isoClassesEquivOfEquivalence` (def) in EtingofRepresentationTheory.Chapter7.Introduction_7_4
-- `Etingof.functorIsoClassesEquiv` (def) in EtingofRepresentationTheory.Chapter7.Introduction_7_4
-- `Etingof.Functor` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_2_1
-- `Etingof.ShortComplex` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_8_2
-- `Etingof.maschke_semisimple` (theorem) in EtingofRepresentationTheory.Chapter7.Example7_9_5
-- `Etingof.split_exact_sequence` (def) in EtingofRepresentationTheory.Chapter7.Example7_8_3
-- `Etingof.Cat₁` (def) in EtingofRepresentationTheory.Chapter7.Discussion_after_Definition7_4_1
-- `Etingof.Cat₂` (def) in EtingofRepresentationTheory.Chapter7.Discussion_after_Definition7_4_1
-- `Etingof.funct₁₂` (def) in EtingofRepresentationTheory.Chapter7.Discussion_after_Definition7_4_1
-- `Etingof.funct₂₁` (def) in EtingofRepresentationTheory.Chapter7.Discussion_after_Definition7_4_1
-- `Etingof.cat₁EquivCat₂` (def) in EtingofRepresentationTheory.Chapter7.Discussion_after_Definition7_4_1
-- `Etingof.alternantDet_eq_sign_mul_vandermondeProd` (theorem) in EtingofRepresentationTheory.Infrastructure.FrobeniusCharacterBridge
-- `Etingof.charValue_cast_complex` (theorem) in EtingofRepresentationTheory.Infrastructure.FrobeniusCharacterBridge
-- `Etingof.youngSym_coeff_cast` (lemma) in EtingofRepresentationTheory.Infrastructure.YoungSymTraceKronecker
-- `Etingof.youngSym_sq_ℂ` (lemma) in EtingofRepresentationTheory.Infrastructure.YoungSymTraceKronecker
-- `Etingof.mulLeftOnSpecht` (def) in EtingofRepresentationTheory.Infrastructure.YoungSymTraceKronecker
-- `Etingof.mulLeftOnSpecht_of` (lemma) in EtingofRepresentationTheory.Infrastructure.YoungSymTraceKronecker
-- `Etingof.mulLeftOnSpechtLinear` (def) in EtingofRepresentationTheory.Infrastructure.YoungSymTraceKronecker
-- `Etingof.sum_coeff_char_eq_trace` (lemma) in EtingofRepresentationTheory.Infrastructure.YoungSymTraceKronecker
-- `Etingof.mulLeft_youngSym_zero_of_ne` (lemma) in EtingofRepresentationTheory.Infrastructure.YoungSymTraceKronecker
-- `Etingof.youngSym_coeff_one` (lemma) in EtingofRepresentationTheory.Infrastructure.YoungSymTraceKronecker
-- `Etingof.mul_mem_specht_proportional` (lemma) in EtingofRepresentationTheory.Infrastructure.YoungSymTraceKronecker
-- `Etingof.trace_mulLeft_youngSym_eq` (lemma) in EtingofRepresentationTheory.Infrastructure.YoungSymTraceKronecker
-- ... and 4375 more
+- `Etingof.LinearFunctor` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_9_1
+- ... and 5085 more
 
 ### Group6-Formalization-on-Lie-algebra-rep (+42)
 
@@ -222,7 +222,7 @@
 - `joyalRepresentation.orderEmbedding` (def) in JoyalRepresentationTheorem
 - `joyalRepresentation.heytingHom` (def) in JoyalRepresentationTheorem
 
-### mathlib4 (+5795)
+### mathlib4 (+5924)
 
 - `Action.tensor_ρ_apply` (theorem) in Mathlib.RepresentationTheory.Action
 - `AddGroupLieAlgebra` (def) in Mathlib.Geometry.Manifold.GroupLieAlgebra
@@ -274,7 +274,7 @@
 - `CartanMatrix.E₆_diag` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
 - `CartanMatrix.E₆_isSymm` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
 - `CartanMatrix.E₆_off_diag_nonpos` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
-- ... and 5745 more
+- ... and 5874 more
 
 ### mini-representation-lie-theory (+6028)
 
@@ -336,4 +336,4 @@
 
 ## Update History (1 runs)
 
-- **2026-06-29T08:00:12.372057+00:00**: Checked 12 repos, updated 13, +10854 -0 declarations
+- **2026-07-06T07:59:48.333556+00:00**: Checked 12 repos, updated 13, +11564 -0 declarations
