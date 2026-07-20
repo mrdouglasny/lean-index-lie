@@ -1,70 +1,72 @@
-# Changelog (since 2026-06-29)
+# Changelog (since 2026-07-13)
 
-## New Declarations (17488)
+## New Declarations (20503)
 
-### Etingof-RepresentationTheory-draft1 (+5135)
+### Etingof-RepresentationTheory-draft1 (+8145)
 
-- `Etingof.LeftExactFunctor` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_9_3
-- `Etingof.RightExactFunctor` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_9_3
-- `Etingof.yoneda_lemma` (theorem) in EtingofRepresentationTheory.Chapter7.Lemma7_5_1
-- `Etingof.double_dual_iso` (def) in EtingofRepresentationTheory.Chapter7.Example7_3_2
-- `Etingof.double_dual_naturality` (theorem) in EtingofRepresentationTheory.Chapter7.Example7_3_2
-- `Etingof.linearEquiv_dualDual_iff_finiteDimensional` (theorem) in EtingofRepresentationTheory.Chapter7.Example7_3_2
-- `Etingof.doubleDualFunctor` (def) in EtingofRepresentationTheory.Chapter7.Example7_3_2
-- `Etingof.doubleDualNatIso` (def) in EtingofRepresentationTheory.Chapter7.Example7_3_2
-- `Etingof.linearEquiv_dual_iff_finiteDimensional` (theorem) in EtingofRepresentationTheory.Chapter7.Example7_3_2
-- `Etingof.dual_gl_natural_eq_zero` (theorem) in EtingofRepresentationTheory.Chapter7.Example7_3_2
-- `Etingof.not_bijective_of_gl_natural_dual` (theorem) in EtingofRepresentationTheory.Chapter7.Example7_3_2
-- `Etingof.contragredientFunctor` (def) in EtingofRepresentationTheory.Chapter7.Example7_3_2
-- `Etingof.not_natIso_id_contragredientFunctor` (theorem) in EtingofRepresentationTheory.Chapter7.Example7_3_2
-- `Etingof.forgetful_natEnd_eq_smul` (theorem) in EtingofRepresentationTheory.Chapter7.Example7_3_2
-- `Etingof.forgetful_smul_comp` (theorem) in EtingofRepresentationTheory.Chapter7.Example7_3_2
-- `Etingof.idFunctor_natEnd_eq_smul` (theorem) in EtingofRepresentationTheory.Chapter7.Example7_3_2
-- `Etingof.idFunctor_natEnd_central` (theorem) in EtingofRepresentationTheory.Chapter7.Example7_3_2
-- `Etingof.IsSemisimpleCategory` (def) in EtingofRepresentationTheory.Chapter7.Definition7_9_4
-- `Etingof.FullSubcategory` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_1_4
-- `Etingof.connectingHomomorphism` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_8_6
-- `Etingof.long_exact_seq_exact₁` (theorem) in EtingofRepresentationTheory.Chapter7.Definition7_8_6
-- `Etingof.long_exact_seq_exact₂` (theorem) in EtingofRepresentationTheory.Chapter7.Definition7_8_6
-- `Etingof.long_exact_seq_exact₃` (theorem) in EtingofRepresentationTheory.Chapter7.Definition7_8_6
-- `Etingof.additiveFunctor_shortExact_of_isSemisimpleCategory` (theorem) in EtingofRepresentationTheory.Chapter7.Discussion_after_Example7_9_5
-- `Etingof.Abelian` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_7_1
-- `Etingof.forgetful_representable` (def) in EtingofRepresentationTheory.Chapter7.Example7_5_3
-- `Etingof.Example753.forgetfulHom` (def) in EtingofRepresentationTheory.Chapter7.Example7_5_3
-- `Etingof.Example753.mem_forgetfulHom_iff` (theorem) in EtingofRepresentationTheory.Chapter7.Example7_5_3
-- `Etingof.Example753.forgetfulHom_eq_bot_of_not_hasEigenvalue` (theorem) in EtingofRepresentationTheory.Chapter7.Example7_5_3
-- `Etingof.Example753.exists_forgetfulHom_eq_bot` (theorem) in EtingofRepresentationTheory.Chapter7.Example7_5_3
-- `Etingof.Example753.forgetful_not_representable` (theorem) in EtingofRepresentationTheory.Chapter7.Example7_5_3
-- `homotopyRel` (def) in EtingofRepresentationTheory.Chapter7.Example7_1_3
-- `HomotopyTopCat` (abbrev) in EtingofRepresentationTheory.Chapter7.Example7_1_3
-- `Etingof.Adjunction` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_6_1
-- `Etingof.tensor_dual_adjunction_left` (def) in EtingofRepresentationTheory.Chapter7.Example7_6_3
-- `Etingof.tensor_dual_adjunction_right` (def) in EtingofRepresentationTheory.Chapter7.Example7_6_3
-- `Etingof.frobenius_reciprocity` (def) in EtingofRepresentationTheory.Chapter7.Example7_6_3
-- `Etingof.frobenius_reciprocity_res_ind` (def) in EtingofRepresentationTheory.Chapter7.Example7_6_3
-- `Etingof.uea_adjunction` (def) in EtingofRepresentationTheory.Chapter7.Example7_6_3
-- `Etingof.group_algebra_adjunction` (def) in EtingofRepresentationTheory.Chapter7.Example7_6_3
-- `Etingof.tensor_algebra_adjunction` (def) in EtingofRepresentationTheory.Chapter7.Example7_6_3
-- `Etingof.symmetric_algebra_adjunction` (def) in EtingofRepresentationTheory.Chapter7.Example7_6_3
-- `Etingof.CochainComplex'` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_8_1
-- `Etingof.differential` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_8_1
-- `Etingof.cohomology` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_8_1
-- `Etingof.ExactAt` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_8_1
-- `Etingof.IsExactSequence` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_8_1
-- `EtingofRepresentationTheory.Example722.funZPrecomp` (def) in EtingofRepresentationTheory.Chapter7.Example7_2_2
-- `Etingof.AdditiveFunctor` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_9_1
-- `Etingof.LinearFunctor` (abbrev) in EtingofRepresentationTheory.Chapter7.Definition7_9_1
-- ... and 5085 more
+- `Etingof.balancedSubgroup_smul_mem` (theorem) in EtingofRepresentationTheory.Chapter8.TensorOverModule
+- `Etingof.smul_mk` (theorem) in EtingofRepresentationTheory.Chapter8.TensorOverModule
+- `Etingof.opRegularEquiv` (def) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- `Etingof.opRegularProjective` (instance) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- `Etingof.hasProjectiveDimensionLT_two_of_shortExact` (lemma) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- `Etingof.isZero_obj_two_of_sixTerm_exact` (lemma) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- `Etingof.ZModGcd.castLin` (def) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- `Etingof.ZModGcd.span_smul_top_eq_ker` (lemma) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- `Etingof.ZModGcd.zmodCokerEquiv` (def) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- `Etingof.ZModGcd.mulByCast` (def) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- `Etingof.ZModGcd.kerGen` (def) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- `Etingof.ZModGcd.kerGen_intCast` (lemma) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- `Etingof.ZModGcd.kerGen_apply` (lemma) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- `Etingof.ZModGcd.zmodKerEquiv` (def) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- `Etingof.ZModGcd.tensorEquiv` (def) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- `Etingof.ZModGcd.homToKer` (def) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- `Etingof.ZModGcd.homEquiv` (def) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- `Etingof.Problem_8_2_7_i_tor_zero` (theorem) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- `Etingof.balancedSubgroup_int_eq_bot` (lemma) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- `Etingof.intTensorOverEquiv` (def) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- `Etingof.Problem_8_2_7_i_tor_one` (theorem) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- `Etingof.zmodMopResolution` (def) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- `Etingof.zmodZeroOpEquiv` (def) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- `Etingof.Problem_8_2_7_i_tor_vanish` (theorem) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- `Etingof.Problem_8_2_7_i_tor_free_vanish` (theorem) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- `Etingof.Problem_8_2_7_i_ext_zero` (theorem) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- `Etingof.Problem_8_2_7_i_ext_one` (theorem) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- `Etingof.zmod_hasProjectiveDimensionLT_two` (lemma) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- `Etingof.Problem_8_2_7_i_ext_vanish` (theorem) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- `Etingof.Problem_8_2_7_i_ext_free_vanish` (theorem) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- `Etingof.PolyGcd.mulBy` (def) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- `Etingof.PolyGcd.castLin` (def) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- `Etingof.PolyGcd.castLin_surjective` (lemma) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- `Etingof.PolyGcd.span_smul_top_eq_ker` (lemma) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- `Etingof.PolyGcd.cokerEquiv` (def) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- `Etingof.PolyGcd.tensorEquiv` (def) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- `Etingof.PolyGcd.kerEquiv` (def) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- `Etingof.PolyGcd.homToKer` (def) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- `Etingof.PolyGcd.homEquiv` (def) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- `Etingof.Problem_8_2_7_ii_tor_zero` (theorem) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- `Etingof.polyTensorOverEquiv` (def) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- `Etingof.Problem_8_2_7_ii_tor_one` (theorem) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- `Etingof.polyMopResolution` (def) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- `Etingof.polyZeroOpEquiv` (def) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- `Etingof.Problem_8_2_7_ii_tor_vanish` (theorem) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- `Etingof.Problem_8_2_7_ii_tor_free_vanish` (theorem) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- `Etingof.Problem_8_2_7_ii_ext_zero` (theorem) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- `Etingof.Problem_8_2_7_ii_ext_one` (theorem) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- `Etingof.polyQuot_hasProjectiveDimensionLT_two` (lemma) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- `Etingof.Problem_8_2_7_ii_ext_vanish` (theorem) in EtingofRepresentationTheory.Chapter8.Problem8_2_7
+- ... and 8095 more
 
 ### Group6-Formalization-on-Lie-algebra-rep (+42)
 
-- `card_eq_card_quotient_mul_card_subgroup'` (theorem) in Exercise.abstract_algebra
-- `center_eq_top'` (lemma) in Exercise.abstract_algebra
-- `Representation` (abbrev) in LieAlgRep.CasimirElement
-- `IsAssociativeBilForm` (def) in LieAlgRep.CasimirElement
-- `CasimirElement` (def) in LieAlgRep.CasimirElement
-- `bracket_in_glV` (lemma) in LieAlgRep.CasimirElement
-- `comm_zero_bracket` (lemma) in LieAlgRep.CasimirElement
+- `hello` (def) in LieAlgRep.Basic
+- `Representation` (abbrev) in LieAlgRep.lie_algebra
+- `IsAssociativeBilForm` (def) in LieAlgRep.lie_algebra
+- `CasimirElement` (def) in LieAlgRep.lie_algebra
+- `bracket_in_glV` (lemma) in LieAlgRep.lie_algebra
+- `comm_zero_bracket` (lemma) in LieAlgRep.lie_algebra
+- `Ideal.IsPrime_not_mem_mul` (theorem) in LieAlgRep.prime_ideal_aviod_Thm
+- `Multiset.erase_refl` (theorem) in LieAlgRep.prime_ideal_aviod_Thm
+- `prime_ideal_finset_version` (theorem) in LieAlgRep.prime_ideal_aviod_Thm
 - `Representation.asLieModule` (def) in LieAlgRep.lie_algebra
 - `Representation.asLieModuleEquiv` (def) in LieAlgRep.lie_algebra
 - `Representation.smul_map` (lemma) in LieAlgRep.lie_algebra
@@ -96,10 +98,8 @@
 - `Schur` (lemma) in LieAlgRep.lie_algebra
 - `HasBracket` (instance) in LieAlgRep.lie_algebra
 - `Codimension` (def) in LieAlgRep.lie_algebra
-- `hello` (def) in LieAlgRep.Basic
-- `Ideal.IsPrime_not_mem_mul` (theorem) in LieAlgRep.prime_ideal_aviod_Thm
-- `Multiset.erase_refl` (theorem) in LieAlgRep.prime_ideal_aviod_Thm
-- `prime_ideal_finset_version` (theorem) in LieAlgRep.prime_ideal_aviod_Thm
+- `card_eq_card_quotient_mul_card_subgroup'` (theorem) in Exercise.abstract_algebra
+- `center_eq_top'` (lemma) in Exercise.abstract_algebra
 
 ### LieClassification (+1)
 
@@ -107,17 +107,14 @@
 
 ### LowDimSolvClassification (+300)
 
-- `LieAlgebra.Dim3.aux_dim_comm` (lemma) in Lie.Classification3
-- `LieAlgebra.Dim3.heisenberg_iff` (theorem) in Lie.Classification3
-- `LieAlgebra.Dim3.affinePlusAbelian_iff` (theorem) in Lie.Classification3
-- `LieAlgebra.Dim3.hyperbolic_iff` (theorem) in Lie.Classification3
-- `LieAlgebra.Dim3.family_iff` (theorem) in Lie.Classification3
-- `LieAlgebra.Dim3.classification` (theorem) in Lie.Classification3
-- `LieAlgebra.Dim3.Family.iso_iff` (theorem) in Lie.Classification3
-- `LieAlgebra.Dim3.Family.not_iso_hyperbolic` (theorem) in Lie.Classification3
-- `LieAlgebra.Dim3.Family.iso_1` (theorem) in Lie.Classification3
-- `LieAlgebra.Dim3.Family.not_iso_0_1` (theorem) in Lie.Classification3
-- `LieAlgebra.Dim3.Family.iso_0` (theorem) in Lie.Classification3
+- `LieAlgebra.Dim3.case1a` (lemma) in Lie.LemmasDim3
+- `LieAlgebra.Dim3.case1a'` (lemma) in Lie.LemmasDim3
+- `LieAlgebra.Dim3.case1b` (lemma) in Lie.LemmasDim3
+- `LieAlgebra.Dim3.case1b'` (lemma) in Lie.LemmasDim3
+- `LieAlgebra.Dim3.commutator_abelian_of_dim_two` (lemma) in Lie.LemmasDim3
+- `LieAlgebra.Dim3.case2_coarse` (lemma) in Lie.LemmasDim3
+- `LieAlgebra.Dim3.finrank_com_eq2_from_basis_bracket` (lemma) in Lie.LemmasDim3
+- `LieAlgebra.Dim3.case2` (lemma) in Lie.LemmasDim3
 - `LieAlgebra.mkAbelian` (def) in Lie.InstancesConstructions
 - `LieAlgebra.Abelian.DerivationOfLinearMap'` (def) in Lie.InstancesConstructions
 - `LieAlgebra.Abelian.DerivationOfLinearMap` (def) in Lie.InstancesConstructions
@@ -130,33 +127,36 @@
 - `LieAlgebra.RealHyperbolicAux` (def) in Lie.InstancesConstructions
 - `LieAlgebra.RealHyperbolic` (abbrev) in Lie.InstancesConstructions
 - `LieAlgebra.RealHyperbolic'` (abbrev) in Lie.InstancesConstructions
-- `LieSemidirectProduct` (def) in Lie.Semidirect
-- `LieSemidirectProduct.ext` (theorem) in Lie.Semidirect
-- `LieSemidirectProduct.add_left` (theorem) in Lie.Semidirect
-- `LieSemidirectProduct.add_right` (theorem) in Lie.Semidirect
-- `LieSemidirectProduct.zero_left` (theorem) in Lie.Semidirect
-- `LieSemidirectProduct.zero_right` (theorem) in Lie.Semidirect
-- `LieSemidirectProduct.neg_left` (theorem) in Lie.Semidirect
-- `LieSemidirectProduct.neg_right` (theorem) in Lie.Semidirect
-- `LieSemidirectProduct.smul_left` (theorem) in Lie.Semidirect
-- `LieSemidirectProduct.smul_right` (theorem) in Lie.Semidirect
-- `LieSemidirectProduct.bracket_def` (lemma) in Lie.Semidirect
-- `LieSemidirectProduct.inl` (def) in Lie.Semidirect
-- `LieSemidirectProduct.inr` (def) in Lie.Semidirect
-- `LieSemidirectProduct.fst` (def) in Lie.Semidirect
-- `LieSemidirectProduct.fst_inl` (theorem) in Lie.Semidirect
-- `LieSemidirectProduct.fst_inr` (theorem) in Lie.Semidirect
-- `LieSemidirectProduct.fst_inl'` (theorem) in Lie.Semidirect
-- `LieSemidirectProduct.fst_inr'` (theorem) in Lie.Semidirect
-- `LieSemidirectProduct.snd_inl'` (theorem) in Lie.Semidirect
-- `LieSemidirectProduct.snd_inr'` (theorem) in Lie.Semidirect
-- `LieSemidirectProduct.inl_left_add_inr_right` (theorem) in Lie.Semidirect
-- `LieSemidirectProduct.leftSubalgebra` (def) in Lie.Semidirect
-- `LieSemidirectProduct.rightIdeal` (def) in Lie.Semidirect
-- `LieSemidirectProduct.rightIdeal_equiv_right` (def) in Lie.Semidirect
-- `LieSemidirectProduct.range_inr_eq_ker_fst` (theorem) in Lie.Semidirect
-- `LieSemidirectProduct.finrank_eq` (theorem) in Lie.Semidirect
-- `LieSemidirectProduct.isAlmostAbelian` (theorem) in Lie.Semidirect
+- `LieIdeal.comap_incl_eq_bot` (theorem) in Lie.QuotientSolvable
+- `LieAlgebra.Quotient.mk'` (def) in Lie.QuotientSolvable
+- `LieAlgebra.surjective_mk'` (theorem) in Lie.QuotientSolvable
+- `LieAlgebra.solvable_of_ideal_and_quot_solvable` (theorem) in Lie.QuotientSolvable
+- `LieAlgebra.Dim2.abelian_or_basis` (lemma) in Lie.Classification2
+- `LieAlgebra.Dim2.classification` (theorem) in Lie.Classification2
+- `LieAlgebra.Dim2.not_iso` (theorem) in Lie.Classification2
+- `LieAlgebra.Dim2.solvable` (theorem) in Lie.Classification2
+- `LieAlgebra.solvable_of_dim_comm_le_two` (theorem) in Lie.Classification2
+- `LieAlgebra.Dim2.Abelian` (abbrev) in Lie.InstancesLowDim
+- `LieAlgebra.Dim2.Affine` (def) in Lie.InstancesLowDim
+- `LieAlgebra.Dim2.Affine.bracket` (theorem) in Lie.InstancesLowDim
+- `LieAlgebra.Dim2.Affine.equivToLieAlgOfAffineEquiv` (def) in Lie.InstancesLowDim
+- `LieAlgebra.Dim2.Affine.equivToRealHyperbolic` (def) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Abelian` (abbrev) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Heisenberg` (def) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Heisenberg.bracket` (theorem) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.AffinePlusAbelian` (def) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.AffinePlusAbelian.bracket` (theorem) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Hyperbolic` (def) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Hyperbolic.bracket` (theorem) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Family` (def) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Family.bracket` (theorem) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Heisenberg.semidirectAux'` (def) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Heisenberg.semidirectAux` (def) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.Heisenberg.equivToSemidirect` (def) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.AffinePlusAbelian.equivToDirectSum` (def) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.AffinePlusAbelian.semidirectAux'` (def) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.AffinePlusAbelian.semidirectAux` (def) in Lie.InstancesLowDim
+- `LieAlgebra.Dim3.AffinePlusAbelian.equivToSemidirect` (def) in Lie.InstancesLowDim
 - ... and 250 more
 
 ### finite-groups (+48)
@@ -166,6 +166,20 @@
 - `FG.matrix_representation.is_equivalent_iff` (lemma) in src.matrix_representation
 - `FG.matrix_representation.irreducible_representation` (def) in src.matrix_representation
 - `FG.schur_lemma.schur_lemma₂` (lemma) in src.schur_lemma
+- `FG.block_diagonal` (inductive) in src.linear_space.block_diagonal
+- `FG.block_diagonal.to_func` (def) in src.linear_space.block_diagonal
+- `FG.matrix_func` (def) in src.linear_space.square_matrix
+- `FG.square_matrix` (def) in src.linear_space.square_matrix
+- `FG.square_matrix.is_invertible` (def) in src.linear_space.square_matrix
+- `FG.square_matrix.det1_eq` (lemma) in src.linear_space.square_matrix
+- `FG.square_matrix.det2_eq` (lemma) in src.linear_space.square_matrix
+- `FG.miscs.vector_annihilates_right` (def) in src.linear_space.miscs
+- `FG.miscs.vector_annihilates_left` (def) in src.linear_space.miscs
+- `FG.miscs.vector_annihilates` (def) in src.linear_space.miscs
+- `FG.miscs.vector_annihilates_or_ivertible` (lemma) in src.linear_space.miscs
+- `FG.invertible_matrix` (def) in src.linear_space.invertible_matrix
+- `FG.vec` (def) in src.linear_space.vector
+- `FG.vec.smul` (def) in src.linear_space.vector
 - `FG.finite_group` (class) in src.basic.finite_group
 - `FG.linear_operator` (def) in src.basic.representation
 - `FG.representation` (class) in src.basic.representation
@@ -184,27 +198,13 @@
 - `FG.mat3.inverse` (def) in src.linear_space3.invertible_mat3
 - `FG.mat3.det_iff` (theorem) in src.linear_space3.invertible_mat3
 - `FG.mat3.inverse_invertible` (lemma) in src.linear_space3.invertible_mat3
-- `FG.vec` (def) in src.linear_space.vector
-- `FG.vec.smul` (def) in src.linear_space.vector
-- `FG.block_diagonal` (inductive) in src.linear_space.block_diagonal
-- `FG.block_diagonal.to_func` (def) in src.linear_space.block_diagonal
-- `FG.miscs.vector_annihilates_right` (def) in src.linear_space.miscs
-- `FG.miscs.vector_annihilates_left` (def) in src.linear_space.miscs
-- `FG.miscs.vector_annihilates` (def) in src.linear_space.miscs
-- `FG.miscs.vector_annihilates_or_ivertible` (lemma) in src.linear_space.miscs
-- `FG.matrix_func` (def) in src.linear_space.square_matrix
-- `FG.square_matrix` (def) in src.linear_space.square_matrix
-- `FG.square_matrix.is_invertible` (def) in src.linear_space.square_matrix
-- `FG.square_matrix.det1_eq` (lemma) in src.linear_space.square_matrix
-- `FG.square_matrix.det2_eq` (lemma) in src.linear_space.square_matrix
-- `FG.invertible_matrix` (def) in src.linear_space.invertible_matrix
-- `FG.example_parity.ℤ₂` (inductive) in src.examples.Z2
-- `FG.example_parity.ℤ₂.rep` (def) in src.examples.Z2
 - `FG.example_S₃.S₃` (inductive) in src.examples.S3
 - `FG.example_S₃.S₃.is_non_abelian` (lemma) in src.examples.S3
 - `FG.example_int.group_int` (structure) in src.examples.int_addition
 - `FG.example_int.group_int.rep` (def) in src.examples.int_addition
 - `FG.example_int.group_int.rep.is_reducible_by_P` (lemma) in src.examples.int_addition
+- `FG.example_parity.ℤ₂` (inductive) in src.examples.Z2
+- `FG.example_parity.ℤ₂.rep` (def) in src.examples.Z2
 - `FG.example_Z₃.Z₃` (inductive) in src.linear_space3.examples.Z3
 - `FG.example_Z₃.Z₃.rep1` (def) in src.linear_space3.examples.Z3
 - `FG.example_Z₃.Z₃.rep2` (def) in src.linear_space3.examples.Z3
@@ -222,7 +222,7 @@
 - `joyalRepresentation.orderEmbedding` (def) in JoyalRepresentationTheorem
 - `joyalRepresentation.heytingHom` (def) in JoyalRepresentationTheorem
 
-### mathlib4 (+5924)
+### mathlib4 (+5929)
 
 - `Action.tensor_ρ_apply` (theorem) in Mathlib.RepresentationTheory.Action
 - `AddGroupLieAlgebra` (def) in Mathlib.Geometry.Manifold.GroupLieAlgebra
@@ -274,60 +274,60 @@
 - `CartanMatrix.E₆_diag` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
 - `CartanMatrix.E₆_isSymm` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
 - `CartanMatrix.E₆_off_diag_nonpos` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
-- ... and 5874 more
+- ... and 5879 more
 
 ### mini-representation-lie-theory (+6028)
 
-- `main` (def) in mini-vertex-algebras.Test.Main
-- `MiniCharacterTheory.kernelOfCharacter` (def) in mini-character-theory.MiniCharacterTheory.Applications.ToGroupTheory
-- `MiniCharacterTheory.kernelIsNormal` (def) in mini-character-theory.MiniCharacterTheory.Applications.ToGroupTheory
-- `MiniCharacterTheory.simplicityCriterion` (def) in mini-character-theory.MiniCharacterTheory.Applications.ToGroupTheory
-- `MiniCharacterTheory.allCharKernelsIntersectTrivial` (def) in mini-character-theory.MiniCharacterTheory.Applications.ToGroupTheory
-- `MiniCharacterTheory.centerViaCharacters` (def) in mini-character-theory.MiniCharacterTheory.Applications.ToGroupTheory
-- `MiniCharacterTheory.commutatorViaCharacters` (def) in mini-character-theory.MiniCharacterTheory.Applications.ToGroupTheory
-- `MiniCharacterTheory.numLinearChars` (def) in mini-character-theory.MiniCharacterTheory.Applications.ToGroupTheory
-- `MiniCharacterTheory.sameCharTableNotIsomorphic` (def) in mini-character-theory.MiniCharacterTheory.Applications.ToGroupTheory
-- `MiniCharacterTheory.groupsOfOrderLessThan60` (def) in mini-character-theory.MiniCharacterTheory.Applications.ToGroupTheory
-- `MiniCharacterTheory.algebraicIntegers` (def) in mini-character-theory.MiniCharacterTheory.Applications.ToNumberTheory
-- `MiniCharacterTheory.characterValuesInCyclotomicField` (def) in mini-character-theory.MiniCharacterTheory.Applications.ToNumberTheory
-- `MiniCharacterTheory.galoisActionOnCharValues` (def) in mini-character-theory.MiniCharacterTheory.Applications.ToNumberTheory
-- `MiniCharacterTheory.dirichletLSeries` (def) in mini-character-theory.MiniCharacterTheory.Applications.ToNumberTheory
-- `MiniCharacterTheory.dirichletsTheorem` (def) in mini-character-theory.MiniCharacterTheory.Applications.ToNumberTheory
-- `MiniCharacterTheory.artinLFunction` (def) in mini-character-theory.MiniCharacterTheory.Applications.ToNumberTheory
-- `MiniCharacterTheory.artinReciprocity` (def) in mini-character-theory.MiniCharacterTheory.Applications.ToNumberTheory
-- `MiniCharacterTheory.langlandsCorrespondence` (def) in mini-character-theory.MiniCharacterTheory.Applications.ToNumberTheory
-- `MiniCharacterTheory.BurnsideTheorem.burnsides_paqb` (def) in mini-character-theory.MiniCharacterTheory.Theorems.Burnside
-- `MiniCharacterTheory.BurnsideTheorem.nonabelianSimpleOrder` (def) in mini-character-theory.MiniCharacterTheory.Theorems.Burnside
-- `MiniCharacterTheory.BurnsideTheorem.smallestNonabelianSimple` (def) in mini-character-theory.MiniCharacterTheory.Theorems.Burnside
-- `MiniCharacterTheory.BurnsideTheorem.cubeFreeOrderSolvable` (def) in mini-character-theory.MiniCharacterTheory.Theorems.Burnside
-- `MiniCharacterTheory.BurnsideTheorem.squarefreeOrderSolvable` (def) in mini-character-theory.MiniCharacterTheory.Theorems.Burnside
-- `MiniCharacterTheory.monomialCharacter` (def) in mini-character-theory.MiniCharacterTheory.Theorems.Burnside
-- `MiniCharacterTheory.taketasTheorem` (def) in mini-character-theory.MiniCharacterTheory.Theorems.Burnside
-- `MiniCharacterTheory.supersolvableIsMGroup` (def) in mini-character-theory.MiniCharacterTheory.Theorems.Burnside
-- `MiniCharacterTheory.frobeniusGroup` (def) in mini-character-theory.MiniCharacterTheory.Theorems.Burnside
-- `MiniCharacterTheory.frobeniusKernelTheorem` (def) in mini-character-theory.MiniCharacterTheory.Theorems.Burnside
-- `MiniCharacterTheory.frobeniusComplementTheorem` (def) in mini-character-theory.MiniCharacterTheory.Theorems.Burnside
-- `MiniCharacterTheory.feitThompsonTheorem` (def) in mini-character-theory.MiniCharacterTheory.Theorems.Burnside
-- `MiniCharacterTheory.simpleGroupsHaveEvenOrder` (def) in mini-character-theory.MiniCharacterTheory.Theorems.Burnside
-- `MiniCharacterTheory.VirtualChar` (structure) in mini-character-theory.MiniCharacterTheory.Theorems.CharacterRing
-- `MiniCharacterTheory.VirtualChar.ofCharacter` (def) in mini-character-theory.MiniCharacterTheory.Theorems.CharacterRing
-- `MiniCharacterTheory.VirtualChar.add` (def) in mini-character-theory.MiniCharacterTheory.Theorems.CharacterRing
-- `MiniCharacterTheory.VirtualChar.sub` (def) in mini-character-theory.MiniCharacterTheory.Theorems.CharacterRing
-- `MiniCharacterTheory.VirtualChar.mul` (def) in mini-character-theory.MiniCharacterTheory.Theorems.CharacterRing
-- `MiniCharacterTheory.VirtualChar.neg` (def) in mini-character-theory.MiniCharacterTheory.Theorems.CharacterRing
-- `MiniCharacterTheory.CharacterRing.isRing` (def) in mini-character-theory.MiniCharacterTheory.Theorems.CharacterRing
-- `MiniCharacterTheory.CharacterRing.irrCharsFormBasis` (def) in mini-character-theory.MiniCharacterTheory.Theorems.CharacterRing
-- `MiniCharacterTheory.CharacterRing.rankOfR` (def) in mini-character-theory.MiniCharacterTheory.Theorems.CharacterRing
-- `MiniCharacterTheory.CharacterRing.unitGroup` (def) in mini-character-theory.MiniCharacterTheory.Theorems.CharacterRing
-- `MiniCharacterTheory.adamsOperation` (def) in mini-character-theory.MiniCharacterTheory.Theorems.CharacterRing
-- `MiniCharacterTheory.adamsRingHomomorphism` (def) in mini-character-theory.MiniCharacterTheory.Theorems.CharacterRing
-- `MiniCharacterTheory.adamsPermutesIrr` (def) in mini-character-theory.MiniCharacterTheory.Theorems.CharacterRing
-- `MiniCharacterTheory.lambdaRingStructure` (def) in mini-character-theory.MiniCharacterTheory.Theorems.CharacterRing
-- `MiniCharacterTheory.powerMapRingHom` (def) in mini-character-theory.MiniCharacterTheory.Theorems.CharacterRing
-- `MiniCharacterTheory.adamsOperationsComposition` (def) in mini-character-theory.MiniCharacterTheory.Theorems.CharacterRing
-- `MiniCharacterTheory.adamsCongruence` (def) in mini-character-theory.MiniCharacterTheory.Theorems.CharacterRing
-- `MiniCharacterTheory.augmentationMap` (def) in mini-character-theory.MiniCharacterTheory.Theorems.CharacterRing
-- `MiniCharacterTheory.tensorInduction` (def) in mini-character-theory.MiniCharacterTheory.Theorems.CharacterRing
+- `main` (def) in mini-vertex-algebras.Test.Smoke
+- `MiniLieAlgebras.Basic.Field` (class) in mini-lie-algebras.MiniLieAlgebras.Basic
+- `MiniLieAlgebras.Basic.Field.sub_eq_add_neg` (def) in mini-lie-algebras.MiniLieAlgebras.Basic
+- `MiniLieAlgebras.Basic.Field.neg_zero` (theorem) in mini-lie-algebras.MiniLieAlgebras.Basic
+- `MiniLieAlgebras.Basic.Field.sub_self` (theorem) in mini-lie-algebras.MiniLieAlgebras.Basic
+- `MiniLieAlgebras.Basic.Field.add_left_cancel` (theorem) in mini-lie-algebras.MiniLieAlgebras.Basic
+- `MiniLieAlgebras.Basic.Field.add_right_cancel` (theorem) in mini-lie-algebras.MiniLieAlgebras.Basic
+- `MiniLieAlgebras.Basic.Field.mul_add'` (theorem) in mini-lie-algebras.MiniLieAlgebras.Basic
+- `MiniLieAlgebras.Basic.Field.add_mul'` (theorem) in mini-lie-algebras.MiniLieAlgebras.Basic
+- `MiniLieAlgebras.Basic.Field.neg_mul` (theorem) in mini-lie-algebras.MiniLieAlgebras.Basic
+- `MiniLieAlgebras.Basic.Field.mul_neg` (theorem) in mini-lie-algebras.MiniLieAlgebras.Basic
+- `MiniLieAlgebras.Basic.Field.neg_mul_neg` (theorem) in mini-lie-algebras.MiniLieAlgebras.Basic
+- `MiniLieAlgebras.Basic.Field.eq_zero_of_mul_eq_zero_left` (theorem) in mini-lie-algebras.MiniLieAlgebras.Basic
+- `MiniLieAlgebras.Basic.Field.eq_zero_of_mul_eq_zero_right` (theorem) in mini-lie-algebras.MiniLieAlgebras.Basic
+- `MiniLieAlgebras.Basic.Field.inv_mul_cancel` (theorem) in mini-lie-algebras.MiniLieAlgebras.Basic
+- `MiniLieAlgebras.Basic.Field.mul_inv_cancel` (theorem) in mini-lie-algebras.MiniLieAlgebras.Basic
+- `MiniLieAlgebras.Basic.Field.mul_left_cancel` (theorem) in mini-lie-algebras.MiniLieAlgebras.Basic
+- `MiniLieAlgebras.Basic.Field.inv_one` (theorem) in mini-lie-algebras.MiniLieAlgebras.Basic
+- `MiniLieAlgebras.Basic.Field.mul_ne_zero` (theorem) in mini-lie-algebras.MiniLieAlgebras.Basic
+- `MiniLieAlgebras.Basic.constants,` (structure) in mini-lie-algebras.MiniLieAlgebras.Basic
+- `MiniAlgebraicGroups.binomial` (def) in mini-algebraic-groups.MiniAlgebraicGroups.Bridges.ToGeometry
+- `MiniAlgebraicGroups.numSchubertCells` (def) in mini-algebraic-groups.MiniAlgebraicGroups.Bridges.ToGeometry
+- `MiniAlgebraicGroups.LieAlgebraOf` (structure) in mini-algebraic-groups.MiniAlgebraicGroups.Bridges.ToLieTheory
+- `MiniAlgebraicGroups.NilpotentCone` (structure) in mini-algebraic-groups.MiniAlgebraicGroups.Advanced.SpringerResolution
+- `MiniAlgebraicGroups.numPartitions` (def) in mini-algebraic-groups.MiniAlgebraicGroups.Advanced.SpringerResolution
+- `MiniAlgebraicGroups.FrobeniusEndomorphism` (structure) in mini-algebraic-groups.MiniAlgebraicGroups.Advanced.FrobeniusMorphism
+- `MiniAlgebraicGroups.steinbergModuleDimSL2` (def) in mini-algebraic-groups.MiniAlgebraicGroups.Advanced.FrobeniusMorphism
+- `MiniAlgebraicGroups.AlgebraicGroupHom` (structure) in mini-algebraic-groups.MiniAlgebraicGroups.Core.Laws
+- `MiniAlgebraicGroups.Kernel` (def) in mini-algebraic-groups.MiniAlgebraicGroups.Core.Laws
+- `MiniAlgebraicGroups.Image` (def) in mini-algebraic-groups.MiniAlgebraicGroups.Core.Laws
+- `MiniAlgebraicGroups.Isogeny` (structure) in mini-algebraic-groups.MiniAlgebraicGroups.Core.Laws
+- `MiniAlgebraicGroups.Isogeny.degree` (def) in mini-algebraic-groups.MiniAlgebraicGroups.Core.Laws
+- `MiniAlgebraicGroups.homPreservesIdentity` (theorem) in mini-algebraic-groups.MiniAlgebraicGroups.Core.Laws
+- `MiniAlgebraicGroups.homPreservesMul` (theorem) in mini-algebraic-groups.MiniAlgebraicGroups.Core.Laws
+- `MiniAlgebraicGroups.ExactSequence` (structure) in mini-algebraic-groups.MiniAlgebraicGroups.Core.Laws
+- `MiniAlgebraicGroups.GroupAction` (structure) in mini-algebraic-groups.MiniAlgebraicGroups.Core.Laws
+- `MiniAlgebraicGroups.Orbit` (def) in mini-algebraic-groups.MiniAlgebraicGroups.Core.Laws
+- `MiniAlgebraicGroups.Matrix` (def) in mini-algebraic-groups.MiniAlgebraicGroups.Core.Basic
+- `MiniAlgebraicGroups.Matrix.zero` (def) in mini-algebraic-groups.MiniAlgebraicGroups.Core.Basic
+- `MiniAlgebraicGroups.Matrix.ofFn` (def) in mini-algebraic-groups.MiniAlgebraicGroups.Core.Basic
+- `MiniAlgebraicGroups.Matrix.one` (def) in mini-algebraic-groups.MiniAlgebraicGroups.Core.Basic
+- `MiniAlgebraicGroups.Matrix.add` (def) in mini-algebraic-groups.MiniAlgebraicGroups.Core.Basic
+- `MiniAlgebraicGroups.Matrix.smul` (def) in mini-algebraic-groups.MiniAlgebraicGroups.Core.Basic
+- `MiniAlgebraicGroups.Matrix.neg` (def) in mini-algebraic-groups.MiniAlgebraicGroups.Core.Basic
+- `MiniAlgebraicGroups.Matrix.det2` (def) in mini-algebraic-groups.MiniAlgebraicGroups.Core.Basic
+- `MiniAlgebraicGroups.Matrix.det3` (def) in mini-algebraic-groups.MiniAlgebraicGroups.Core.Basic
+- `MiniAlgebraicGroups.GL` (structure) in mini-algebraic-groups.MiniAlgebraicGroups.Core.Basic
+- `MiniAlgebraicGroups.GL.one` (def) in mini-algebraic-groups.MiniAlgebraicGroups.Core.Basic
+- `MiniAlgebraicGroups.GL.mul` (def) in mini-algebraic-groups.MiniAlgebraicGroups.Core.Basic
+- `MiniAlgebraicGroups.GL.inv` (def) in mini-algebraic-groups.MiniAlgebraicGroups.Core.Basic
 - ... and 5978 more
 
 ### modularreptheory (+1)
@@ -336,4 +336,4 @@
 
 ## Update History (1 runs)
 
-- **2026-07-06T07:59:48.333556+00:00**: Checked 12 repos, updated 13, +11564 -0 declarations
+- **2026-07-20T07:31:34.692757+00:00**: Checked 13 repos, updated 14, +14574 -0 declarations
