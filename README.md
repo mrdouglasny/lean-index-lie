@@ -2,7 +2,7 @@
 
 Topical index for Lie algebra formalization in Lean 4. **[How to use this index in your project](https://github.com/mrdouglasny/lean-index/blob/main/docs/use-topic-index.md)**
 
-**7,827 topic-matched declarations** across **7 repositories** (scanned 14 repos, 20,503 declarations).
+**8,150 topic-matched declarations** across **8 repositories** (scanned 15 repos, 24,579 declarations).
 
 Tracks Lean declarations related to:
 - **Representation theory**: Lie modules, weight spaces, irreducibility, Schur's lemma
@@ -15,10 +15,11 @@ See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](RE
 
 | Repository | Topic Matches | Description |
 |-----------|:---:|-------------|
-| [leanprover-community/mathlib4](https://github.com/leanprover-community/mathlib4) | 5,929 | Mathlib: the math library for Lean 4 |
+| [leanprover-community/mathlib4](https://github.com/leanprover-community/mathlib4) | 5,937 | Mathlib: the math library for Lean 4 |
 | [rootkiller6788/mini-representation-lie-theory](https://github.com/rootkiller6788/mini-representation-lie-theory) | 1,085 | Representation theory and Lie theory built from scratch, learn algebraic... |
-| [FormalFrontier/Etingof-RepresentationTheory-draft1](https://github.com/FormalFrontier/Etingof-RepresentationTheory-draft1) | 525 |  |
+| [FormalFrontier/Etingof-RepresentationTheory-draft1](https://github.com/FormalFrontier/Etingof-RepresentationTheory-draft1) | 794 |  |
 | [LieLean/LowDimSolvClassification](https://github.com/LieLean/LowDimSolvClassification) | 249 | Low-dimensional solvable Lie algebra classification (Lean 4) |
+| [mrdouglasny/TauCeti-reviews-pr62](https://github.com/mrdouglasny/TauCeti-reviews-pr62) | 46 | Supervised, question-driven review of TauCetiRoadmap PR #62... |
 | [bicmr-ai4math/Group6-Formalization-on-Lie-algebra-rep](https://github.com/bicmr-ai4math/Group6-Formalization-on-Lie-algebra-rep) | 32 | Formalization of finite-dimensional Lie algebra representations (Lean 4) |
 | [awodey/joyal](https://github.com/awodey/joyal) | 6 |  |
 | [ocfnash/LieClassification](https://github.com/ocfnash/LieClassification) | 1 | Classification of finite-dimensional Lie algebras (Lean 4) |
