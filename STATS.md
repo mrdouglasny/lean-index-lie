@@ -1,27 +1,27 @@
 # Lean Index Statistics
 
-**9,761 topic-matched declarations** across **10 repositories**
-(26,291 total declarations scanned from 27 repos)
+**9,965 topic-matched declarations** across **11 repositories**
+(26,454 total declarations scanned from 28 repos)
 
 ## By Topic
 
 | Topic                          |    Matches |
 |--------------------------------|------------|
-| representation-theory          |      4,536 |
-| lie-algebras                   |      3,777 |
+| representation-theory          |      4,698 |
+| lie-algebras                   |      3,819 |
 | root-systems                   |      1,448 |
 
 ## By Kind (topic-matched only)
 
 | Kind            |      Count |
 |-----------------|------------|
-| theorem         |      5,011 |
-| def             |      2,180 |
-| instance        |        638 |
-| structure       |        386 |
-| lemma           |        109 |
+| theorem         |      5,135 |
+| def             |      2,213 |
+| instance        |        639 |
+| structure       |        388 |
+| lemma           |        110 |
 | ctor            |         91 |
-| abbrev          |         59 |
+| abbrev          |         60 |
 | class           |         46 |
 | inductive       |         18 |
 
@@ -33,6 +33,7 @@
 | mini-representation-lie-theory      |      1,085 |      6,028 |
 | Etingof-RepresentationTheory-draft1 |        950 |     13,570 |
 | LowDimSolvClassification            |        249 |        300 |
+| QuantumRepresentationTheory         |        162 |        163 |
 | category-theory-representation-theo |        108 |        115 |
 | category-theory-representation-theo |        102 |        102 |
 | TauCeti-reviews-pr62                |         46 |         46 |
@@ -42,9 +43,9 @@
 
 ## Last Update
 
-- **When**: 2026-08-03T07:33:49.438205+00:00
-- **Repos checked**: 26
-- **Repos updated**: 27
-- **New declarations**: 20332
+- **When**: 2026-08-10T06:49:20.943074+00:00
+- **Repos checked**: 27
+- **Repos updated**: 28
+- **New declarations**: 20495
 - **Removed declarations**: 0
-- **Summary**: Checked 26 repos, updated 27, +20332 -0 declarations
+- **Summary**: Checked 27 repos, updated 28, +20495 -0 declarations

@@ -1,6 +1,6 @@
-# Changelog (since 2026-07-27)
+# Changelog (since 2026-08-03)
 
-## New Declarations (26291)
+## New Declarations (26454)
 
 ### Etingof-RepresentationTheory-draft1 (+13570)
 
@@ -158,6 +158,60 @@
 - `Mathlib.Tactic.LieSolver.NF.smul_eq_eval` (theorem) in Lie.Tactics
 - `Mathlib.Tactic.LieSolver.NF.eq_cons_cons` (theorem) in Lie.Tactics
 - ... and 250 more
+
+### QuantumRepresentationTheory (+163)
+
+- `hello` (def) in QuantumRepresentationTheory.Basic
+- `QuantumRepresentationTheory.AngularMomentumRepresentation.IsIrreducible` (def) in QuantumRepresentationTheory.AngularMomentum.Classification
+- `QuantumRepresentationTheory.AngularMomentumRepresentation.isIrreducible_iff` (theorem) in QuantumRepresentationTheory.AngularMomentum.Classification
+- `QuantumRepresentationTheory.AngularMomentumRepresentation.spin_classification` (theorem) in QuantumRepresentationTheory.AngularMomentum.Classification
+- `QuantumRepresentationTheory.AngularMomentumRepresentation.Jp_mul_Jm` (theorem) in QuantumRepresentationTheory.AngularMomentum.Classification
+- `QuantumRepresentationTheory.AngularMomentumRepresentation.Jsq_eq_Jp_mul_Jm` (theorem) in QuantumRepresentationTheory.AngularMomentum.Classification
+- `QuantumRepresentationTheory.AngularMomentumRepresentation.leibniz_end` (theorem) in QuantumRepresentationTheory.AngularMomentum.Classification
+- `QuantumRepresentationTheory.AngularMomentumRepresentation.Jsq_comm_p` (theorem) in QuantumRepresentationTheory.AngularMomentum.Classification
+- `QuantumRepresentationTheory.AngularMomentumRepresentation.Jsq_comm_m` (theorem) in QuantumRepresentationTheory.AngularMomentum.Classification
+- `QuantumRepresentationTheory.AngularMomentumRepresentation.Jsq_comm_z` (theorem) in QuantumRepresentationTheory.AngularMomentum.Classification
+- `QuantumRepresentationTheory.AngularMomentumRepresentation.Jsq_eq_smul` (theorem) in QuantumRepresentationTheory.AngularMomentum.Classification
+- `QuantumRepresentationTheory.AngularMomentumRepresentation.magneticBasisVec` (def) in QuantumRepresentationTheory.AngularMomentum.Classification
+- `QuantumRepresentationTheory.AngularMomentumRepresentation` (structure) in QuantumRepresentationTheory.AngularMomentum.Basic
+- `QuantumRepresentationTheory.AngularMomentumRepresentation.Jp` (def) in QuantumRepresentationTheory.AngularMomentum.Basic
+- `QuantumRepresentationTheory.AngularMomentumRepresentation.Jm` (def) in QuantumRepresentationTheory.AngularMomentum.Basic
+- `QuantumRepresentationTheory.AngularMomentumRepresentation.comm_z_p` (theorem) in QuantumRepresentationTheory.AngularMomentum.Basic
+- `QuantumRepresentationTheory.AngularMomentumRepresentation.comm_z_m` (theorem) in QuantumRepresentationTheory.AngularMomentum.Basic
+- `QuantumRepresentationTheory.AngularMomentumRepresentation.comm_p_m` (theorem) in QuantumRepresentationTheory.AngularMomentum.Basic
+- `QuantumRepresentationTheory.AngularMomentumRepresentation.isSl2Triple` (theorem) in QuantumRepresentationTheory.AngularMomentum.Basic
+- `QuantumRepresentationTheory.exists_ker_smul_id_ne_bot` (theorem) in QuantumRepresentationTheory.Representation.Schur
+- `QuantumRepresentationTheory.schur` (theorem) in QuantumRepresentationTheory.Representation.Schur
+- `QuantumRepresentationTheory.instEndLieRing` (instance) in QuantumRepresentationTheory.Representation.Basic
+- `QuantumRepresentationTheory.LieRepresentation` (abbrev) in QuantumRepresentationTheory.Representation.Basic
+- `QuantumRepresentationTheory.IsInvariantSubspace` (def) in QuantumRepresentationTheory.Representation.Basic
+- `QuantumRepresentationTheory.IsIrreducible` (def) in QuantumRepresentationTheory.Representation.Basic
+- `QuantumRepresentationTheory.IsIntertwiner` (def) in QuantumRepresentationTheory.Representation.Basic
+- `QuantumRepresentationTheory.IsIntertwiner.ker_isInvariant` (theorem) in QuantumRepresentationTheory.Representation.Basic
+- `QuantumRepresentationTheory.IsIntertwiner.range_isInvariant` (theorem) in QuantumRepresentationTheory.Representation.Basic
+- `QuantumRepresentationTheory.exists_joint_primitive` (theorem) in QuantumRepresentationTheory.Sl2.CommutingActions
+- `QuantumRepresentationTheory.toEnd_ambient_eq` (theorem) in QuantumRepresentationTheory.Sl2.CommutingActions
+- `QuantumRepresentationTheory.exists_bivariate_basis` (theorem) in QuantumRepresentationTheory.Sl2.CommutingActions
+- `QuantumRepresentationTheory.commuting_classification` (theorem) in QuantumRepresentationTheory.Sl2.CommutingActions
+- `QuantumRepresentationTheory.commuting_classification_finrank` (theorem) in QuantumRepresentationTheory.Sl2.CommutingActions
+- `QuantumRepresentationTheory.stringVecs` (def) in QuantumRepresentationTheory.Sl2.Classification
+- `QuantumRepresentationTheory.string_linearIndependent` (theorem) in QuantumRepresentationTheory.Sl2.Classification
+- `QuantumRepresentationTheory.stringSpan` (def) in QuantumRepresentationTheory.Sl2.Classification
+- `QuantumRepresentationTheory.exists_stringLieSubmodule` (theorem) in QuantumRepresentationTheory.Sl2.Classification
+- `QuantumRepresentationTheory.stringSpan_eq_top` (theorem) in QuantumRepresentationTheory.Sl2.Classification
+- `QuantumRepresentationTheory.string_isBasis` (theorem) in QuantumRepresentationTheory.Sl2.Classification
+- `QuantumRepresentationTheory.finrank_eq_succ` (theorem) in QuantumRepresentationTheory.Sl2.Classification
+- `QuantumRepresentationTheory.classification` (theorem) in QuantumRepresentationTheory.Sl2.Classification
+- `QuantumRepresentationTheory.classification_n_eq_finrank_sub_one` (theorem) in QuantumRepresentationTheory.Sl2.Classification
+- `QuantumRepresentationTheory.StandardSl2Module.v` (def) in QuantumRepresentationTheory.Sl2.Basic
+- `QuantumRepresentationTheory.linearIndependent_efh` (theorem) in QuantumRepresentationTheory.Sl2.Basic
+- `QuantumRepresentationTheory.span_efh_eq` (theorem) in QuantumRepresentationTheory.Sl2.Basic
+- `QuantumRepresentationTheory.efhSub` (def) in QuantumRepresentationTheory.Sl2.Basic
+- `QuantumRepresentationTheory.subalgebraBasis` (def) in QuantumRepresentationTheory.Sl2.Basic
+- `QuantumRepresentationTheory.subalgebraBasis_apply` (theorem) in QuantumRepresentationTheory.Sl2.Basic
+- `QuantumRepresentationTheory.ρE` (def) in QuantumRepresentationTheory.Sl2.Basic
+- `QuantumRepresentationTheory.ρF` (def) in QuantumRepresentationTheory.Sl2.Basic
+- ... and 113 more
 
 ### TauCeti-reviews-pr62 (+46)
 
@@ -593,4 +647,4 @@
 
 ## Update History (1 runs)
 
-- **2026-08-03T07:33:49.438205+00:00**: Checked 26 repos, updated 27, +20332 -0 declarations
+- **2026-08-10T06:49:20.943074+00:00**: Checked 27 repos, updated 28, +20495 -0 declarations

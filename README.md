@@ -2,7 +2,7 @@
 
 Topical index for Lie algebra formalization in Lean 4. **[How to use this index in your project](https://github.com/mrdouglasny/lean-index/blob/main/docs/use-topic-index.md)**
 
-**8,538 topic-matched declarations** across **10 repositories** (scanned 27 repos, 26,291 declarations).
+**8,700 topic-matched declarations** across **11 repositories** (scanned 28 repos, 26,454 declarations).
 
 Tracks Lean declarations related to:
 - **Representation theory**: Lie modules, weight spaces, irreducibility, Schur's lemma
@@ -19,6 +19,7 @@ See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](RE
 | [rootkiller6788/mini-representation-lie-theory](https://github.com/rootkiller6788/mini-representation-lie-theory) | 1,085 | Representation theory and Lie theory built from scratch, learn algebraic... |
 | [FormalFrontier/Etingof-RepresentationTheory-draft1](https://github.com/FormalFrontier/Etingof-RepresentationTheory-draft1) | 950 |  |
 | [LieLean/LowDimSolvClassification](https://github.com/LieLean/LowDimSolvClassification) | 249 | Low-dimensional solvable Lie algebra classification (Lean 4) |
+| [TomOleDiem/QuantumRepresentationTheory](https://github.com/TomOleDiem/QuantumRepresentationTheory) | 162 |  |
 | [HautevilleHouse/category-theory-representation-theory-categorical-theorem-canonical-lane-mathlib](https://github.com/HautevilleHouse/category-theory-representation-theory-categorical-theorem-canonical-lane-mathlib) | 108 |  |
 | [HautevilleHouse/category-theory-representation-theory-categorical-canonical-lane-mathlib](https://github.com/HautevilleHouse/category-theory-representation-theory-categorical-canonical-lane-mathlib) | 102 |  |
 | [mrdouglasny/TauCeti-reviews-pr62](https://github.com/mrdouglasny/TauCeti-reviews-pr62) | 46 | Supervised, question-driven review of TauCetiRoadmap PR #62... |
