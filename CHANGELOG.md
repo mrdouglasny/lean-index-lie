@@ -1,6 +1,6 @@
-# Changelog (since 2026-08-03)
+# Changelog (since 2026-08-10)
 
-## New Declarations (26454)
+## New Declarations (26201)
 
 ### Etingof-RepresentationTheory-draft1 (+13570)
 
@@ -10,63 +10,63 @@
 - `kindOf` (def) in scripts.extract_proof_dependencies
 - `nameFromString` (def) in scripts.extract_proof_dependencies
 - `main` (def) in scripts.extract_proof_dependencies
-- `Etingof.IsPositiveRoot` (def) in EtingofRepresentationTheory.Chapter6.Definition6_4_7
-- `Etingof.IsNegativeRoot` (def) in EtingofRepresentationTheory.Chapter6.Definition6_4_7
-- `Etingof.vertexDegree` (def) in EtingofRepresentationTheory.Chapter6.DynkinForward
-- `Etingof.edgeCount` (def) in EtingofRepresentationTheory.Chapter6.DynkinForward
-- `Etingof.subgraph_contradiction` (lemma) in EtingofRepresentationTheory.Chapter6.DynkinForward
-- `Etingof.dynkin_degree_le_three` (lemma) in EtingofRepresentationTheory.Chapter6.DynkinForward
-- `Etingof.dynkin_no_cycle` (lemma) in EtingofRepresentationTheory.Chapter6.DynkinForward
-- `Etingof.adj_sum_eq_degree` (lemma) in EtingofRepresentationTheory.Chapter6.DynkinForward
-- `Etingof.list_path_reachable` (lemma) in EtingofRepresentationTheory.Chapter6.DynkinForward
-- `Etingof.dynkin_edge_count` (lemma) in EtingofRepresentationTheory.Chapter6.DynkinForward
-- `Etingof.dynkin_has_endpoint` (lemma) in EtingofRepresentationTheory.Chapter6.DynkinForward
-- `Etingof.path_walk_construction` (lemma) in EtingofRepresentationTheory.Chapter6.DynkinForward
-- `Etingof.path_iso_An` (lemma) in EtingofRepresentationTheory.Chapter6.DynkinForward
-- `Etingof.arm_length_solutions` (lemma) in EtingofRepresentationTheory.Chapter6.DynkinForward
-- `Etingof.Problem6_1_5.pointCoords` (def) in EtingofRepresentationTheory.Chapter6.Problem6_1_5_OrbitInjective
-- `Etingof.Problem6_1_5.pointOfCoords` (def) in EtingofRepresentationTheory.Chapter6.Problem6_1_5_OrbitInjective
-- `Etingof.Problem6_1_5.pointCoords_pointOfCoords` (theorem) in EtingofRepresentationTheory.Chapter6.Problem6_1_5_OrbitInjective
-- `Etingof.Problem6_1_5.IsAlgDense` (def) in EtingofRepresentationTheory.Chapter6.Problem6_1_5_OrbitInjective
-- `Etingof.Problem6_1_5.exists_isAlgDense_orbit` (theorem) in EtingofRepresentationTheory.Chapter6.Problem6_1_5_OrbitInjective
-- `Etingof.Problem6_1_5.groupEntries` (def) in EtingofRepresentationTheory.Chapter6.Problem6_1_5_OrbitInjective
-- `Etingof.Problem6_1_5.aeval_groupEntries_genMat` (theorem) in EtingofRepresentationTheory.Chapter6.Problem6_1_5_OrbitInjective
-- `Etingof.Problem6_1_5.isUnit_aeval_groupEntries_detProd` (theorem) in EtingofRepresentationTheory.Chapter6.Problem6_1_5_OrbitInjective
-- `Etingof.Problem6_1_5.evalAt` (def) in EtingofRepresentationTheory.Chapter6.Problem6_1_5_OrbitInjective
-- `Etingof.Problem6_1_5.evalAt_algebraMap` (theorem) in EtingofRepresentationTheory.Chapter6.Problem6_1_5_OrbitInjective
-- `Etingof.Problem6_1_5.evalAt_map_genMatB` (theorem) in EtingofRepresentationTheory.Chapter6.Problem6_1_5_OrbitInjective
-- `Etingof.Problem6_1_5.evalAt_map_genMatBInv` (theorem) in EtingofRepresentationTheory.Chapter6.Problem6_1_5_OrbitInjective
-- `Etingof.Problem6_1_5.evalAt_comp_orbitComorphism` (theorem) in EtingofRepresentationTheory.Chapter6.Problem6_1_5_OrbitInjective
-- `Etingof.Problem6_1_5.injective_orbitComorphism_of_isAlgDense` (theorem) in EtingofRepresentationTheory.Chapter6.Problem6_1_5_OrbitInjective
-- `Etingof.Problem6_1_5.exists_injective_orbitComorphism` (theorem) in EtingofRepresentationTheory.Chapter6.Problem6_1_5_OrbitInjective
-- `Etingof.Problem6_9_2.inner` (def) in EtingofRepresentationTheory.Chapter6.Problem6_9_2
-- `Etingof.Problem6_9_2.AllInt` (def) in EtingofRepresentationTheory.Chapter6.Problem6_9_2
-- `Etingof.Problem6_9_2.AllHalfInt` (def) in EtingofRepresentationTheory.Chapter6.Problem6_9_2
-- `Etingof.Problem6_9_2.EvenSum` (def) in EtingofRepresentationTheory.Chapter6.Problem6_9_2
-- `Etingof.Problem6_9_2.E8Lattice` (def) in EtingofRepresentationTheory.Chapter6.Problem6_9_2
-- `Etingof.Problem6_9_2.rootsOf` (def) in EtingofRepresentationTheory.Chapter6.Problem6_9_2
-- `Etingof.Problem6_9_2.e` (def) in EtingofRepresentationTheory.Chapter6.Problem6_9_2
-- `Etingof.Problem6_9_2.α` (def) in EtingofRepresentationTheory.Chapter6.Problem6_9_2
-- `Etingof.Problem6_9_2.inner_eq` (lemma) in EtingofRepresentationTheory.Chapter6.Problem6_9_2
-- `Etingof.Problem6_9_2.α_linearIndependent` (theorem) in EtingofRepresentationTheory.Chapter6.Problem6_9_2
-- `Etingof.Problem6_9_2.sum_α_coord` (lemma) in EtingofRepresentationTheory.Chapter6.Problem6_9_2
-- `Etingof.Problem6_9_2.α_isBasis` (theorem) in EtingofRepresentationTheory.Chapter6.Problem6_9_2
-- `Etingof.Problem6_9_2.gramAdj` (def) in EtingofRepresentationTheory.Chapter6.Problem6_9_2
-- `Etingof.Problem6_9_2.α_norm_two` (theorem) in EtingofRepresentationTheory.Chapter6.Problem6_9_2
-- `Etingof.Problem6_9_2.α_inner_offdiag` (theorem) in EtingofRepresentationTheory.Chapter6.Problem6_9_2
+- `Etingof.postcompHom` (def) in EtingofRepresentationTheory.Chapter3.Discussion_alternative_proof_of_Proposition3_1_4
+- `Etingof.postcompHom_apply` (theorem) in EtingofRepresentationTheory.Chapter3.Discussion_alternative_proof_of_Proposition3_1_4
+- `Etingof.restrictScalars_eq` (theorem) in EtingofRepresentationTheory.Chapter3.Discussion_alternative_proof_of_Proposition3_1_4
+- `Etingof.mem_ker_iff_components` (theorem) in EtingofRepresentationTheory.Chapter3.Discussion_alternative_proof_of_Proposition3_1_4
+- `Etingof.postcompHom_injective` (theorem) in EtingofRepresentationTheory.Chapter3.Discussion_alternative_proof_of_Proposition3_1_4
+- `Etingof.postcompHom_surjective` (theorem) in EtingofRepresentationTheory.Chapter3.Discussion_alternative_proof_of_Proposition3_1_4
+- `Etingof.homPiHomEquiv` (def) in EtingofRepresentationTheory.Chapter3.Discussion_alternative_proof_of_Proposition3_1_4
+- `Etingof.homPiHomEquiv_apply` (theorem) in EtingofRepresentationTheory.Chapter3.Discussion_alternative_proof_of_Proposition3_1_4
+- `Etingof.injective_iff` (theorem) in EtingofRepresentationTheory.Chapter3.Discussion_alternative_proof_of_Proposition3_1_4
+- `Etingof.surjective_iff` (theorem) in EtingofRepresentationTheory.Chapter3.Discussion_alternative_proof_of_Proposition3_1_4
+- `Etingof.bijective_iff` (theorem) in EtingofRepresentationTheory.Chapter3.Discussion_alternative_proof_of_Proposition3_1_4
+- `Etingof.postcompHom_id` (theorem) in EtingofRepresentationTheory.Chapter3.Discussion_alternative_proof_of_Proposition3_1_4
+- `Etingof.postcompHom_comp` (theorem) in EtingofRepresentationTheory.Chapter3.Discussion_alternative_proof_of_Proposition3_1_4
+- `Etingof.Filtration` (structure) in EtingofRepresentationTheory.Chapter3.Definition3_4_1
+- `Etingof.Problem3_8_4.directSummand_of_baseChange_directSummand` (theorem) in EtingofRepresentationTheory.Chapter3.Problem3_8_4_General
+- `Etingof.semisimple_algebra_equiv` (theorem) in EtingofRepresentationTheory.Chapter3.Proposition3_5_8
+- `Etingof.subsingleton_isSemisimpleRing` (theorem) in EtingofRepresentationTheory.Chapter3.Proposition3_5_8
+- `Etingof.subsingleton_isSemisimpleAlgebra` (theorem) in EtingofRepresentationTheory.Chapter3.Proposition3_5_8
+- `Etingof.subsingleton_not_isSimpleRing` (theorem) in EtingofRepresentationTheory.Chapter3.Proposition3_5_8
+- `Etingof.subsingleton_module_of_subsingleton` (theorem) in EtingofRepresentationTheory.Chapter3.Proposition3_5_8
+- `Etingof.subsingleton_not_isSimpleModule` (theorem) in EtingofRepresentationTheory.Chapter3.Proposition3_5_8
+- `Etingof.subsingleton_not_isIndecomposable` (theorem) in EtingofRepresentationTheory.Chapter3.Proposition3_5_8
+- `Etingof.subsingleton_algEquiv_pi_matrix` (theorem) in EtingofRepresentationTheory.Chapter3.Proposition3_5_8
+- `Etingof.Problem3_9_3.NoOrientedCycles` (def) in EtingofRepresentationTheory.Chapter3.Problem3_9_3
+- `Etingof.Problem3_9_3.IsIrreducible` (def) in EtingofRepresentationTheory.Chapter3.Problem3_9_3
+- `Etingof.Problem3_9_3.simpleRep_isIrreducible` (theorem) in EtingofRepresentationTheory.Chapter3.Problem3_9_3
+- `Etingof.Problem3_9_3.subsingleton_of_bot_eq_top` (theorem) in EtingofRepresentationTheory.Chapter3.Problem3_9_3
+- `Etingof.Problem3_9_3.irreducible_isSimpleRep` (theorem) in EtingofRepresentationTheory.Chapter3.Problem3_9_3
+- `Etingof.Problem3_9_3.ext1_simpleRep_vanishes_iff` (theorem) in EtingofRepresentationTheory.Chapter3.Problem3_9_3
+- `Etingof.Problem3_9_3.extDiffₗ` (def) in EtingofRepresentationTheory.Chapter3.Problem3_9_3
+- `Etingof.Problem3_9_3.Ext1Simple` (abbrev) in EtingofRepresentationTheory.Chapter3.Problem3_9_3
+- `Etingof.Problem3_9_3.extDiffₗ_simpleRep_eq_zero` (theorem) in EtingofRepresentationTheory.Chapter3.Problem3_9_3
+- `Etingof.Problem3_9_3.finrank_ext1_simpleRep` (theorem) in EtingofRepresentationTheory.Chapter3.Problem3_9_3
+- `Etingof.Problem3_9_3.two_dim_classification` (theorem) in EtingofRepresentationTheory.Chapter3.Problem3_9_3
+- `Etingof.Problem3_8_4.Descent.exists_fg_subalgebra_baseChange_iso` (theorem) in EtingofRepresentationTheory.Chapter3.Problem3_8_4_Descent
+- `Etingof.Problem3_8_4.Descent.exists_fg_subalgebra_baseChange_directSummand` (theorem) in EtingofRepresentationTheory.Chapter3.Problem3_8_4_Descent
+- `Etingof.density_theorem_part1` (theorem) in EtingofRepresentationTheory.Chapter3.Theorem3_2_2
+- `Etingof.density_theorem_part2` (theorem) in EtingofRepresentationTheory.Chapter3.Theorem3_2_2
+- `Etingof.isNilpotent_or_isUnit_of_finiteLength_indecomposable` (theorem) in EtingofRepresentationTheory.Chapter3.Remark3_8_6
+- `Etingof.isLocalRing_end_of_finiteLength_indecomposable` (theorem) in EtingofRepresentationTheory.Chapter3.Remark3_8_6
+- `Etingof.exists_indecomposable_decomposition_aux` (lemma) in EtingofRepresentationTheory.Chapter3.Remark3_8_6
+- `Etingof.exists_indecomposable_decomposition` (theorem) in EtingofRepresentationTheory.Chapter3.Remark3_8_6
+- `Etingof.isNilpotent_sum_of_finiteLength_indecomposable` (theorem) in EtingofRepresentationTheory.Chapter3.Remark3_8_6
+- `Etingof.isCompl_equiv_of_isCompl` (lemma) in EtingofRepresentationTheory.Chapter3.Remark3_8_6
 - ... and 13520 more
 
 ### Group6-Formalization-on-Lie-algebra-rep (+42)
 
+- `hello` (def) in LieAlgRep.Basic
+- `Representation` (abbrev) in LieAlgRep.lie_algebra
+- `IsAssociativeBilForm` (def) in LieAlgRep.lie_algebra
+- `CasimirElement` (def) in LieAlgRep.lie_algebra
+- `bracket_in_glV` (lemma) in LieAlgRep.lie_algebra
+- `comm_zero_bracket` (lemma) in LieAlgRep.lie_algebra
 - `Ideal.IsPrime_not_mem_mul` (theorem) in LieAlgRep.prime_ideal_aviod_Thm
 - `Multiset.erase_refl` (theorem) in LieAlgRep.prime_ideal_aviod_Thm
 - `prime_ideal_finset_version` (theorem) in LieAlgRep.prime_ideal_aviod_Thm
-- `hello` (def) in LieAlgRep.Basic
-- `Representation` (abbrev) in LieAlgRep.CasimirElement
-- `IsAssociativeBilForm` (def) in LieAlgRep.CasimirElement
-- `CasimirElement` (def) in LieAlgRep.CasimirElement
-- `bracket_in_glV` (lemma) in LieAlgRep.CasimirElement
-- `comm_zero_bracket` (lemma) in LieAlgRep.CasimirElement
 - `Representation.asLieModule` (def) in LieAlgRep.lie_algebra
 - `Representation.asLieModuleEquiv` (def) in LieAlgRep.lie_algebra
 - `Representation.smul_map` (lemma) in LieAlgRep.lie_algebra
@@ -101,108 +101,66 @@
 - `card_eq_card_quotient_mul_card_subgroup'` (theorem) in Exercise.abstract_algebra
 - `center_eq_top'` (lemma) in Exercise.abstract_algebra
 
-### LieClassification (+1)
-
-- `LieAlgebra.equivGeckConstruction` (def) in LieClassification.Main
-
 ### LowDimSolvClassification (+300)
 
-- `LieAlgebra.Dim3.case1a` (lemma) in Lie.LemmasDim3
-- `LieAlgebra.Dim3.case1a'` (lemma) in Lie.LemmasDim3
-- `LieAlgebra.Dim3.case1b` (lemma) in Lie.LemmasDim3
-- `LieAlgebra.Dim3.case1b'` (lemma) in Lie.LemmasDim3
-- `LieAlgebra.Dim3.commutator_abelian_of_dim_two` (lemma) in Lie.LemmasDim3
-- `LieAlgebra.Dim3.case2_coarse` (lemma) in Lie.LemmasDim3
-- `LieAlgebra.Dim3.finrank_com_eq2_from_basis_bracket` (lemma) in Lie.LemmasDim3
-- `LieAlgebra.Dim3.case2` (lemma) in Lie.LemmasDim3
-- `LieAlgebra.mkAbelian` (def) in Lie.InstancesConstructions
-- `LieAlgebra.Abelian.DerivationOfLinearMap'` (def) in Lie.InstancesConstructions
-- `LieAlgebra.Abelian.DerivationOfLinearMap` (def) in Lie.InstancesConstructions
-- `LieAlgebra.Abelian.DerivationCoeLinearMap` (theorem) in Lie.InstancesConstructions
-- `LieAlgebra.Abelian.DerivationCoeFun` (theorem) in Lie.InstancesConstructions
-- `LieAlgebra.Abelian.DerivationCoeFun'` (theorem) in Lie.InstancesConstructions
-- `LieAlgebra.ofAffineEquivAux` (def) in Lie.InstancesConstructions
-- `LieAlgebra.OfAffineEquiv` (abbrev) in Lie.InstancesConstructions
-- `LieAlgebra.RealHyperbolicAux'` (def) in Lie.InstancesConstructions
-- `LieAlgebra.RealHyperbolicAux` (def) in Lie.InstancesConstructions
-- `LieAlgebra.RealHyperbolic` (abbrev) in Lie.InstancesConstructions
-- `LieAlgebra.RealHyperbolic'` (abbrev) in Lie.InstancesConstructions
-- `V` (def) in Lie.Tactics
-- `AtomD.State` (structure) in Lie.Tactics
-- `AtomD.AtomD` (abbrev) in Lie.Tactics
-- `AtomD.run` (def) in Lie.Tactics
-- `AtomD.addAtomSimple` (def) in Lie.Tactics
-- `AtomD.addAtomDouble` (def) in Lie.Tactics
-- `AtomD.addAtomQ` (def) in Lie.Tactics
-- `AtomD.addAtomDoubleQ` (def) in Lie.Tactics
-- `Mathlib.Tactic.LieSolver.v` (def) in Lie.Tactics
-- `Mathlib.Tactic.LieSolver.NF` (def) in Lie.Tactics
-- `Mathlib.Tactic.LieSolver.NF.cons` (def) in Lie.Tactics
-- `Mathlib.Tactic.LieSolver.NF.eval` (def) in Lie.Tactics
-- `Mathlib.Tactic.LieSolver.NF.atom_eq_eval` (theorem) in Lie.Tactics
-- `Mathlib.Tactic.LieSolver.NF.atom_eq_evalD` (theorem) in Lie.Tactics
-- `Mathlib.Tactic.LieSolver.NF.atom_eq_evalD_skew` (theorem) in Lie.Tactics
-- `Mathlib.Tactic.LieSolver.NF.zero_eq_eval` (theorem) in Lie.Tactics
-- `Mathlib.Tactic.LieSolver.NF.add_eq_eval₁` (theorem) in Lie.Tactics
-- `Mathlib.Tactic.LieSolver.NF.add_eq_eval₂` (theorem) in Lie.Tactics
-- `Mathlib.Tactic.LieSolver.NF.add_eq_eval₃` (theorem) in Lie.Tactics
-- `Mathlib.Tactic.LieSolver.NF.add_eq_eval` (theorem) in Lie.Tactics
-- `Mathlib.Tactic.LieSolver.NF.sub_eq_eval₁` (theorem) in Lie.Tactics
-- `Mathlib.Tactic.LieSolver.NF.sub_eq_eval₂` (theorem) in Lie.Tactics
-- `Mathlib.Tactic.LieSolver.NF.sub_eq_eval₃` (theorem) in Lie.Tactics
-- `Mathlib.Tactic.LieSolver.NF.sub_eq_eval` (theorem) in Lie.Tactics
-- `Mathlib.Tactic.LieSolver.NF.eval_neg` (theorem) in Lie.Tactics
-- `Mathlib.Tactic.LieSolver.NF.zero_sub_eq_eval` (theorem) in Lie.Tactics
-- `Mathlib.Tactic.LieSolver.NF.neg_eq_eval` (theorem) in Lie.Tactics
-- `Mathlib.Tactic.LieSolver.NF.eval_smul` (theorem) in Lie.Tactics
-- `Mathlib.Tactic.LieSolver.NF.smul_eq_eval` (theorem) in Lie.Tactics
-- `Mathlib.Tactic.LieSolver.NF.eq_cons_cons` (theorem) in Lie.Tactics
+- `Basis.repr_fin_one` (theorem) in Lie.GeneralResults
+- `Basis.repr_fin_two` (theorem) in Lie.GeneralResults
+- `Basis.repr_fin_three` (theorem) in Lie.GeneralResults
+- `not_linearIndependent_pair_iff` (lemma) in Lie.GeneralResults
+- `LinearIndependent.iff_in_submodule` (theorem) in Lie.GeneralResults
+- `Submodule.map_into_subtype` (def) in Lie.GeneralResults
+- `Set.map_into_subtype` (def) in Lie.GeneralResults
+- `Set.map_into_subtype_apply` (theorem) in Lie.GeneralResults
+- `Submodule.linearIndependent_from_ambient` (theorem) in Lie.GeneralResults
+- `LinearIndependent.extend_fin_succ_fun` (def) in Lie.GeneralResults
+- `LinearIndependent.extend_fin_succ` (theorem) in Lie.GeneralResults
+- `LinearIndependent.extend_fin` (theorem) in Lie.GeneralResults
+- `Basis.extend_fin_succ` (def) in Lie.GeneralResults
+- `Basis.extend_fin_succ_tail_eq` (theorem) in Lie.GeneralResults
+- `Basis.extend_fin_succ_head_not_in_span` (theorem) in Lie.GeneralResults
+- `Basis.mkFinCons_from_linIndep` (def) in Lie.GeneralResults
+- `Basis.mkFinCons_from_linIndep_tail` (theorem) in Lie.GeneralResults
+- `Basis.mkFinCons_from_linIndep_head_not_in_span` (theorem) in Lie.GeneralResults
+- `Basis.exists_unitsSMul` (lemma) in Lie.GeneralResults
+- `LinearEquiv.conj_symm` (theorem) in Lie.GeneralResults
+- `Submodule.compl_span_singleton_of_codim_one` (theorem) in Lie.GeneralResults
+- `LinearMap.ofProd` (def) in Lie.GeneralResults
+- `LinearMap.ofProd_apply` (theorem) in Lie.GeneralResults
+- `Submodule.prod_injective_of_disjoint` (theorem) in Lie.GeneralResults
+- `Submodule.prod_surjective_of_codisjoint` (theorem) in Lie.GeneralResults
+- `LinearEquiv.ofComplSubmodules` (def) in Lie.GeneralResults
+- `LinearEquiv.ofComplSubmodules_apply` (theorem) in Lie.GeneralResults
+- `LinearEquiv.ofComplSubmodules_symm_apply` (theorem) in Lie.GeneralResults
+- `LinearEquiv.ofComplSubmodules_symm_apply_left` (theorem) in Lie.GeneralResults
+- `LinearEquiv.ofComplSubmodules_symm_apply_right` (theorem) in Lie.GeneralResults
+- `LinearEquiv.ofComplSubmodules_symm_add` (theorem) in Lie.GeneralResults
+- `LinearEquiv.toSpanSingleton` (def) in Lie.GeneralResults
+- `LinearEquiv.toSpanSingleton_apply` (theorem) in Lie.GeneralResults
+- `LinearEquiv.toSpanSingleton_symm_apply` (theorem) in Lie.GeneralResults
+- `LinearEquiv.toSpanSingleton_symm_apply'` (theorem) in Lie.GeneralResults
+- `LieAlgebra.coeff_zero_of_lin_dep` (lemma) in Lie.GeneralResults
+- `LieAlgebra.linearIndependent_of_bracket_ne_zero` (lemma) in Lie.GeneralResults
+- `LieAlgebra.basis_of_bracket_ne_zero` (lemma) in Lie.GeneralResults
+- `LieAlgebra.derivedSeries_succ_is_span` (theorem) in Lie.GeneralResults
+- `LieAlgebra.commutator` (abbrev) in Lie.GeneralResults
+- `LieAlgebra.commutator_eq_span` (theorem) in Lie.GeneralResults
+- `LieAlgebra.lie_mem_commutator` (theorem) in Lie.GeneralResults
+- `LieAlgebra.solvable_of_commutator_solvable` (theorem) in Lie.GeneralResults
+- `LieSubalgebra.mem_lieSpan_singleton` (theorem) in Lie.GeneralResults
+- `LieSubalgebra.lieSpan_singleton` (theorem) in Lie.GeneralResults
+- `LieSubmodule.mem_lieSpan_singleton` (theorem) in Lie.GeneralResults
+- `LieSubmodule.lieSpan_singleton` (theorem) in Lie.GeneralResults
+- `LieIdeal.finrank_toSubmodule` (theorem) in Lie.GeneralResults
+- `binary_predicate_3_choose_2` (lemma) in Lie.GeneralResults
+- `LieHom.smulRight` (def) in Lie.GeneralResults
 - ... and 250 more
 
 ### QuantumRepresentationTheory (+163)
 
 - `hello` (def) in QuantumRepresentationTheory.Basic
-- `QuantumRepresentationTheory.AngularMomentumRepresentation.IsIrreducible` (def) in QuantumRepresentationTheory.AngularMomentum.Classification
-- `QuantumRepresentationTheory.AngularMomentumRepresentation.isIrreducible_iff` (theorem) in QuantumRepresentationTheory.AngularMomentum.Classification
-- `QuantumRepresentationTheory.AngularMomentumRepresentation.spin_classification` (theorem) in QuantumRepresentationTheory.AngularMomentum.Classification
-- `QuantumRepresentationTheory.AngularMomentumRepresentation.Jp_mul_Jm` (theorem) in QuantumRepresentationTheory.AngularMomentum.Classification
-- `QuantumRepresentationTheory.AngularMomentumRepresentation.Jsq_eq_Jp_mul_Jm` (theorem) in QuantumRepresentationTheory.AngularMomentum.Classification
-- `QuantumRepresentationTheory.AngularMomentumRepresentation.leibniz_end` (theorem) in QuantumRepresentationTheory.AngularMomentum.Classification
-- `QuantumRepresentationTheory.AngularMomentumRepresentation.Jsq_comm_p` (theorem) in QuantumRepresentationTheory.AngularMomentum.Classification
-- `QuantumRepresentationTheory.AngularMomentumRepresentation.Jsq_comm_m` (theorem) in QuantumRepresentationTheory.AngularMomentum.Classification
-- `QuantumRepresentationTheory.AngularMomentumRepresentation.Jsq_comm_z` (theorem) in QuantumRepresentationTheory.AngularMomentum.Classification
-- `QuantumRepresentationTheory.AngularMomentumRepresentation.Jsq_eq_smul` (theorem) in QuantumRepresentationTheory.AngularMomentum.Classification
-- `QuantumRepresentationTheory.AngularMomentumRepresentation.magneticBasisVec` (def) in QuantumRepresentationTheory.AngularMomentum.Classification
-- `QuantumRepresentationTheory.AngularMomentumRepresentation` (structure) in QuantumRepresentationTheory.AngularMomentum.Basic
-- `QuantumRepresentationTheory.AngularMomentumRepresentation.Jp` (def) in QuantumRepresentationTheory.AngularMomentum.Basic
-- `QuantumRepresentationTheory.AngularMomentumRepresentation.Jm` (def) in QuantumRepresentationTheory.AngularMomentum.Basic
-- `QuantumRepresentationTheory.AngularMomentumRepresentation.comm_z_p` (theorem) in QuantumRepresentationTheory.AngularMomentum.Basic
-- `QuantumRepresentationTheory.AngularMomentumRepresentation.comm_z_m` (theorem) in QuantumRepresentationTheory.AngularMomentum.Basic
-- `QuantumRepresentationTheory.AngularMomentumRepresentation.comm_p_m` (theorem) in QuantumRepresentationTheory.AngularMomentum.Basic
-- `QuantumRepresentationTheory.AngularMomentumRepresentation.isSl2Triple` (theorem) in QuantumRepresentationTheory.AngularMomentum.Basic
-- `QuantumRepresentationTheory.exists_ker_smul_id_ne_bot` (theorem) in QuantumRepresentationTheory.Representation.Schur
-- `QuantumRepresentationTheory.schur` (theorem) in QuantumRepresentationTheory.Representation.Schur
-- `QuantumRepresentationTheory.instEndLieRing` (instance) in QuantumRepresentationTheory.Representation.Basic
-- `QuantumRepresentationTheory.LieRepresentation` (abbrev) in QuantumRepresentationTheory.Representation.Basic
-- `QuantumRepresentationTheory.IsInvariantSubspace` (def) in QuantumRepresentationTheory.Representation.Basic
-- `QuantumRepresentationTheory.IsIrreducible` (def) in QuantumRepresentationTheory.Representation.Basic
-- `QuantumRepresentationTheory.IsIntertwiner` (def) in QuantumRepresentationTheory.Representation.Basic
-- `QuantumRepresentationTheory.IsIntertwiner.ker_isInvariant` (theorem) in QuantumRepresentationTheory.Representation.Basic
-- `QuantumRepresentationTheory.IsIntertwiner.range_isInvariant` (theorem) in QuantumRepresentationTheory.Representation.Basic
-- `QuantumRepresentationTheory.exists_joint_primitive` (theorem) in QuantumRepresentationTheory.Sl2.CommutingActions
-- `QuantumRepresentationTheory.toEnd_ambient_eq` (theorem) in QuantumRepresentationTheory.Sl2.CommutingActions
-- `QuantumRepresentationTheory.exists_bivariate_basis` (theorem) in QuantumRepresentationTheory.Sl2.CommutingActions
-- `QuantumRepresentationTheory.commuting_classification` (theorem) in QuantumRepresentationTheory.Sl2.CommutingActions
-- `QuantumRepresentationTheory.commuting_classification_finrank` (theorem) in QuantumRepresentationTheory.Sl2.CommutingActions
-- `QuantumRepresentationTheory.stringVecs` (def) in QuantumRepresentationTheory.Sl2.Classification
-- `QuantumRepresentationTheory.string_linearIndependent` (theorem) in QuantumRepresentationTheory.Sl2.Classification
-- `QuantumRepresentationTheory.stringSpan` (def) in QuantumRepresentationTheory.Sl2.Classification
-- `QuantumRepresentationTheory.exists_stringLieSubmodule` (theorem) in QuantumRepresentationTheory.Sl2.Classification
-- `QuantumRepresentationTheory.stringSpan_eq_top` (theorem) in QuantumRepresentationTheory.Sl2.Classification
-- `QuantumRepresentationTheory.string_isBasis` (theorem) in QuantumRepresentationTheory.Sl2.Classification
-- `QuantumRepresentationTheory.finrank_eq_succ` (theorem) in QuantumRepresentationTheory.Sl2.Classification
-- `QuantumRepresentationTheory.classification` (theorem) in QuantumRepresentationTheory.Sl2.Classification
-- `QuantumRepresentationTheory.classification_n_eq_finrank_sub_one` (theorem) in QuantumRepresentationTheory.Sl2.Classification
+- `QuantumRepresentationTheory.clebsch_gordan_finrank_aux` (lemma) in QuantumRepresentationTheory.Sl2.ClebschGordan
+- `QuantumRepresentationTheory.clebsch_gordan_finrank` (theorem) in QuantumRepresentationTheory.Sl2.ClebschGordan
+- `QuantumRepresentationTheory.clebsch_gordan` (theorem) in QuantumRepresentationTheory.Sl2.ClebschGordan
 - `QuantumRepresentationTheory.StandardSl2Module.v` (def) in QuantumRepresentationTheory.Sl2.Basic
 - `QuantumRepresentationTheory.linearIndependent_efh` (theorem) in QuantumRepresentationTheory.Sl2.Basic
 - `QuantumRepresentationTheory.span_efh_eq` (theorem) in QuantumRepresentationTheory.Sl2.Basic
@@ -211,22 +169,54 @@
 - `QuantumRepresentationTheory.subalgebraBasis_apply` (theorem) in QuantumRepresentationTheory.Sl2.Basic
 - `QuantumRepresentationTheory.ρE` (def) in QuantumRepresentationTheory.Sl2.Basic
 - `QuantumRepresentationTheory.ρF` (def) in QuantumRepresentationTheory.Sl2.Basic
+- `QuantumRepresentationTheory.ρH` (def) in QuantumRepresentationTheory.Sl2.Basic
+- `QuantumRepresentationTheory.ρH_v` (theorem) in QuantumRepresentationTheory.Sl2.Basic
+- `QuantumRepresentationTheory.ρF_v_lt` (theorem) in QuantumRepresentationTheory.Sl2.Basic
+- `QuantumRepresentationTheory.ρF_v_last` (theorem) in QuantumRepresentationTheory.Sl2.Basic
+- `QuantumRepresentationTheory.ρE_v_pos` (theorem) in QuantumRepresentationTheory.Sl2.Basic
+- `QuantumRepresentationTheory.ρE_v_zero` (theorem) in QuantumRepresentationTheory.Sl2.Basic
+- `QuantumRepresentationTheory.rel_ef` (theorem) in QuantumRepresentationTheory.Sl2.Basic
+- `QuantumRepresentationTheory.rel_he` (theorem) in QuantumRepresentationTheory.Sl2.Basic
+- `QuantumRepresentationTheory.rel_hf` (theorem) in QuantumRepresentationTheory.Sl2.Basic
+- `QuantumRepresentationTheory.endLieSkew` (theorem) in QuantumRepresentationTheory.Sl2.Basic
+- `QuantumRepresentationTheory.endAddLie` (theorem) in QuantumRepresentationTheory.Sl2.Basic
+- `QuantumRepresentationTheory.endLieAdd` (theorem) in QuantumRepresentationTheory.Sl2.Basic
+- `QuantumRepresentationTheory.endSmulLie` (theorem) in QuantumRepresentationTheory.Sl2.Basic
+- `QuantumRepresentationTheory.endLieSmul` (theorem) in QuantumRepresentationTheory.Sl2.Basic
+- `QuantumRepresentationTheory.Φ` (def) in QuantumRepresentationTheory.Sl2.Basic
+- `QuantumRepresentationTheory.Φ_apply` (theorem) in QuantumRepresentationTheory.Sl2.Basic
+- `QuantumRepresentationTheory.lie_subalgebraBasis` (theorem) in QuantumRepresentationTheory.Sl2.Basic
+- `QuantumRepresentationTheory.Φ_bracket_basis` (theorem) in QuantumRepresentationTheory.Sl2.Basic
+- `QuantumRepresentationTheory.bracketRight` (def) in QuantumRepresentationTheory.Sl2.Basic
+- `QuantumRepresentationTheory.bracketLeft` (def) in QuantumRepresentationTheory.Sl2.Basic
+- `QuantumRepresentationTheory.endBracketRight` (def) in QuantumRepresentationTheory.Sl2.Basic
+- `QuantumRepresentationTheory.endBracketLeft` (def) in QuantumRepresentationTheory.Sl2.Basic
+- `QuantumRepresentationTheory.Φ_lie_basis_right` (theorem) in QuantumRepresentationTheory.Sl2.Basic
+- `QuantumRepresentationTheory.Φ_lie` (theorem) in QuantumRepresentationTheory.Sl2.Basic
+- `QuantumRepresentationTheory.standardSl2ModuleLieModule` (theorem) in QuantumRepresentationTheory.Sl2.Basic
+- `QuantumRepresentationTheory.h_mem_subalgebra` (theorem) in QuantumRepresentationTheory.Sl2.Basic
+- `QuantumRepresentationTheory.e_mem_subalgebra` (theorem) in QuantumRepresentationTheory.Sl2.Basic
+- `QuantumRepresentationTheory.f_mem_subalgebra` (theorem) in QuantumRepresentationTheory.Sl2.Basic
+- `QuantumRepresentationTheory.hSub` (def) in QuantumRepresentationTheory.Sl2.Basic
+- `QuantumRepresentationTheory.eSub` (def) in QuantumRepresentationTheory.Sl2.Basic
+- `QuantumRepresentationTheory.fSub` (def) in QuantumRepresentationTheory.Sl2.Basic
+- `QuantumRepresentationTheory.hSub_eq` (theorem) in QuantumRepresentationTheory.Sl2.Basic
+- `QuantumRepresentationTheory.eSub_eq` (theorem) in QuantumRepresentationTheory.Sl2.Basic
+- `QuantumRepresentationTheory.fSub_eq` (theorem) in QuantumRepresentationTheory.Sl2.Basic
+- `QuantumRepresentationTheory.standardSl2ModuleLieRingModule_h_apply` (theorem) in QuantumRepresentationTheory.Sl2.Basic
+- `QuantumRepresentationTheory.standardSl2ModuleLieRingModule_e_apply_zero` (theorem) in QuantumRepresentationTheory.Sl2.Basic
+- `QuantumRepresentationTheory.standardSl2ModuleLieRingModule_e_apply_pos` (theorem) in QuantumRepresentationTheory.Sl2.Basic
+- `QuantumRepresentationTheory.standardSl2ModuleLieRingModule_f_apply_lt` (theorem) in QuantumRepresentationTheory.Sl2.Basic
 - ... and 113 more
 
 ### TauCeti-reviews-pr62 (+46)
 
-- `TauCetiRoadmap.RepresentationTheory.RootSystems.posRoots` (def) in roadmaps.RootSystems.Suggested
-- `TauCetiRoadmap.RepresentationTheory.RootSystems.negRoots` (def) in roadmaps.RootSystems.Suggested
-- `TauCetiRoadmap.RepresentationTheory.RootSystems.inversions` (def) in roadmaps.RootSystems.Suggested
-- `TauCetiRoadmap.RepresentationTheory.RootSystems.dominantChamber` (def) in roadmaps.RootSystems.Suggested
-- `TauCetiRoadmap.RepresentationTheory.RootSystems.DynkinType` (inductive) in roadmaps.RootSystems.Suggested
-- `TauCetiRoadmap.RepresentationTheory.RootSystems.HasCartanType` (def) in roadmaps.RootSystems.Suggested
 - `TauCetiRoadmap.RepresentationTheory.LieGroups.oneParameterSubgroup` (def) in roadmaps.LieGroups.Suggested
 - `TauCetiRoadmap.RepresentationTheory.LieGroups.commutatorPart` (def) in roadmaps.LieGroups.Suggested
 - `TauCetiRoadmap.RepresentationTheory.LieGroups.flagManifold` (def) in roadmaps.LieGroups.Suggested
-- `TauCetiRoadmap.RepresentationTheory.ClassicalGroups.DominantWeight` (def) in roadmaps.ClassicalGroups.Suggested
-- `TauCetiRoadmap.RepresentationTheory.ClassicalGroups.GTPattern` (structure) in roadmaps.ClassicalGroups.Suggested
-- `TauCetiRoadmap.RepresentationTheory.ClassicalGroups.GTPattern.topRow` (def) in roadmaps.ClassicalGroups.Suggested
+- `TauCetiRoadmap.RepresentationTheory.LieHighestWeight.IsDominantIntegral` (def) in roadmaps.LieHighestWeight.Suggested
+- `TauCetiRoadmap.RepresentationTheory.InductionRestriction.mackeySubgroup` (def) in roadmaps.InductionRestriction.Suggested
+- `TauCetiRoadmap.RepresentationTheory.InductionRestriction.schurMultiplier` (def) in roadmaps.InductionRestriction.Suggested
 - `TauCetiRoadmap.RepresentationTheory.SchurWeyl.diagramOf` (def) in roadmaps.SchurWeyl.Suggested
 - `TauCetiRoadmap.RepresentationTheory.SchurWeyl.permutationModule` (def) in roadmaps.SchurWeyl.Suggested
 - `TauCetiRoadmap.RepresentationTheory.SchurWeyl.YoungTableau` (def) in roadmaps.SchurWeyl.Suggested
@@ -235,10 +225,6 @@
 - `TauCetiRoadmap.RepresentationTheory.SchurWeyl.brauerDiagram.isThrough` (def) in roadmaps.SchurWeyl.Suggested
 - `TauCetiRoadmap.RepresentationTheory.SchurWeyl.brauerDiagram.isCap` (def) in roadmaps.SchurWeyl.Suggested
 - `TauCetiRoadmap.RepresentationTheory.SchurWeyl.brauerDiagram.isCup` (def) in roadmaps.SchurWeyl.Suggested
-- `TauCetiRoadmap.RepresentationTheory.LieHighestWeight.IsDominantIntegral` (def) in roadmaps.LieHighestWeight.Suggested
-- `TauCetiRoadmap.RepresentationTheory.InductionRestriction.mackeySubgroup` (def) in roadmaps.InductionRestriction.Suggested
-- `TauCetiRoadmap.RepresentationTheory.InductionRestriction.schurMultiplier` (def) in roadmaps.InductionRestriction.Suggested
-- `TauCetiRoadmap.RepresentationTheory.SemisimpleAlgebras.IsSplittingField` (def) in roadmaps.SemisimpleAlgebras.Suggested
 - `TauCetiRoadmap.RepresentationTheory.CompactGroups.haarProb` (def) in roadmaps.CompactGroups.Suggested
 - `TauCetiRoadmap.RepresentationTheory.CompactGroups.IsUnitary` (def) in roadmaps.CompactGroups.Suggested
 - `TauCetiRoadmap.RepresentationTheory.CompactGroups.IsInvariant` (def) in roadmaps.CompactGroups.Suggested
@@ -252,7 +238,6 @@
 - `TauCetiRoadmap.RepresentationTheory.CharacterTheory.frobeniusSchurIndicatorRep` (def) in roadmaps.CharacterTheory.Suggested
 - `TauCetiRoadmap.RepresentationTheory.CharacterTheory.IsInvariantForm` (def) in roadmaps.CharacterTheory.Suggested
 - `TauCetiRoadmap.RepresentationTheory.CharacterTheory.IsRealClass` (def) in roadmaps.CharacterTheory.Suggested
-- `TauCetiRoadmap.RepresentationTheory.SpinRepresentations.spinPQ` (abbrev) in roadmaps.SpinRepresentations.Suggested
 - `TauCetiRoadmap.RepresentationTheory.QuiverRepresentations.pathAlgebra` (def) in roadmaps.QuiverRepresentations.Suggested
 - `TauCetiRoadmap.RepresentationTheory.QuiverRepresentations.IsAcyclic` (def) in roadmaps.QuiverRepresentations.Suggested
 - `TauCetiRoadmap.RepresentationTheory.QuiverRepresentations.QuiverRep` (abbrev) in roadmaps.QuiverRepresentations.Suggested
@@ -261,134 +246,17 @@
 - `TauCetiRoadmap.RepresentationTheory.QuiverRepresentations.titsForm` (def) in roadmaps.QuiverRepresentations.Suggested
 - `TauCetiRoadmap.RepresentationTheory.QuiverRepresentations.dimVector` (def) in roadmaps.QuiverRepresentations.Suggested
 - `TauCetiRoadmap.RepresentationTheory.QuiverRepresentations.ReflectedQuiver` (def) in roadmaps.QuiverRepresentations.Suggested
-
-### category-theory-representation-theory-categorical-canonical-lane-mathlib (+102)
-
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.LimitsPackage` (structure) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.CategoryPackages
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.ColimitsPackage` (structure) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.LimitsColimits
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.LimitsAndColimitsEvidence` (structure) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.LimitsAndColimits
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.LimitsAndColimitsClosed` (def) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.LimitsAndColimits
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.limits_and_colimits_closed_from_evidence` (theorem) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.LimitsAndColimits
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.AdmissibleClass` (structure) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.AdmissibleClass
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.admittedClosure` (def) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.CategoryTheoryAdmissible
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.MathlibProofObligation` (structure) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.MathlibStatement
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.mathlibProofObligation` (def) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.MathlibStatement
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.MonoidalCategoryPackage` (structure) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.MonoidalStructureAdmissible
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.MonoidalCategoryEvidence` (structure) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.MonoidalStructureAdmissible
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.MonoidalCategoryClosed` (def) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.MonoidalStructureAdmissible
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.monoidal_category_closed_from_evidence` (theorem) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.MonoidalStructureAdmissible
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.gateClosed` (def) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.GateLemmas
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.gate_from_admissible_class` (theorem) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.GateLemmas
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.LimitsColimitsEvidence` (structure) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.LimitsColimits
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.LimitsColimitsClosed` (def) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.LimitsColimits
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.limits_colimits_closed_from_evidence` (theorem) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.LimitsColimits
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.AdjointFunctorTheoremPackage` (structure) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.AdjointFunctorTheorem
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.AdjointFunctorTheoremEvidence` (structure) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.AdjointFunctorTheorem
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.AdjointFunctorTheoremClosed` (def) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.AdjointFunctorTheorem
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.adjoint_functor_theorem_closed_from_evidence` (theorem) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.AdjointFunctorTheorem
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.RepresentationTheoremPackage` (structure) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.RepresentationTheorem
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.RepresentationEvidence` (structure) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.RepresentationTheorem
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.RepresentationClosed` (def) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.RepresentationTheorem
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.representation_closed_from_evidence` (theorem) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.RepresentationTheorem
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.TheoremStatement` (structure) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.TheoremStatement
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.sourceTheoremStatement` (def) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.TheoremStatement
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.ClassicalSourceBoundaryCarried` (def) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.TheoremStatement
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.AdmittedClosureTheoremClosed` (def) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.TheoremStatement
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.TheoremLayerInternalized` (def) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.TheoremStatement
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.theorem_statement_source_key_checked` (theorem) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.TheoremStatement
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.theorem_statement_certificate_lane_checked` (theorem) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.TheoremStatement
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.classical_source_boundary_carried_checked` (theorem) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.TheoremStatement
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.admitted_closure_theorem_closed_checked` (theorem) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.TheoremStatement
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.theorem_layer_internalized_checked` (theorem) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.TheoremStatement
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.KanExtensionPackage` (structure) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.KanExtension
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.KanExtensionEvidence` (structure) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.KanExtension
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.KanExtensionClosed` (def) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.KanExtension
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.kan_extension_closed_from_evidence` (theorem) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.KanExtension
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.RepresentationCategoryPackage` (structure) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.RepresentationCategoryAdmissible
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.RepresentationCategoryEvidence` (structure) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.RepresentationCategoryAdmissible
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.RepresentationCategoryClosed` (def) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.RepresentationCategoryAdmissible
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.representation_category_closed_from_evidence` (theorem) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.RepresentationCategoryAdmissible
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.ConstrainedCategoryTheoryClosure` (def) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.FinalTheorem
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.constrained_category_theory_endgame` (theorem) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.FinalTheorem
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.AdjunctionPackage` (structure) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.Adjunction
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.AdjunctionEvidence` (structure) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.Adjunction
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.AdjunctionClosed` (def) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.Adjunction
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.adjunction_closed_from_evidence` (theorem) in CategoryTheoryRepresentationTheoryCategoricalCanonicalLaneLean.Adjunction
-- ... and 52 more
-
-### category-theory-representation-theory-categorical-foundation-canonical-lane-mathlib (+7)
-
-- `HautevilleHouse.category_theory_representation_theory_categorical_foundation_canonical_lane_mathlib.AdmissibleClass` (def) in category_theory_representation_theory_categorical_foundation_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.category_theory_representation_theory_categorical_foundation_canonical_lane_mathlib.bridgeClosed` (def) in category_theory_representation_theory_categorical_foundation_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.category_theory_representation_theory_categorical_foundation_canonical_lane_mathlib.gateClosed` (def) in category_theory_representation_theory_categorical_foundation_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.category_theory_representation_theory_categorical_foundation_canonical_lane_mathlib.bridge_from_admissible_class` (def) in category_theory_representation_theory_categorical_foundation_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.category_theory_representation_theory_categorical_foundation_canonical_lane_mathlib.gate_from_admissible_class` (def) in category_theory_representation_theory_categorical_foundation_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.category_theory_representation_theory_categorical_foundation_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in category_theory_representation_theory_categorical_foundation_canonical_lane_mathlib.FinalTheorem
-- `HautevilleHouse.category_theory_representation_theory_categorical_foundation_canonical_lane_mathlib.canonical` (theorem) in category_theory_representation_theory_categorical_foundation_canonical_lane_mathlib.FinalTheorem
-
-### category-theory-representation-theory-categorical-lemma-canonical-lane-mathlib (+7)
-
-- `HautevilleHouse.category_theory_representation_theory_categorical_lemma_canonical_lane_mathlib.AdmissibleClass` (def) in category_theory_representation_theory_categorical_lemma_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.category_theory_representation_theory_categorical_lemma_canonical_lane_mathlib.bridgeClosed` (def) in category_theory_representation_theory_categorical_lemma_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.category_theory_representation_theory_categorical_lemma_canonical_lane_mathlib.gateClosed` (def) in category_theory_representation_theory_categorical_lemma_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.category_theory_representation_theory_categorical_lemma_canonical_lane_mathlib.bridge_from_admissible_class` (def) in category_theory_representation_theory_categorical_lemma_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.category_theory_representation_theory_categorical_lemma_canonical_lane_mathlib.gate_from_admissible_class` (def) in category_theory_representation_theory_categorical_lemma_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.category_theory_representation_theory_categorical_lemma_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in category_theory_representation_theory_categorical_lemma_canonical_lane_mathlib.FinalTheorem
-- `HautevilleHouse.category_theory_representation_theory_categorical_lemma_canonical_lane_mathlib.canonical` (theorem) in category_theory_representation_theory_categorical_lemma_canonical_lane_mathlib.FinalTheorem
-
-### category-theory-representation-theory-categorical-theorem-canonical-lane-mathlib (+115)
-
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.CategoryAdmittedObject` (structure) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.CategoryObjects
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.CategoryWitnessClosed` (def) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.CategoryObjects
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.category_witness_closed_from_object` (theorem) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.CategoryObjects
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.LimitsPackage` (structure) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.LimitsAndColimits
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.LimitsEvidence` (structure) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.LimitsAndColimits
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.LimitsClosed` (def) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.LimitsAndColimits
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.limits_closed_from_evidence` (theorem) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.LimitsAndColimits
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.RepresentationObject` (structure) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.AdmissibleClass
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.RepresentationAdmissibleObject` (structure) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.AdmissibleClass
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.RepresentationWitnessClosed` (def) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.AdmissibleClass
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.gateClosed` (def) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.FinalTheorem
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.gate_from_admissible_class` (theorem) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.FinalTheorem
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.LimitsColimitsPackage` (structure) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.LimitsColimits
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.LimitsColimitsEvidence` (structure) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.LimitsColimits
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.LimitsColimitsClosed` (def) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.LimitsColimits
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.limits_colimits_closed_from_evidence` (theorem) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.LimitsColimits
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.LimitColimitPackage` (structure) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.LimitColimitBridge
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.LimitColimitEvidence` (structure) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.LimitColimit
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.LimitColimitClosed` (def) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.LimitColimit
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.limit_colimit_closed_from_evidence` (theorem) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.LimitColimit
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.AdjointFunctorPackage` (structure) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.AdjointFunctorBridge
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.AdjointFunctorEvidence` (structure) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.AdjointFunctorBridge
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.AdjointFunctorClosed` (def) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.AdjointFunctorBridge
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.adjoint_functor_closed_from_evidence` (theorem) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.AdjointFunctorBridge
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.RepresentationTheoremPackage` (structure) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.RepresentationTheorem
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.RepresentationTheoremEvidence` (structure) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.RepresentationTheorem
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.RepresentationTheoremClosed` (def) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.RepresentationTheorem
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.representation_theorem_closed_from_evidence` (theorem) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.RepresentationTheorem
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.ConeOver` (structure) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.LimitColimitClosure
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.LimitPackage` (structure) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.LimitColimitClosure
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.LimitEvidence` (structure) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.LimitColimitClosure
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.LimitClosed` (def) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.LimitColimitClosure
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.limit_closed_from_evidence` (theorem) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.LimitColimitClosure
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.ColimitPackage` (structure) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.LimitColimitClosure
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.ColimitEvidence` (structure) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.LimitColimitClosure
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.ColimitClosed` (def) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.LimitColimitClosure
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.colimit_closed_from_evidence` (theorem) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.LimitColimitClosure
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.AdjointRepresentationPackage` (structure) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.AdjointRepresentation
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.AdjointRepresentationEvidence` (structure) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.AdjointRepresentation
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.AdjointRepresentationClosed` (def) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.AdjointRepresentation
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.adjoint_representation_closed_from_evidence` (theorem) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.AdjointRepresentation
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.MonoidalCategoryPackage` (structure) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.MonoidalCategory
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.MonoidalCategoryEvidence` (structure) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.MonoidalCategory
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.MonoidalCategoryClosed` (def) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.MonoidalCategory
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.monoidal_category_closed_from_evidence` (theorem) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.MonoidalCategory
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.FunctorPackage` (structure) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.CategoryFoundation
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.FunctorEvidence` (structure) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.CategoryFoundation
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.FunctorClosed` (def) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.CategoryFoundation
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.functor_closed_from_evidence` (theorem) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.CategoryFoundation
-- `HautevilleHouse.CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.NaturalTransformationPackage` (structure) in CategoryTheoryRepresentationTheoryCategoricalTheoremCanonicalLaneLean.CategoryFoundation
-- ... and 65 more
+- `TauCetiRoadmap.RepresentationTheory.SpinRepresentations.spinPQ` (abbrev) in roadmaps.SpinRepresentations.Suggested
+- `TauCetiRoadmap.RepresentationTheory.RootSystems.posRoots` (def) in roadmaps.RootSystems.Suggested
+- `TauCetiRoadmap.RepresentationTheory.RootSystems.negRoots` (def) in roadmaps.RootSystems.Suggested
+- `TauCetiRoadmap.RepresentationTheory.RootSystems.inversions` (def) in roadmaps.RootSystems.Suggested
+- `TauCetiRoadmap.RepresentationTheory.RootSystems.dominantChamber` (def) in roadmaps.RootSystems.Suggested
+- `TauCetiRoadmap.RepresentationTheory.RootSystems.DynkinType` (inductive) in roadmaps.RootSystems.Suggested
+- `TauCetiRoadmap.RepresentationTheory.RootSystems.HasCartanType` (def) in roadmaps.RootSystems.Suggested
+- `TauCetiRoadmap.RepresentationTheory.SemisimpleAlgebras.IsSplittingField` (def) in roadmaps.SemisimpleAlgebras.Suggested
+- `TauCetiRoadmap.RepresentationTheory.ClassicalGroups.DominantWeight` (def) in roadmaps.ClassicalGroups.Suggested
+- `TauCetiRoadmap.RepresentationTheory.ClassicalGroups.GTPattern` (structure) in roadmaps.ClassicalGroups.Suggested
+- `TauCetiRoadmap.RepresentationTheory.ClassicalGroups.GTPattern.topRow` (def) in roadmaps.ClassicalGroups.Suggested
 
 ### finite-groups (+48)
 
@@ -397,6 +265,36 @@
 - `FG.matrix_representation.is_equivalent_symm` (lemma) in src.matrix_representation
 - `FG.matrix_representation.is_equivalent_iff` (lemma) in src.matrix_representation
 - `FG.matrix_representation.irreducible_representation` (def) in src.matrix_representation
+- `FG.example_int.group_int` (structure) in src.examples.int_addition
+- `FG.example_int.group_int.rep` (def) in src.examples.int_addition
+- `FG.example_int.group_int.rep.is_reducible_by_P` (lemma) in src.examples.int_addition
+- `FG.example_S₃.S₃` (inductive) in src.examples.S3
+- `FG.example_S₃.S₃.is_non_abelian` (lemma) in src.examples.S3
+- `FG.example_parity.ℤ₂` (inductive) in src.examples.Z2
+- `FG.example_parity.ℤ₂.rep` (def) in src.examples.Z2
+- `FG.linear_operator` (def) in src.basic.representation
+- `FG.representation` (class) in src.basic.representation
+- `FG.finite_group` (class) in src.basic.finite_group
+- `FG.invertible_matrix` (def) in src.linear_space.invertible_matrix
+- `FG.miscs.vector_annihilates_right` (def) in src.linear_space.miscs
+- `FG.miscs.vector_annihilates_left` (def) in src.linear_space.miscs
+- `FG.miscs.vector_annihilates` (def) in src.linear_space.miscs
+- `FG.miscs.vector_annihilates_or_ivertible` (lemma) in src.linear_space.miscs
+- `FG.matrix_func` (def) in src.linear_space.square_matrix
+- `FG.square_matrix` (def) in src.linear_space.square_matrix
+- `FG.square_matrix.is_invertible` (def) in src.linear_space.square_matrix
+- `FG.square_matrix.det1_eq` (lemma) in src.linear_space.square_matrix
+- `FG.square_matrix.det2_eq` (lemma) in src.linear_space.square_matrix
+- `FG.block_diagonal` (inductive) in src.linear_space.block_diagonal
+- `FG.block_diagonal.to_func` (def) in src.linear_space.block_diagonal
+- `FG.vec` (def) in src.linear_space.vector
+- `FG.vec.smul` (def) in src.linear_space.vector
+- `FG.mat3_representation` (class) in src.linear_space3.mat3_representation
+- `FG.mat3.is_invertible` (def) in src.linear_space3.invertible_mat3
+- `FG.mat3.unitary_is_inverible` (lemma) in src.linear_space3.invertible_mat3
+- `FG.mat3.inverse` (def) in src.linear_space3.invertible_mat3
+- `FG.mat3.det_iff` (theorem) in src.linear_space3.invertible_mat3
+- `FG.mat3.inverse_invertible` (lemma) in src.linear_space3.invertible_mat3
 - `FG.vec3` (structure) in src.linear_space3.data
 - `FG.vec3.vector3` (def) in src.linear_space3.data
 - `FG.vec3.from_vector_eq` (lemma) in src.linear_space3.data
@@ -406,36 +304,6 @@
 - `FG.mat3.from_matrix_eq` (lemma) in src.linear_space3.data
 - `FG.mat3.equiv_matrix` (def) in src.linear_space3.data
 - `FG.mat3.mat_dot_vec_assoc` (lemma) in src.linear_space3.data
-- `FG.mat3.is_invertible` (def) in src.linear_space3.invertible_mat3
-- `FG.mat3.unitary_is_inverible` (lemma) in src.linear_space3.invertible_mat3
-- `FG.mat3.inverse` (def) in src.linear_space3.invertible_mat3
-- `FG.mat3.det_iff` (theorem) in src.linear_space3.invertible_mat3
-- `FG.mat3.inverse_invertible` (lemma) in src.linear_space3.invertible_mat3
-- `FG.mat3_representation` (class) in src.linear_space3.mat3_representation
-- `FG.finite_group` (class) in src.basic.finite_group
-- `FG.linear_operator` (def) in src.basic.representation
-- `FG.representation` (class) in src.basic.representation
-- `FG.example_S₃.S₃` (inductive) in src.examples.S3
-- `FG.example_S₃.S₃.is_non_abelian` (lemma) in src.examples.S3
-- `FG.example_int.group_int` (structure) in src.examples.int_addition
-- `FG.example_int.group_int.rep` (def) in src.examples.int_addition
-- `FG.example_int.group_int.rep.is_reducible_by_P` (lemma) in src.examples.int_addition
-- `FG.example_parity.ℤ₂` (inductive) in src.examples.Z2
-- `FG.example_parity.ℤ₂.rep` (def) in src.examples.Z2
-- `FG.matrix_func` (def) in src.linear_space.square_matrix
-- `FG.square_matrix` (def) in src.linear_space.square_matrix
-- `FG.square_matrix.is_invertible` (def) in src.linear_space.square_matrix
-- `FG.square_matrix.det1_eq` (lemma) in src.linear_space.square_matrix
-- `FG.square_matrix.det2_eq` (lemma) in src.linear_space.square_matrix
-- `FG.miscs.vector_annihilates_right` (def) in src.linear_space.miscs
-- `FG.miscs.vector_annihilates_left` (def) in src.linear_space.miscs
-- `FG.miscs.vector_annihilates` (def) in src.linear_space.miscs
-- `FG.miscs.vector_annihilates_or_ivertible` (lemma) in src.linear_space.miscs
-- `FG.vec` (def) in src.linear_space.vector
-- `FG.vec.smul` (def) in src.linear_space.vector
-- `FG.block_diagonal` (inductive) in src.linear_space.block_diagonal
-- `FG.block_diagonal.to_func` (def) in src.linear_space.block_diagonal
-- `FG.invertible_matrix` (def) in src.linear_space.invertible_matrix
 - `FG.example_Z₃.Z₃` (inductive) in src.linear_space3.examples.Z3
 - `FG.example_Z₃.Z₃.rep1` (def) in src.linear_space3.examples.Z3
 - `FG.example_Z₃.Z₃.rep2` (def) in src.linear_space3.examples.Z3
@@ -453,7 +321,7 @@
 - `joyalRepresentation.orderEmbedding` (def) in JoyalRepresentationTheorem
 - `joyalRepresentation.heytingHom` (def) in JoyalRepresentationTheorem
 
-### mathlib4 (+5959)
+### mathlib4 (+5994)
 
 - `Action.tensor_ρ_apply` (theorem) in Mathlib.RepresentationTheory.Action
 - `AddEquiv.bracket_def` (theorem) in Mathlib.Algebra.Lie.TransferInstance
@@ -503,148 +371,68 @@
 - `CartanMatrix.D_three'` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
 - `CartanMatrix.D_transpose` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
 - `CartanMatrix.D_two` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
-- `CartanMatrix.E₆` (def) in Mathlib.LinearAlgebra.Matrix.Cartan
-- `CartanMatrix.E₆_det` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
-- ... and 5909 more
+- `CartanMatrix.E` (def) in Mathlib.LinearAlgebra.Matrix.Cartan
+- `CartanMatrix.E_det` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
+- ... and 5944 more
 
 ### mini-representation-lie-theory (+6028)
 
-- `main` (def) in mini-vertex-algebras.Test.Smoke
-- `MiniLieGroups.SymmetricSpace` (structure) in mini-lie-groups.MiniLieGroups.Applications.Geometry
-- `MiniLieGroups.SymmetricSpace.sphere` (def) in mini-lie-groups.MiniLieGroups.Applications.Geometry
-- `MiniLieGroups.SymmetricSpace.hyperbolic` (def) in mini-lie-groups.MiniLieGroups.Applications.Geometry
-- `MiniLieGroups.SymmetricSpace.complexProjective` (def) in mini-lie-groups.MiniLieGroups.Applications.Geometry
-- `MiniLieGroups.IsometryGroup` (structure) in mini-lie-groups.MiniLieGroups.Applications.Geometry
-- `MiniLieGroups.isometry_group_lie_group` (theorem) in mini-lie-groups.MiniLieGroups.Applications.Geometry
-- `MiniLieGroups.symmetric_space_classification` (theorem) in mini-lie-groups.MiniLieGroups.Applications.Geometry
-- `MiniLieGroups.invariant_metric_biinvariant` (theorem) in mini-lie-groups.MiniLieGroups.Applications.Geometry
-- `MiniLieGroups.Grassmannian` (structure) in mini-lie-groups.MiniLieGroups.Applications.Geometry
-- `MiniLieGroups.Grassmannian.of` (def) in mini-lie-groups.MiniLieGroups.Applications.Geometry
-- `MiniLieGroups.FlagVariety` (structure) in mini-lie-groups.MiniLieGroups.Applications.Geometry
-- `MiniLieGroups.FlagVariety.full` (def) in mini-lie-groups.MiniLieGroups.Applications.Geometry
-- `MiniLieGroups.StiefelManifold` (structure) in mini-lie-groups.MiniLieGroups.Applications.Geometry
-- `MiniLieGroups.StiefelManifold.of` (def) in mini-lie-groups.MiniLieGroups.Applications.Geometry
-- `MiniLieGroups.LensSpace` (structure) in mini-lie-groups.MiniLieGroups.Applications.Geometry
-- `MiniLieGroups.LensSpace.of` (def) in mini-lie-groups.MiniLieGroups.Applications.Geometry
-- `MiniLieGroups.HomogeneousSpaceClass` (structure) in mini-lie-groups.MiniLieGroups.Applications.Geometry
-- `MiniLieGroups.HomogeneousSpaceClass.sphere` (def) in mini-lie-groups.MiniLieGroups.Applications.Geometry
-- `MiniLieGroups.HermitianSymmetricSpace` (structure) in mini-lie-groups.MiniLieGroups.Applications.Geometry
-- `MiniLieGroups.HermitianSymmetricSpace.typeAIII` (def) in mini-lie-groups.MiniLieGroups.Applications.Geometry
-- `MiniLieGroups.QuaternionicKahler` (structure) in mini-lie-groups.MiniLieGroups.Applications.Geometry
-- `MiniLieGroups.QuaternionicKahler.HP_n` (def) in mini-lie-groups.MiniLieGroups.Applications.Geometry
-- `MiniLieGroups.ExceptionalGeometry` (structure) in mini-lie-groups.MiniLieGroups.Applications.Geometry
-- `MiniLieGroups.ExceptionalGeometry.G2` (def) in mini-lie-groups.MiniLieGroups.Applications.Geometry
-- `MiniLieGroups.ExceptionalGeometry.Spin7` (def) in mini-lie-groups.MiniLieGroups.Applications.Geometry
-- `MiniLieGroups.CalabiYau` (structure) in mini-lie-groups.MiniLieGroups.Applications.Geometry
-- `MiniLieGroups.CalabiYau.quintic` (def) in mini-lie-groups.MiniLieGroups.Applications.Geometry
-- `MiniLieGroups.Hyperkahler` (structure) in mini-lie-groups.MiniLieGroups.Applications.Geometry
-- `MiniLieGroups.Hyperkahler.K3` (def) in mini-lie-groups.MiniLieGroups.Applications.Geometry
-- `MiniLieGroups.RiemannianSymmetricSpace` (structure) in mini-lie-groups.MiniLieGroups.Applications.Geometry
-- `MiniLieGroups.RiemannianSymmetricSpace.AI` (def) in mini-lie-groups.MiniLieGroups.Applications.Geometry
-- `MiniLieGroups.RiemannianSymmetricSpace.AII` (def) in mini-lie-groups.MiniLieGroups.Applications.Geometry
-- `MiniLieGroups.RiemannianSymmetricSpace.AIII` (def) in mini-lie-groups.MiniLieGroups.Applications.Geometry
-- `MiniLieGroups.RiemannianSymmetricSpace.BDI` (def) in mini-lie-groups.MiniLieGroups.Applications.Geometry
-- `MiniLieGroups.RiemannianSymmetricSpace.CI` (def) in mini-lie-groups.MiniLieGroups.Applications.Geometry
-- `MiniLieGroups.RiemannianSymmetricSpace.CII` (def) in mini-lie-groups.MiniLieGroups.Applications.Geometry
-- `MiniLieGroups.HyperbolicSpace` (structure) in mini-lie-groups.MiniLieGroups.Applications.Geometry
-- `MiniLieGroups.HyperbolicSpace.of` (def) in mini-lie-groups.MiniLieGroups.Applications.Geometry
-- `MiniLieGroups.GaugeGroup` (structure) in mini-lie-groups.MiniLieGroups.Applications.Physics
-- `MiniLieGroups.GaugeGroup.U1` (def) in mini-lie-groups.MiniLieGroups.Applications.Physics
-- `MiniLieGroups.GaugeGroup.SU2` (def) in mini-lie-groups.MiniLieGroups.Applications.Physics
-- `MiniLieGroups.GaugeGroup.SU3` (def) in mini-lie-groups.MiniLieGroups.Applications.Physics
-- `MiniLieGroups.gauge_theory_symmetry` (theorem) in mini-lie-groups.MiniLieGroups.Applications.Physics
-- `MiniLieGroups.RotationGroup` (structure) in mini-lie-groups.MiniLieGroups.Applications.Physics
-- `MiniLieGroups.RotationGroup.SO3` (def) in mini-lie-groups.MiniLieGroups.Applications.Physics
-- `MiniLieGroups.euler_angles_so3` (theorem) in mini-lie-groups.MiniLieGroups.Applications.Physics
-- `MiniLieGroups.rigid_body_kinematics` (theorem) in mini-lie-groups.MiniLieGroups.Applications.Physics
-- `MiniLieGroups.LorentzGroup` (structure) in mini-lie-groups.MiniLieGroups.Applications.Physics
-- `MiniLieGroups.LorentzGroup.SO31` (def) in mini-lie-groups.MiniLieGroups.Applications.Physics
+- `main` (def) in mini-vertex-algebras.Test.Main
+- `MiniLieAlgebras.Basic.Field` (class) in mini-lie-algebras.MiniLieAlgebras.Basic
+- `MiniLieAlgebras.Basic.Field.sub_eq_add_neg` (def) in mini-lie-algebras.MiniLieAlgebras.Basic
+- `MiniLieAlgebras.Basic.Field.neg_zero` (theorem) in mini-lie-algebras.MiniLieAlgebras.Basic
+- `MiniLieAlgebras.Basic.Field.sub_self` (theorem) in mini-lie-algebras.MiniLieAlgebras.Basic
+- `MiniLieAlgebras.Basic.Field.add_left_cancel` (theorem) in mini-lie-algebras.MiniLieAlgebras.Basic
+- `MiniLieAlgebras.Basic.Field.add_right_cancel` (theorem) in mini-lie-algebras.MiniLieAlgebras.Basic
+- `MiniLieAlgebras.Basic.Field.mul_add'` (theorem) in mini-lie-algebras.MiniLieAlgebras.Basic
+- `MiniLieAlgebras.Basic.Field.add_mul'` (theorem) in mini-lie-algebras.MiniLieAlgebras.Basic
+- `MiniLieAlgebras.Basic.Field.neg_mul` (theorem) in mini-lie-algebras.MiniLieAlgebras.Basic
+- `MiniLieAlgebras.Basic.Field.mul_neg` (theorem) in mini-lie-algebras.MiniLieAlgebras.Basic
+- `MiniLieAlgebras.Basic.Field.neg_mul_neg` (theorem) in mini-lie-algebras.MiniLieAlgebras.Basic
+- `MiniLieAlgebras.Basic.Field.eq_zero_of_mul_eq_zero_left` (theorem) in mini-lie-algebras.MiniLieAlgebras.Basic
+- `MiniLieAlgebras.Basic.Field.eq_zero_of_mul_eq_zero_right` (theorem) in mini-lie-algebras.MiniLieAlgebras.Basic
+- `MiniLieAlgebras.Basic.Field.inv_mul_cancel` (theorem) in mini-lie-algebras.MiniLieAlgebras.Basic
+- `MiniLieAlgebras.Basic.Field.mul_inv_cancel` (theorem) in mini-lie-algebras.MiniLieAlgebras.Basic
+- `MiniLieAlgebras.Basic.Field.mul_left_cancel` (theorem) in mini-lie-algebras.MiniLieAlgebras.Basic
+- `MiniLieAlgebras.Basic.Field.inv_one` (theorem) in mini-lie-algebras.MiniLieAlgebras.Basic
+- `MiniLieAlgebras.Basic.Field.mul_ne_zero` (theorem) in mini-lie-algebras.MiniLieAlgebras.Basic
+- `MiniLieAlgebras.Basic.constants,` (structure) in mini-lie-algebras.MiniLieAlgebras.Basic
+- `exChar` (def) in mini-representation-theory.Test.Examples
+- `exV` (def) in mini-representation-theory.Test.Examples
+- `MiniRepresentationTheory.QuantumSpin` (structure) in mini-representation-theory.MiniRepresentationTheory.Applications.Physics
+- `MiniRepresentationTheory.QuantumSpin.of` (def) in mini-representation-theory.MiniRepresentationTheory.Applications.Physics
+- `MiniRepresentationTheory.QuantumSpin.spin0` (def) in mini-representation-theory.MiniRepresentationTheory.Applications.Physics
+- `MiniRepresentationTheory.QuantumSpin.spinHalf` (def) in mini-representation-theory.MiniRepresentationTheory.Applications.Physics
+- `MiniRepresentationTheory.QuantumSpin.spin1` (def) in mini-representation-theory.MiniRepresentationTheory.Applications.Physics
+- `MiniRepresentationTheory.QuantumSpin.spinThreeHalf` (def) in mini-representation-theory.MiniRepresentationTheory.Applications.Physics
+- `MiniRepresentationTheory.QuantumSpin.spin2` (def) in mini-representation-theory.MiniRepresentationTheory.Applications.Physics
+- `MiniRepresentationTheory.QuantumSpin.basisStates` (def) in mini-representation-theory.MiniRepresentationTheory.Applications.Physics
+- `MiniRepresentationTheory.QuantumSpin.dimension` (def) in mini-representation-theory.MiniRepresentationTheory.Applications.Physics
+- `MiniRepresentationTheory.angularMomentumCoupling` (def) in mini-representation-theory.MiniRepresentationTheory.Applications.Physics
+- `MiniRepresentationTheory.verifyAngularMomentumDim` (def) in mini-representation-theory.MiniRepresentationTheory.Applications.Physics
+- `MiniRepresentationTheory.CGCoefficient` (structure) in mini-representation-theory.MiniRepresentationTheory.Applications.Physics
+- `MiniRepresentationTheory.CGCoefficient.standardTable` (def) in mini-representation-theory.MiniRepresentationTheory.Applications.Physics
+- `MiniRepresentationTheory.CGCoefficient.lookup` (def) in mini-representation-theory.MiniRepresentationTheory.Applications.Physics
+- `MiniRepresentationTheory.QuarkFlavor` (inductive) in mini-representation-theory.MiniRepresentationTheory.Applications.Physics
+- `MiniRepresentationTheory.QuarkFlavor.charge` (def) in mini-representation-theory.MiniRepresentationTheory.Applications.Physics
+- `MiniRepresentationTheory.QuarkFlavor.toString` (def) in mini-representation-theory.MiniRepresentationTheory.Applications.Physics
+- `MiniRepresentationTheory.GaugeRepresentation` (structure) in mini-representation-theory.MiniRepresentationTheory.Applications.Physics
+- `MiniRepresentationTheory.GaugeRepresentation.qcdQuark` (def) in mini-representation-theory.MiniRepresentationTheory.Applications.Physics
+- `MiniRepresentationTheory.GaugeRepresentation.qcdGluon` (def) in mini-representation-theory.MiniRepresentationTheory.Applications.Physics
+- `MiniRepresentationTheory.GaugeRepresentation.electroweakDoublet` (def) in mini-representation-theory.MiniRepresentationTheory.Applications.Physics
+- `MiniRepresentationTheory.GaugeRepresentation.su5Fundamental` (def) in mini-representation-theory.MiniRepresentationTheory.Applications.Physics
+- `MiniRepresentationTheory.GaugeRepresentation.su5Antisymmetric` (def) in mini-representation-theory.MiniRepresentationTheory.Applications.Physics
+- `MiniRepresentationTheory.spinStatistics` (def) in mini-representation-theory.MiniRepresentationTheory.Applications.Physics
+- `MiniRepresentationTheory.wigner_eckart_selection_rule` (theorem) in mini-representation-theory.MiniRepresentationTheory.Applications.Physics
+- `MiniRepresentationTheory.factorial` (def) in mini-representation-theory.MiniRepresentationTheory.Core.Basic
+- `MiniRepresentationTheory.Weight` (structure) in mini-representation-theory.MiniRepresentationTheory.Core.Basic
+- `MiniRepresentationTheory.Weight.zero` (def) in mini-representation-theory.MiniRepresentationTheory.Core.Basic
 - ... and 5978 more
 
 ### modularreptheory (+1)
 
 - `fixedSubalgebra` (def) in Modularreptheory.Basic
 
-### representation-theory-lattices-lemma-canonical-lane-mathlib (+7)
-
-- `HautevilleHouse.representation_theory_lattices_lemma_canonical_lane_mathlib.AdmissibleClass` (def) in representation_theory_lattices_lemma_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.representation_theory_lattices_lemma_canonical_lane_mathlib.bridgeClosed` (def) in representation_theory_lattices_lemma_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.representation_theory_lattices_lemma_canonical_lane_mathlib.gateClosed` (def) in representation_theory_lattices_lemma_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.representation_theory_lattices_lemma_canonical_lane_mathlib.bridge_from_admissible_class` (def) in representation_theory_lattices_lemma_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.representation_theory_lattices_lemma_canonical_lane_mathlib.gate_from_admissible_class` (def) in representation_theory_lattices_lemma_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.representation_theory_lattices_lemma_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in representation_theory_lattices_lemma_canonical_lane_mathlib.FinalTheorem
-- `HautevilleHouse.representation_theory_lattices_lemma_canonical_lane_mathlib.canonical` (theorem) in representation_theory_lattices_lemma_canonical_lane_mathlib.FinalTheorem
-
-### representation-theory-lattices-theorem-canonical-lane-mathlib (+7)
-
-- `HautevilleHouse.representation_theory_lattices_theorem_canonical_lane_mathlib.AdmissibleClass` (def) in representation_theory_lattices_theorem_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.representation_theory_lattices_theorem_canonical_lane_mathlib.bridgeClosed` (def) in representation_theory_lattices_theorem_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.representation_theory_lattices_theorem_canonical_lane_mathlib.gateClosed` (def) in representation_theory_lattices_theorem_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.representation_theory_lattices_theorem_canonical_lane_mathlib.bridge_from_admissible_class` (def) in representation_theory_lattices_theorem_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.representation_theory_lattices_theorem_canonical_lane_mathlib.gate_from_admissible_class` (def) in representation_theory_lattices_theorem_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.representation_theory_lattices_theorem_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in representation_theory_lattices_theorem_canonical_lane_mathlib.FinalTheorem
-- `HautevilleHouse.representation_theory_lattices_theorem_canonical_lane_mathlib.canonical` (theorem) in representation_theory_lattices_theorem_canonical_lane_mathlib.FinalTheorem
-
-### representation-theory-linear-operators-foundation-canonical-lane-mathlib (+7)
-
-- `HautevilleHouse.representation_theory_linear_operators_foundation_canonical_lane_mathlib.AdmissibleClass` (def) in representation_theory_linear_operators_foundation_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.representation_theory_linear_operators_foundation_canonical_lane_mathlib.bridgeClosed` (def) in representation_theory_linear_operators_foundation_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.representation_theory_linear_operators_foundation_canonical_lane_mathlib.gateClosed` (def) in representation_theory_linear_operators_foundation_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.representation_theory_linear_operators_foundation_canonical_lane_mathlib.bridge_from_admissible_class` (def) in representation_theory_linear_operators_foundation_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.representation_theory_linear_operators_foundation_canonical_lane_mathlib.gate_from_admissible_class` (def) in representation_theory_linear_operators_foundation_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.representation_theory_linear_operators_foundation_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in representation_theory_linear_operators_foundation_canonical_lane_mathlib.FinalTheorem
-- `HautevilleHouse.representation_theory_linear_operators_foundation_canonical_lane_mathlib.canonical` (theorem) in representation_theory_linear_operators_foundation_canonical_lane_mathlib.FinalTheorem
-
-### representation-theory-linear-operators-lemma-canonical-lane-mathlib (+7)
-
-- `HautevilleHouse.representation_theory_linear_operators_lemma_canonical_lane_mathlib.AdmissibleClass` (def) in representation_theory_linear_operators_lemma_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.representation_theory_linear_operators_lemma_canonical_lane_mathlib.bridgeClosed` (def) in representation_theory_linear_operators_lemma_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.representation_theory_linear_operators_lemma_canonical_lane_mathlib.gateClosed` (def) in representation_theory_linear_operators_lemma_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.representation_theory_linear_operators_lemma_canonical_lane_mathlib.bridge_from_admissible_class` (def) in representation_theory_linear_operators_lemma_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.representation_theory_linear_operators_lemma_canonical_lane_mathlib.gate_from_admissible_class` (def) in representation_theory_linear_operators_lemma_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.representation_theory_linear_operators_lemma_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in representation_theory_linear_operators_lemma_canonical_lane_mathlib.FinalTheorem
-- `HautevilleHouse.representation_theory_linear_operators_lemma_canonical_lane_mathlib.canonical` (theorem) in representation_theory_linear_operators_lemma_canonical_lane_mathlib.FinalTheorem
-
-### representation-theory-linear-operators-theorem-canonical-lane-mathlib (+7)
-
-- `HautevilleHouse.representation_theory_linear_operators_theorem_canonical_lane_mathlib.AdmissibleClass` (def) in representation_theory_linear_operators_theorem_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.representation_theory_linear_operators_theorem_canonical_lane_mathlib.bridgeClosed` (def) in representation_theory_linear_operators_theorem_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.representation_theory_linear_operators_theorem_canonical_lane_mathlib.gateClosed` (def) in representation_theory_linear_operators_theorem_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.representation_theory_linear_operators_theorem_canonical_lane_mathlib.bridge_from_admissible_class` (def) in representation_theory_linear_operators_theorem_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.representation_theory_linear_operators_theorem_canonical_lane_mathlib.gate_from_admissible_class` (def) in representation_theory_linear_operators_theorem_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.representation_theory_linear_operators_theorem_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in representation_theory_linear_operators_theorem_canonical_lane_mathlib.FinalTheorem
-- `HautevilleHouse.representation_theory_linear_operators_theorem_canonical_lane_mathlib.canonical` (theorem) in representation_theory_linear_operators_theorem_canonical_lane_mathlib.FinalTheorem
-
-### representations-lie-algebras-lie-superalgebras-foundation-canonical-lane-mathlib (+7)
-
-- `HautevilleHouse.representations_lie_algebras_lie_superalgebras_foundation_canonical_lane_mathlib.AdmissibleClass` (def) in representations_lie_algebras_lie_superalgebras_foundation_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.representations_lie_algebras_lie_superalgebras_foundation_canonical_lane_mathlib.bridgeClosed` (def) in representations_lie_algebras_lie_superalgebras_foundation_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.representations_lie_algebras_lie_superalgebras_foundation_canonical_lane_mathlib.gateClosed` (def) in representations_lie_algebras_lie_superalgebras_foundation_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.representations_lie_algebras_lie_superalgebras_foundation_canonical_lane_mathlib.bridge_from_admissible_class` (def) in representations_lie_algebras_lie_superalgebras_foundation_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.representations_lie_algebras_lie_superalgebras_foundation_canonical_lane_mathlib.gate_from_admissible_class` (def) in representations_lie_algebras_lie_superalgebras_foundation_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.representations_lie_algebras_lie_superalgebras_foundation_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in representations_lie_algebras_lie_superalgebras_foundation_canonical_lane_mathlib.FinalTheorem
-- `HautevilleHouse.representations_lie_algebras_lie_superalgebras_foundation_canonical_lane_mathlib.canonical` (theorem) in representations_lie_algebras_lie_superalgebras_foundation_canonical_lane_mathlib.FinalTheorem
-
-### representations-lie-algebras-lie-superalgebras-lemma-canonical-lane-mathlib (+7)
-
-- `HautevilleHouse.representations_lie_algebras_lie_superalgebras_lemma_canonical_lane_mathlib.AdmissibleClass` (def) in representations_lie_algebras_lie_superalgebras_lemma_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.representations_lie_algebras_lie_superalgebras_lemma_canonical_lane_mathlib.bridgeClosed` (def) in representations_lie_algebras_lie_superalgebras_lemma_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.representations_lie_algebras_lie_superalgebras_lemma_canonical_lane_mathlib.gateClosed` (def) in representations_lie_algebras_lie_superalgebras_lemma_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.representations_lie_algebras_lie_superalgebras_lemma_canonical_lane_mathlib.bridge_from_admissible_class` (def) in representations_lie_algebras_lie_superalgebras_lemma_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.representations_lie_algebras_lie_superalgebras_lemma_canonical_lane_mathlib.gate_from_admissible_class` (def) in representations_lie_algebras_lie_superalgebras_lemma_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.representations_lie_algebras_lie_superalgebras_lemma_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in representations_lie_algebras_lie_superalgebras_lemma_canonical_lane_mathlib.FinalTheorem
-- `HautevilleHouse.representations_lie_algebras_lie_superalgebras_lemma_canonical_lane_mathlib.canonical` (theorem) in representations_lie_algebras_lie_superalgebras_lemma_canonical_lane_mathlib.FinalTheorem
-
-### representations-lie-algebras-lie-superalgebras-theorem-canonical-lane-mathlib (+7)
-
-- `HautevilleHouse.representations_lie_algebras_lie_superalgebras_theorem_canonical_lane_mathlib.AdmissibleClass` (def) in representations_lie_algebras_lie_superalgebras_theorem_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.representations_lie_algebras_lie_superalgebras_theorem_canonical_lane_mathlib.bridgeClosed` (def) in representations_lie_algebras_lie_superalgebras_theorem_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.representations_lie_algebras_lie_superalgebras_theorem_canonical_lane_mathlib.gateClosed` (def) in representations_lie_algebras_lie_superalgebras_theorem_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.representations_lie_algebras_lie_superalgebras_theorem_canonical_lane_mathlib.bridge_from_admissible_class` (def) in representations_lie_algebras_lie_superalgebras_theorem_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.representations_lie_algebras_lie_superalgebras_theorem_canonical_lane_mathlib.gate_from_admissible_class` (def) in representations_lie_algebras_lie_superalgebras_theorem_canonical_lane_mathlib.GateLemmas
-- `HautevilleHouse.representations_lie_algebras_lie_superalgebras_theorem_canonical_lane_mathlib.ConstrainedTheoremClosure` (structure) in representations_lie_algebras_lie_superalgebras_theorem_canonical_lane_mathlib.FinalTheorem
-- `HautevilleHouse.representations_lie_algebras_lie_superalgebras_theorem_canonical_lane_mathlib.canonical` (theorem) in representations_lie_algebras_lie_superalgebras_theorem_canonical_lane_mathlib.FinalTheorem
-
 ## Update History (1 runs)
 
-- **2026-08-10T06:49:20.943074+00:00**: Checked 27 repos, updated 28, +20495 -0 declarations
+- **2026-08-17T06:39:50.678176+00:00**: Checked 16 repos, updated 17, +20207 -0 declarations
