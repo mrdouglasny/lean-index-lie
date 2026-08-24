@@ -1,6 +1,6 @@
-# Changelog (since 2026-08-10)
+# Changelog (since 2026-08-17)
 
-## New Declarations (26201)
+## New Declarations (54307)
 
 ### Etingof-RepresentationTheory-draft1 (+13570)
 
@@ -55,6 +55,114 @@
 - `Etingof.isNilpotent_sum_of_finiteLength_indecomposable` (theorem) in EtingofRepresentationTheory.Chapter3.Remark3_8_6
 - `Etingof.isCompl_equiv_of_isCompl` (lemma) in EtingofRepresentationTheory.Chapter3.Remark3_8_6
 - ... and 13520 more
+
+### EtingofRepresentationTheory (+14265)
+
+- `main` (def) in AlignmentExport
+- `RepresentationTheory.AuxiliarySubmodules.indexedSubmodule` (def) in RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.rMul` (def) in RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.youngSym_ne` (lemma) in RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.youngSym_sq` (lemma) in RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.product_sq_eq_smul` (theorem) in RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.comp_left` (lemma) in RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.comp_right` (lemma) in RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.fwd_maps` (lemma) in RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.bwd_maps` (lemma) in RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.auxiliarySubmoduleLinearEquivProductSpan` (def) in RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.youngProjector_eq_smul` (lemma) in RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.span_smul_scalar_eq` (lemma) in RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.indexedSubmodule_eq_span_product` (lemma) in RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.auxiliarySubmodule_eq_span_product` (lemma) in RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.auxiliarySubmoduleLinearEquivIndexedSubmodule` (def) in RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.indexedSubmodule_isSimple` (theorem) in RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.auxiliaryElement_ne_zero` (theorem) in RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.dualSmulAux` (def) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.stabAux` (def) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.stab_char_inv` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.transition_mem_stab` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.inducedRepV` (def) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.trace_twisted_permutation` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.coset_fixed_iff` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.sum_right_invariant_eq` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.evalAtCoset` (def) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.endo_preserves_cosets` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.coset_char_injective` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.coset_char_witness` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.simple_of_full_faithful_preservesMono''` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.simple_fdRep_isIrreducible` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.simple_of_isSimpleModule_asModule'` (def) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.inducedRep_raw` (def) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.A_action_at_coset` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.G_action_at_coset` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.extract_single_support` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.sigma_contains_all_single` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.inducedRepV_simple` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.A_action_scalar` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.inducedRepV_orbit_injectivity` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.weightSpace` (def) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.exists_character_in_rep` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.weightSpace_stabAux_invariant` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.weightSpaceRep` (def) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.finrank_iso'` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.finrank_biprod'` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.exists_simple_subrep` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.exists_nonzero_map_from_induced` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.inducedRepV_completeness` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- ... and 14215 more
+
+### EtingofRepresentationTheory-bak00 (+13840)
+
+- `main` (def) in AlignmentExport
+- `RepresentationTheory.AuxiliarySubmodules.indexedSubmodule` (def) in RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.rMul` (def) in RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.youngSym_ne` (lemma) in RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.youngSym_sq` (lemma) in RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.product_sq_eq_smul` (theorem) in RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.comp_left` (lemma) in RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.comp_right` (lemma) in RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.fwd_maps` (lemma) in RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.bwd_maps` (lemma) in RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.auxiliarySubmoduleLinearEquivProductSpan` (def) in RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.youngProjector_eq_smul` (lemma) in RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.span_smul_scalar_eq` (lemma) in RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.indexedSubmodule_eq_span_product` (lemma) in RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.auxiliarySubmodule_eq_span_product` (lemma) in RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.auxiliarySubmoduleLinearEquivIndexedSubmodule` (def) in RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.indexedSubmodule_isSimple` (theorem) in RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.auxiliaryElement_ne_zero` (theorem) in RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.OpaqueFormalStatement.scaledCosine` (def) in RepresentationTheory.OpaqueFormalStatement
+- `RepresentationTheory.OpaqueFormalStatement.scaledCosine_eq` (lemma) in RepresentationTheory.OpaqueFormalStatement
+- `RepresentationTheory.OpaqueFormalStatement.three_not_dvd_scaledCosine` (lemma) in RepresentationTheory.OpaqueFormalStatement
+- `RepresentationTheory.OpaqueFormalStatement.opaqueFormalStatement` (theorem) in RepresentationTheory.OpaqueFormalStatement
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.dualSmulAux` (def) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.stabAux` (def) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.stab_char_inv` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.transition_mem_stab` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.inducedRepV` (def) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.trace_twisted_permutation` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.coset_fixed_iff` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.sum_right_invariant_eq` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.evalAtCoset` (def) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.endo_preserves_cosets` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.coset_char_injective` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.coset_char_witness` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.simple_of_full_faithful_preservesMono''` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.simple_fdRep_isIrreducible` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.simple_of_isSimpleModule_asModule'` (def) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.inducedRep_raw` (def) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.A_action_at_coset` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.G_action_at_coset` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.extract_single_support` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.sigma_contains_all_single` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.inducedRepV_simple` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.A_action_scalar` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.inducedRepV_orbit_injectivity` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.weightSpace` (def) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.exists_character_in_rep` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.weightSpace_stabAux_invariant` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.weightSpaceRep` (def) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.finrank_iso'` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- ... and 13790 more
 
 ### Group6-Formalization-on-Lie-algebra-rep (+42)
 
@@ -321,7 +429,7 @@
 - `joyalRepresentation.orderEmbedding` (def) in JoyalRepresentationTheorem
 - `joyalRepresentation.heytingHom` (def) in JoyalRepresentationTheorem
 
-### mathlib4 (+5994)
+### mathlib4 (+5995)
 
 - `Action.tensor_ρ_apply` (theorem) in Mathlib.RepresentationTheory.Action
 - `AddEquiv.bracket_def` (theorem) in Mathlib.Algebra.Lie.TransferInstance
@@ -373,7 +481,7 @@
 - `CartanMatrix.D_two` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
 - `CartanMatrix.E` (def) in Mathlib.LinearAlgebra.Matrix.Cartan
 - `CartanMatrix.E_det` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
-- ... and 5944 more
+- ... and 5945 more
 
 ### mini-representation-lie-theory (+6028)
 
@@ -435,4 +543,4 @@
 
 ## Update History (1 runs)
 
-- **2026-08-17T06:39:50.678176+00:00**: Checked 16 repos, updated 17, +20207 -0 declarations
+- **2026-08-24T06:42:13.569524+00:00**: Checked 18 repos, updated 19, +48312 -0 declarations

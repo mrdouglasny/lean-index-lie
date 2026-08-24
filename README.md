@@ -2,7 +2,7 @@
 
 Topical index for Lie algebra formalization in Lean 4. **[How to use this index in your project](https://github.com/mrdouglasny/lean-index/blob/main/docs/use-topic-index.md)**
 
-**8,524 topic-matched declarations** across **8 repositories** (scanned 17 repos, 26,201 declarations).
+**36,528 topic-matched declarations** across **10 repositories** (scanned 19 repos, 54,307 declarations).
 
 Tracks Lean declarations related to:
 - **Representation theory**: Lie modules, weight spaces, irreducibility, Schur's lemma
@@ -15,7 +15,9 @@ See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](RE
 
 | Repository | Topic Matches | Description |
 |-----------|:---:|-------------|
-| [leanprover-community/mathlib4](https://github.com/leanprover-community/mathlib4) | 5,994 | Mathlib: the math library for Lean 4 |
+| [mathlib-initiative/EtingofRepresentationTheory](https://github.com/mathlib-initiative/EtingofRepresentationTheory) | 14,214 |  |
+| [mathlib-initiative/EtingofRepresentationTheory-bak00](https://github.com/mathlib-initiative/EtingofRepresentationTheory-bak00) | 13,789 |  |
+| [leanprover-community/mathlib4](https://github.com/leanprover-community/mathlib4) | 5,995 | Mathlib: the math library for Lean 4 |
 | [rootkiller6788/mini-representation-lie-theory](https://github.com/rootkiller6788/mini-representation-lie-theory) | 1,085 | Representation theory and Lie theory built from scratch, learn algebraic... |
 | [mathlib-initiative/Etingof-RepresentationTheory-draft1](https://github.com/mathlib-initiative/Etingof-RepresentationTheory-draft1) | 950 |  |
 | [LieLean/LowDimSolvClassification](https://github.com/LieLean/LowDimSolvClassification) | 249 | Low-dimensional solvable Lie algebra classification (Lean 4) |

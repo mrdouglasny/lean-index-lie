@@ -1,35 +1,37 @@
 # Lean Index Statistics
 
-**9,819 topic-matched declarations** across **8 repositories**
-(26,201 total declarations scanned from 17 repos)
+**40,810 topic-matched declarations** across **10 repositories**
+(54,307 total declarations scanned from 19 repos)
 
 ## By Topic
 
 | Topic                          |    Matches |
 |--------------------------------|------------|
-| representation-theory          |      4,502 |
-| lie-algebras                   |      3,846 |
-| root-systems                   |      1,471 |
+| representation-theory          |     32,507 |
+| lie-algebras                   |      6,415 |
+| root-systems                   |      1,888 |
 
 ## By Kind (topic-matched only)
 
 | Kind            |      Count |
 |-----------------|------------|
-| theorem         |      5,105 |
-| def             |      2,158 |
-| instance        |        642 |
-| structure       |        292 |
-| lemma           |        110 |
+| theorem         |     18,166 |
+| def             |      8,800 |
+| lemma           |      6,329 |
+| instance        |      1,639 |
+| abbrev          |        981 |
+| structure       |        417 |
 | ctor            |         92 |
-| abbrev          |         60 |
-| class           |         47 |
-| inductive       |         18 |
+| class           |         55 |
+| inductive       |         49 |
 
 ## Top Repositories (by topic matches)
 
 | Repository                          |    Matched |      Total |
 |-------------------------------------|------------|------------|
-| mathlib4                            |      5,994 |      5,994 |
+| EtingofRepresentationTheory         |     14,214 |     14,265 |
+| EtingofRepresentationTheory-bak00   |     13,789 |     13,840 |
+| mathlib4                            |      5,995 |      5,995 |
 | mini-representation-lie-theory      |      1,085 |      6,028 |
 | Etingof-RepresentationTheory-draft1 |        950 |     13,570 |
 | LowDimSolvClassification            |        249 |        300 |
@@ -40,9 +42,9 @@
 
 ## Last Update
 
-- **When**: 2026-08-17T06:39:50.678176+00:00
-- **Repos checked**: 16
-- **Repos updated**: 17
-- **New declarations**: 20207
+- **When**: 2026-08-24T06:42:13.569524+00:00
+- **Repos checked**: 18
+- **Repos updated**: 19
+- **New declarations**: 48312
 - **Removed declarations**: 0
-- **Summary**: Checked 16 repos, updated 17, +20207 -0 declarations
+- **Summary**: Checked 18 repos, updated 19, +48312 -0 declarations
