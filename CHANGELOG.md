@@ -1,62 +1,62 @@
-# Changelog (since 2026-08-17)
+# Changelog (since 2026-08-24)
 
-## New Declarations (54307)
+## New Declarations (70670)
 
-### Etingof-RepresentationTheory-draft1 (+13570)
+### Etingof-RepresentationTheory-draft1 (+27812)
 
+- `expectedJson` (def) in alignment-spike.Tests
+- `malformedAttributeIsRejected` (theorem) in alignment-spike.Tests
+- `conflictingRolesAreRejected` (theorem) in alignment-spike.Tests
+- `main` (def) in verso.release.Main
+- `runMeta` (def) in toolchain-spike.TypeApi
+- `ppInCore` (def) in toolchain-spike.TypeApi
 - `nesting..nameFromString` (def) in scripts.extract_lean_decl_providers
 - `nesting..main` (def) in scripts.extract_lean_decl_providers
 - `moduleOf` (def) in scripts.extract_proof_dependencies
 - `kindOf` (def) in scripts.extract_proof_dependencies
 - `nameFromString` (def) in scripts.extract_proof_dependencies
-- `main` (def) in scripts.extract_proof_dependencies
-- `Etingof.postcompHom` (def) in EtingofRepresentationTheory.Chapter3.Discussion_alternative_proof_of_Proposition3_1_4
-- `Etingof.postcompHom_apply` (theorem) in EtingofRepresentationTheory.Chapter3.Discussion_alternative_proof_of_Proposition3_1_4
-- `Etingof.restrictScalars_eq` (theorem) in EtingofRepresentationTheory.Chapter3.Discussion_alternative_proof_of_Proposition3_1_4
-- `Etingof.mem_ker_iff_components` (theorem) in EtingofRepresentationTheory.Chapter3.Discussion_alternative_proof_of_Proposition3_1_4
-- `Etingof.postcompHom_injective` (theorem) in EtingofRepresentationTheory.Chapter3.Discussion_alternative_proof_of_Proposition3_1_4
-- `Etingof.postcompHom_surjective` (theorem) in EtingofRepresentationTheory.Chapter3.Discussion_alternative_proof_of_Proposition3_1_4
-- `Etingof.homPiHomEquiv` (def) in EtingofRepresentationTheory.Chapter3.Discussion_alternative_proof_of_Proposition3_1_4
-- `Etingof.homPiHomEquiv_apply` (theorem) in EtingofRepresentationTheory.Chapter3.Discussion_alternative_proof_of_Proposition3_1_4
-- `Etingof.injective_iff` (theorem) in EtingofRepresentationTheory.Chapter3.Discussion_alternative_proof_of_Proposition3_1_4
-- `Etingof.surjective_iff` (theorem) in EtingofRepresentationTheory.Chapter3.Discussion_alternative_proof_of_Proposition3_1_4
-- `Etingof.bijective_iff` (theorem) in EtingofRepresentationTheory.Chapter3.Discussion_alternative_proof_of_Proposition3_1_4
-- `Etingof.postcompHom_id` (theorem) in EtingofRepresentationTheory.Chapter3.Discussion_alternative_proof_of_Proposition3_1_4
-- `Etingof.postcompHom_comp` (theorem) in EtingofRepresentationTheory.Chapter3.Discussion_alternative_proof_of_Proposition3_1_4
-- `Etingof.Filtration` (structure) in EtingofRepresentationTheory.Chapter3.Definition3_4_1
-- `Etingof.Problem3_8_4.directSummand_of_baseChange_directSummand` (theorem) in EtingofRepresentationTheory.Chapter3.Problem3_8_4_General
-- `Etingof.semisimple_algebra_equiv` (theorem) in EtingofRepresentationTheory.Chapter3.Proposition3_5_8
-- `Etingof.subsingleton_isSemisimpleRing` (theorem) in EtingofRepresentationTheory.Chapter3.Proposition3_5_8
-- `Etingof.subsingleton_isSemisimpleAlgebra` (theorem) in EtingofRepresentationTheory.Chapter3.Proposition3_5_8
-- `Etingof.subsingleton_not_isSimpleRing` (theorem) in EtingofRepresentationTheory.Chapter3.Proposition3_5_8
-- `Etingof.subsingleton_module_of_subsingleton` (theorem) in EtingofRepresentationTheory.Chapter3.Proposition3_5_8
-- `Etingof.subsingleton_not_isSimpleModule` (theorem) in EtingofRepresentationTheory.Chapter3.Proposition3_5_8
-- `Etingof.subsingleton_not_isIndecomposable` (theorem) in EtingofRepresentationTheory.Chapter3.Proposition3_5_8
-- `Etingof.subsingleton_algEquiv_pi_matrix` (theorem) in EtingofRepresentationTheory.Chapter3.Proposition3_5_8
-- `Etingof.Problem3_9_3.NoOrientedCycles` (def) in EtingofRepresentationTheory.Chapter3.Problem3_9_3
-- `Etingof.Problem3_9_3.IsIrreducible` (def) in EtingofRepresentationTheory.Chapter3.Problem3_9_3
-- `Etingof.Problem3_9_3.simpleRep_isIrreducible` (theorem) in EtingofRepresentationTheory.Chapter3.Problem3_9_3
-- `Etingof.Problem3_9_3.subsingleton_of_bot_eq_top` (theorem) in EtingofRepresentationTheory.Chapter3.Problem3_9_3
-- `Etingof.Problem3_9_3.irreducible_isSimpleRep` (theorem) in EtingofRepresentationTheory.Chapter3.Problem3_9_3
-- `Etingof.Problem3_9_3.ext1_simpleRep_vanishes_iff` (theorem) in EtingofRepresentationTheory.Chapter3.Problem3_9_3
-- `Etingof.Problem3_9_3.extDiffₗ` (def) in EtingofRepresentationTheory.Chapter3.Problem3_9_3
-- `Etingof.Problem3_9_3.Ext1Simple` (abbrev) in EtingofRepresentationTheory.Chapter3.Problem3_9_3
-- `Etingof.Problem3_9_3.extDiffₗ_simpleRep_eq_zero` (theorem) in EtingofRepresentationTheory.Chapter3.Problem3_9_3
-- `Etingof.Problem3_9_3.finrank_ext1_simpleRep` (theorem) in EtingofRepresentationTheory.Chapter3.Problem3_9_3
-- `Etingof.Problem3_9_3.two_dim_classification` (theorem) in EtingofRepresentationTheory.Chapter3.Problem3_9_3
-- `Etingof.Problem3_8_4.Descent.exists_fg_subalgebra_baseChange_iso` (theorem) in EtingofRepresentationTheory.Chapter3.Problem3_8_4_Descent
-- `Etingof.Problem3_8_4.Descent.exists_fg_subalgebra_baseChange_directSummand` (theorem) in EtingofRepresentationTheory.Chapter3.Problem3_8_4_Descent
-- `Etingof.density_theorem_part1` (theorem) in EtingofRepresentationTheory.Chapter3.Theorem3_2_2
-- `Etingof.density_theorem_part2` (theorem) in EtingofRepresentationTheory.Chapter3.Theorem3_2_2
-- `Etingof.isNilpotent_or_isUnit_of_finiteLength_indecomposable` (theorem) in EtingofRepresentationTheory.Chapter3.Remark3_8_6
-- `Etingof.isLocalRing_end_of_finiteLength_indecomposable` (theorem) in EtingofRepresentationTheory.Chapter3.Remark3_8_6
-- `Etingof.exists_indecomposable_decomposition_aux` (lemma) in EtingofRepresentationTheory.Chapter3.Remark3_8_6
-- `Etingof.exists_indecomposable_decomposition` (theorem) in EtingofRepresentationTheory.Chapter3.Remark3_8_6
-- `Etingof.isNilpotent_sum_of_finiteLength_indecomposable` (theorem) in EtingofRepresentationTheory.Chapter3.Remark3_8_6
-- `Etingof.isCompl_equiv_of_isCompl` (lemma) in EtingofRepresentationTheory.Chapter3.Remark3_8_6
-- ... and 13520 more
+- `BookRef.Role` (inductive) in alignment-spike.BookRef.Attribute
+- `BookRef.Role.toString` (def) in alignment-spike.BookRef.Attribute
+- `BookRef.Entry` (structure) in alignment-spike.BookRef.Attribute
+- `BookRef.getEntries` (def) in alignment-spike.BookRef.Attribute
+- `BookRef.isAsciiLetter` (def) in alignment-spike.BookRef.Attribute
+- `BookRef.isSafeTailChar` (def) in alignment-spike.BookRef.Attribute
+- `BookRef.isSafeSegment` (def) in alignment-spike.BookRef.Attribute
+- `BookRef.isChapterSegment` (def) in alignment-spike.BookRef.Attribute
+- `BookRef.isDerivedSegment` (def) in alignment-spike.BookRef.Attribute
+- `BookRef.isValidReference` (def) in alignment-spike.BookRef.Attribute
+- `BookRef.jsonString` (def) in alignment-spike.BookRef.Attribute
+- `BookRef.citationLine` (def) in alignment-spike.BookRef.Attribute
+- `BookRef.entryLT` (def) in alignment-spike.BookRef.Attribute
+- `BookRef.getSortedEntries` (def) in alignment-spike.BookRef.Attribute
+- `BookRef.exportJson` (def) in alignment-spike.BookRef.Attribute
+- `BookRef.appendCitation` (def) in alignment-spike.BookRef.Attribute
+- `BookRef.Duplicate.exactDuplicateIsIdempotent` (theorem) in alignment-spike.BookRef.Duplicate
+- `BookRef.Examples.theorem652` (theorem) in alignment-spike.BookRef.Examples
+- `BookRef.Examples.theorem652_helper` (theorem) in alignment-spike.BookRef.Examples
+- `BookRef.Examples.sampleDefinition` (def) in alignment-spike.BookRef.Examples
+- `RepresentationTheory.AuxiliarySubmodules.indexedSubmodule` (def) in clean-code.release.RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.rMul` (def) in clean-code.release.RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.youngSym_ne` (lemma) in clean-code.release.RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.youngSym_sq` (lemma) in clean-code.release.RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.product_sq_eq_smul` (theorem) in clean-code.release.RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.comp_left` (lemma) in clean-code.release.RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.comp_right` (lemma) in clean-code.release.RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.fwd_maps` (lemma) in clean-code.release.RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.bwd_maps` (lemma) in clean-code.release.RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.auxiliarySubmoduleLinearEquivProductSpan` (def) in clean-code.release.RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.youngProjector_eq_smul` (lemma) in clean-code.release.RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.span_smul_scalar_eq` (lemma) in clean-code.release.RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.indexedSubmodule_eq_span_product` (lemma) in clean-code.release.RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.auxiliarySubmodule_eq_span_product` (lemma) in clean-code.release.RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.auxiliarySubmoduleLinearEquivIndexedSubmodule` (def) in clean-code.release.RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.indexedSubmodule_isSimple` (theorem) in clean-code.release.RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliarySubmodules.auxiliaryElement_ne_zero` (theorem) in clean-code.release.RepresentationTheory.AuxiliarySubmodules
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.dualSmulAux` (def) in clean-code.release.RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.stabAux` (def) in clean-code.release.RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- ... and 27762 more
 
-### EtingofRepresentationTheory (+14265)
+### EtingofRepresentationTheory (+14267)
 
 - `main` (def) in AlignmentExport
 - `RepresentationTheory.AuxiliarySubmodules.indexedSubmodule` (def) in RepresentationTheory.AuxiliarySubmodules
@@ -90,7 +90,7 @@
 - `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.coset_char_witness` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
 - `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.simple_of_full_faithful_preservesMono''` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
 - `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.simple_fdRep_isIrreducible` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
-- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.simple_of_isSimpleModule_asModule'` (def) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
+- `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.simple_of_isSimpleModule_asModule'` (theorem) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
 - `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.inducedRep_raw` (def) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
 - `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.A_action_at_coset` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
 - `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.G_action_at_coset` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
@@ -108,7 +108,7 @@
 - `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.exists_simple_subrep` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
 - `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.exists_nonzero_map_from_induced` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
 - `RepresentationTheory.AuxiliaryRepresentationIsomorphisms.inducedRepV_completeness` (lemma) in RepresentationTheory.AuxiliaryRepresentationIsomorphisms
-- ... and 14215 more
+- ... and 14217 more
 
 ### EtingofRepresentationTheory-bak00 (+13840)
 
@@ -429,7 +429,61 @@
 - `joyalRepresentation.orderEmbedding` (def) in JoyalRepresentationTheorem
 - `joyalRepresentation.heytingHom` (def) in JoyalRepresentationTheorem
 
-### mathlib4 (+5995)
+### lie-algebras (+2096)
+
+- `LieRings.PBW.factorNumber` (def) in LieRings.PBW.FactorSymbol
+- `LieRings.PBW.exponentSym` (def) in LieRings.PBW.FactorSymbol
+- `LieRings.PBW.listSym` (def) in LieRings.PBW.FactorSymbol
+- `LieRings.PBW.coe_symIndexOfFun` (theorem) in LieRings.PBW.FactorSymbol
+- `LieRings.PBW.monomialBasis_eq_tprod_of_symIndex` (theorem) in LieRings.PBW.FactorSymbol
+- `LieRings.PBW.orderedPBWEquiv` (def) in LieRings.PBW.FactorSymbol
+- `LieRings.PBW.exponentFactorCoordinate` (def) in LieRings.PBW.FactorSymbol
+- `LieRings.PBW.polynomialFactorCoordinates` (def) in LieRings.PBW.FactorSymbol
+- `LieRings.PBW.polynomialFactorCoordinates_monomial` (theorem) in LieRings.PBW.FactorSymbol
+- `LieRings.PBW.factorSymbol` (def) in LieRings.PBW.FactorSymbol
+- `LieRings.PBW.factorSymbol_pbwMonomial` (theorem) in LieRings.PBW.FactorSymbol
+- `LieRings.PBW.factorSymbol_basisWord_sorted` (theorem) in LieRings.PBW.FactorSymbol
+- `LieRings.PBW.factorSymbol_basisWord_sorted_of_length_ne` (theorem) in LieRings.PBW.FactorSymbol
+- `LieRings.PBW.factorSymbol_iota_of_ne_one` (theorem) in LieRings.PBW.FactorSymbol
+- `LieRings.PBW.factorSymbol_two_iota_basis_mul_iota_basis_of_le` (theorem) in LieRings.PBW.FactorSymbol
+- `LieRings.PBW.factorSymbol_two_iota_basis_mul_iota_basis` (theorem) in LieRings.PBW.FactorSymbol
+- `LieRings.PBW.factorSymbol_two_iota_mul_iota` (theorem) in LieRings.PBW.FactorSymbol
+- `LieRings.PBW.word` (def) in LieRings.PBW.Surjectivity
+- `LieRings.PBW.word_nil` (theorem) in LieRings.PBW.Surjectivity
+- `LieRings.PBW.word_cons` (theorem) in LieRings.PBW.Surjectivity
+- `LieRings.PBW.word_append` (theorem) in LieRings.PBW.Surjectivity
+- `LieRings.PBW.wordFiltration` (def) in LieRings.PBW.Surjectivity
+- `LieRings.PBW.word_mem_wordFiltration` (theorem) in LieRings.PBW.Surjectivity
+- `LieRings.PBW.wordFiltration_mono` (theorem) in LieRings.PBW.Surjectivity
+- `LieRings.PBW.iota_mul_mem_wordFiltration` (theorem) in LieRings.PBW.Surjectivity
+- `LieRings.PBW.iota_mul_word_sub_word_of_perm_mem` (theorem) in LieRings.PBW.Surjectivity
+- `LieRings.PBW.word_sub_word_of_perm` (theorem) in LieRings.PBW.Surjectivity
+- `LieRings.PBW.basisWord` (def) in LieRings.PBW.Surjectivity
+- `LieRings.PBW.basisWord_nil` (theorem) in LieRings.PBW.Surjectivity
+- `LieRings.PBW.basisWord_cons` (theorem) in LieRings.PBW.Surjectivity
+- `LieRings.PBW.basisWordSpan` (def) in LieRings.PBW.Surjectivity
+- `LieRings.PBW.basisWord_mem_basisWordSpan` (theorem) in LieRings.PBW.Surjectivity
+- `LieRings.PBW.basis_iota_mul_mem_basisWordSpan` (theorem) in LieRings.PBW.Surjectivity
+- `LieRings.PBW.iota_mul_mem_basisWordSpan` (theorem) in LieRings.PBW.Surjectivity
+- `LieRings.PBW.word_mem_basisWordSpan` (theorem) in LieRings.PBW.Surjectivity
+- `LieRings.PBW.orderedMonomial_multiset_toFinsupp` (theorem) in LieRings.PBW.Surjectivity
+- `LieRings.PBW.basisWordTotalSpan` (def) in LieRings.PBW.Surjectivity
+- `LieRings.PBW.basisWordSpan_le_totalSpan` (theorem) in LieRings.PBW.Surjectivity
+- `LieRings.PBW.basisWordTotalSpan_mul_mem` (theorem) in LieRings.PBW.Surjectivity
+- `LieRings.PBW.basisWordTotalSpan_eq_top` (theorem) in LieRings.PBW.Surjectivity
+- `LieRings.PBW.orderedPBWMap_surjective` (theorem) in LieRings.PBW.Surjectivity
+- `LieRings.PBW.freeModulePBW_iff_orderedPBWMap_injective` (theorem) in LieRings.PBW.Surjectivity
+- `LieRings.PBW.flat_of_free` (theorem) in LieRings.PBW.Conditions
+- `LieRings.PBW.flat_of_torsionFree_of_dedekind` (theorem) in LieRings.PBW.Conditions
+- `LieRings.PBW.flat_int_of_torsionFree` (theorem) in LieRings.PBW.Conditions
+- `LieRings.PBW.Higgins.universalLieStructure_isUniversal` (theorem) in LieRings.PBW.HigginsPBW
+- `LieRings.PBW.Higgins.tensorCommutatorLieStructure_isUniversal_of_obstructionVanishes` (theorem) in LieRings.PBW.HigginsPBW
+- `LieRings.PBW.Higgins.tensorCommutatorLieStructure_isUniversal` (theorem) in LieRings.PBW.HigginsPBW
+- `LieRings.PBW.WeightedBasis` (structure) in LieRings.PBW.WeightedGraded
+- `LieRings.PBW.WeightedBasis.factorNumber` (def) in LieRings.PBW.WeightedGraded
+- ... and 2046 more
+
+### mathlib4 (+6018)
 
 - `Action.tensor_ρ_apply` (theorem) in Mathlib.RepresentationTheory.Action
 - `AddEquiv.bracket_def` (theorem) in Mathlib.Algebra.Lie.TransferInstance
@@ -481,7 +535,7 @@
 - `CartanMatrix.D_two` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
 - `CartanMatrix.E` (def) in Mathlib.LinearAlgebra.Matrix.Cartan
 - `CartanMatrix.E_det` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
-- ... and 5945 more
+- ... and 5968 more
 
 ### mini-representation-lie-theory (+6028)
 
@@ -543,4 +597,4 @@
 
 ## Update History (1 runs)
 
-- **2026-08-24T06:42:13.569524+00:00**: Checked 18 repos, updated 19, +48312 -0 declarations
+- **2026-08-31T06:24:01.825492+00:00**: Checked 19 repos, updated 20, +64652 -0 declarations

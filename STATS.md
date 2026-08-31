@@ -1,39 +1,40 @@
 # Lean Index Statistics
 
-**40,810 topic-matched declarations** across **10 repositories**
-(54,307 total declarations scanned from 19 repos)
+**58,404 topic-matched declarations** across **11 repositories**
+(70,670 total declarations scanned from 20 repos)
 
 ## By Topic
 
 | Topic                          |    Matches |
 |--------------------------------|------------|
-| representation-theory          |     32,507 |
-| lie-algebras                   |      6,415 |
-| root-systems                   |      1,888 |
+| representation-theory          |     46,745 |
+| lie-algebras                   |      9,550 |
+| root-systems                   |      2,109 |
 
 ## By Kind (topic-matched only)
 
 | Kind            |      Count |
 |-----------------|------------|
-| theorem         |     18,166 |
-| def             |      8,800 |
-| lemma           |      6,329 |
-| instance        |      1,639 |
-| abbrev          |        981 |
-| structure       |        417 |
+| theorem         |     25,970 |
+| def             |     12,686 |
+| lemma           |      9,472 |
+| instance        |      2,167 |
+| abbrev          |      1,545 |
+| structure       |        499 |
 | ctor            |         92 |
-| class           |         55 |
-| inductive       |         49 |
+| inductive       |         66 |
+| class           |         59 |
 
 ## Top Repositories (by topic matches)
 
 | Repository                          |    Matched |      Total |
 |-------------------------------------|------------|------------|
-| EtingofRepresentationTheory         |     14,214 |     14,265 |
+| Etingof-RepresentationTheory-draft1 |     15,152 |     27,812 |
+| EtingofRepresentationTheory         |     14,216 |     14,267 |
 | EtingofRepresentationTheory-bak00   |     13,789 |     13,840 |
-| mathlib4                            |      5,995 |      5,995 |
+| mathlib4                            |      6,018 |      6,018 |
+| lie-algebras                        |      1,801 |      2,096 |
 | mini-representation-lie-theory      |      1,085 |      6,028 |
-| Etingof-RepresentationTheory-draft1 |        950 |     13,570 |
 | LowDimSolvClassification            |        249 |        300 |
 | QuantumRepresentationTheory         |        162 |        163 |
 | TauCeti-reviews-pr62                |         46 |         46 |
@@ -42,9 +43,9 @@
 
 ## Last Update
 
-- **When**: 2026-08-24T06:42:13.569524+00:00
-- **Repos checked**: 18
-- **Repos updated**: 19
-- **New declarations**: 48312
+- **When**: 2026-08-31T06:24:01.825492+00:00
+- **Repos checked**: 19
+- **Repos updated**: 20
+- **New declarations**: 64652
 - **Removed declarations**: 0
-- **Summary**: Checked 18 repos, updated 19, +48312 -0 declarations
+- **Summary**: Checked 19 repos, updated 20, +64652 -0 declarations
