@@ -1,6 +1,6 @@
-# Changelog (since 2026-08-31)
+# Changelog (since 2026-09-07)
 
-## New Declarations (71651)
+## New Declarations (71393)
 
 ### Etingof-RepresentationTheory-draft1 (+27812)
 
@@ -429,61 +429,61 @@
 - `joyalRepresentation.orderEmbedding` (def) in JoyalRepresentationTheorem
 - `joyalRepresentation.heytingHom` (def) in JoyalRepresentationTheorem
 
-### lie-algebras (+3074)
+### lean-ridgelet (+2723)
 
-- `LieRings.IsFinitelyGenerated` (def) in LieRings.Basic
-- `LieRings.UEA.idealOfLieIdeal` (def) in LieRings.UniversalEnveloping.Quotient
-- `LieRings.UEA.idealOfLieIdeal_isTwoSided` (instance) in LieRings.UniversalEnveloping.Quotient
-- `LieRings.UEA.ι_mem_idealOfLieIdeal` (theorem) in LieRings.UniversalEnveloping.Quotient
-- `LieRings.UEA.lieIdealQuotientMk` (def) in LieRings.UniversalEnveloping.Quotient
-- `LieRings.UEA.lieIdealQuotientMk_apply` (theorem) in LieRings.UniversalEnveloping.Quotient
-- `LieRings.UEA.mapToLieQuotient` (def) in LieRings.UniversalEnveloping.Quotient
-- `LieRings.UEA.mapToLieQuotient_ι` (theorem) in LieRings.UniversalEnveloping.Quotient
-- `LieRings.UEA.lieHomToIdealQuotient` (def) in LieRings.UniversalEnveloping.Quotient
-- `LieRings.UEA.lieHomToIdealQuotient_eq_zero_on` (theorem) in LieRings.UniversalEnveloping.Quotient
-- `LieRings.UEA.lieQuotientToIdealQuotient` (def) in LieRings.UniversalEnveloping.Quotient
-- `LieRings.UEA.lieQuotientToIdealQuotient_mk` (theorem) in LieRings.UniversalEnveloping.Quotient
-- `LieRings.UEA.fromLieQuotient` (def) in LieRings.UniversalEnveloping.Quotient
-- `LieRings.UEA.fromLieQuotient_ι_mk` (theorem) in LieRings.UniversalEnveloping.Quotient
-- `LieRings.UEA.idealOfLieIdeal_le_ker_mapToLieQuotient` (theorem) in LieRings.UniversalEnveloping.Quotient
-- `LieRings.UEA.toLieQuotient` (def) in LieRings.UniversalEnveloping.Quotient
-- `LieRings.UEA.toLieQuotient_mk` (theorem) in LieRings.UniversalEnveloping.Quotient
-- `LieRings.UEA.toLieQuotient_mk_ι` (theorem) in LieRings.UniversalEnveloping.Quotient
-- `LieRings.UEA.quotientEquivLieIdeal` (def) in LieRings.UniversalEnveloping.Quotient
-- `LieRings.UEA.quotientEquivLieIdeal_ι_mk` (theorem) in LieRings.UniversalEnveloping.Quotient
-- `LieRings.UEA.iota_mul_iota_swap` (theorem) in LieRings.UniversalEnveloping.RelationCollection
-- `LieRings.UEA.rightRelationProducts` (def) in LieRings.UniversalEnveloping.RelationCollection
-- `LieRings.UEA.rightRelationSpan` (def) in LieRings.UniversalEnveloping.RelationCollection
-- `LieRings.UEA.relation_product_mem_rightRelationSpan` (theorem) in LieRings.UniversalEnveloping.RelationCollection
-- `LieRings.UEA.rightRelationSpan_mul_right` (theorem) in LieRings.UniversalEnveloping.RelationCollection
-- `LieRings.UEA.iota_mul_mem_rightRelationSpan` (theorem) in LieRings.UniversalEnveloping.RelationCollection
-- `LieRings.UEA.rightRelationSpan_mul_left` (theorem) in LieRings.UniversalEnveloping.RelationCollection
-- `LieRings.UEA.rightRelationIdeal` (def) in LieRings.UniversalEnveloping.RelationCollection
-- `LieRings.UEA.rightRelationIdeal_isTwoSided` (instance) in LieRings.UniversalEnveloping.RelationCollection
-- `LieRings.UEA.idealOfLieIdeal_eq_rightRelationIdeal` (theorem) in LieRings.UniversalEnveloping.RelationCollection
-- `LieRings.UEA.mem_idealOfLieIdeal_iff_relation_sum` (theorem) in LieRings.UniversalEnveloping.RelationCollection
-- `LieRings.UEA.exists_relation_finsupp_of_mem_rightRelationSpan` (theorem) in LieRings.UniversalEnveloping.RelationCollection
-- `LieRings.twoSidedIdealLieIdeal` (def) in LieRings.UniversalEnveloping.Basic
-- `LieRings.mem_twoSidedIdealLieIdeal` (theorem) in LieRings.UniversalEnveloping.Basic
-- `LieRings.UEA` (abbrev) in LieRings.UniversalEnveloping.Basic
-- `LieRings.UEA.induction` (theorem) in LieRings.UniversalEnveloping.Basic
-- `LieRings.UEA.augmentation` (def) in LieRings.UniversalEnveloping.Basic
-- `LieRings.UEA.augmentation_ι` (theorem) in LieRings.UniversalEnveloping.Basic
-- `LieRings.UEA.augmentation_algebraMap` (theorem) in LieRings.UniversalEnveloping.Basic
-- `LieRings.UEA.augmentationIdeal` (def) in LieRings.UniversalEnveloping.Basic
-- `LieRings.UEA.augmentationIdeal_isTwoSided` (instance) in LieRings.UniversalEnveloping.Basic
-- `LieRings.UEA.mem_augmentationIdeal` (theorem) in LieRings.UniversalEnveloping.Basic
-- `LieRings.UEA.ι_mem_augmentationIdeal` (theorem) in LieRings.UniversalEnveloping.Basic
-- `LieRings.UEA.representation` (def) in LieRings.UniversalEnveloping.Adjoint
-- `LieRings.UEA.representation_ι_apply` (theorem) in LieRings.UniversalEnveloping.Adjoint
-- `LieRings.UEA.representation_algebraMap_apply` (theorem) in LieRings.UniversalEnveloping.Adjoint
-- `LieRings.UEA.representation_mul_apply` (theorem) in LieRings.UniversalEnveloping.Adjoint
-- `LieRings.UEA.representation_mem` (theorem) in LieRings.UniversalEnveloping.Adjoint
-- `LieRings.UEA.representation_sub_augmentation_smul_mem` (theorem) in LieRings.UniversalEnveloping.Adjoint
-- `LieRings.UEA.augmentationIdeal_action_mem` (theorem) in LieRings.UniversalEnveloping.Adjoint
-- ... and 3024 more
+- `main` (def) in LeanRidgeletBlueprint.PublicMain
+- `LeanRidgelet.l2_proposition_one_activation_hilbert_structure` (theorem) in LeanRidgelet.OverviewL2
+- `LeanRidgelet.l2_theorem_one_bounded_synthesis` (theorem) in LeanRidgelet.OverviewL2
+- `LeanRidgelet.l2_lemma_one_ridgelet_fiber_representation` (theorem) in LeanRidgelet.OverviewL2
+- `LeanRidgelet.l2_theorem_two_reconstruction` (theorem) in LeanRidgelet.OverviewL2
+- `LeanRidgelet.l2_lemma_two_adjoint` (theorem) in LeanRidgelet.OverviewL2
+- `LeanRidgelet.l2_theorem_three_null_space_and_general_solution` (theorem) in LeanRidgelet.OverviewL2
+- ``AngularSharp`,` (class) in LeanRidgelet.Notation
+- `LeanRidgelet.AngularSharp` (class) in LeanRidgelet.Notation
+- `LeanRidgelet.Notation.𝓐` (abbrev) in LeanRidgelet.Notation
+- `LeanRidgelet.Notation.𝓗` (abbrev) in LeanRidgelet.Notation
+- `LeanRidgelet.Notation.𝓖` (abbrev) in LeanRidgelet.Notation
+- `LeanRidgelet.Notation.𝕐` (abbrev) in LeanRidgelet.Notation
+- `LeanRidgelet.Notation.sharp_schwartz_def` (theorem) in LeanRidgelet.Notation
+- `LeanRidgelet.Notation.sharp_temperedDistribution_def` (theorem) in LeanRidgelet.Notation
+- `LeanRidgelet.Notation.sharp_L2_def` (theorem) in LeanRidgelet.Notation
+- `LeanRidgelet.Notation.sharp_fun_def` (theorem) in LeanRidgelet.Notation
+- `LeanRidgelet.InputSpace` (abbrev) in LeanRidgelet.Basic
+- `LeanRidgelet.L2` (abbrev) in LeanRidgelet.Basic
+- `LeanRidgelet.BochnerL2` (abbrev) in LeanRidgelet.Basic
+- `LeanRidgelet.TargetSpace` (abbrev) in LeanRidgelet.Basic
+- `LeanRidgeletBlueprint.generatedParts` (opaque) in LeanRidgeletBlueprint.PublicAssembly
+- `LeanRidgeletBlueprint.assembledPublicBlueprint` (opaque) in LeanRidgeletBlueprint.PublicAssembly
+- `LeanRidgelet.Audit.permittedAxioms` (def) in audit.Assumptions
+- `LeanRidgelet.Audit.permittedSorryDeclarations` (def) in audit.Assumptions
+- `LeanRidgelet.Audit.permittedSorryDependents` (def) in audit.Assumptions
+- `LeanRidgelet.Audit.permittedProofFields` (def) in audit.Assumptions
+- `LeanRidgelet.Audit.isProjectModule` (def) in audit.Assumptions
+- `LeanRidgelet.tanhWeightedFn` (def) in LeanRidgelet.Activation.Tanh
+- `LeanRidgelet.continuous_tanhWeightedFn` (theorem) in LeanRidgelet.Activation.Tanh
+- `LeanRidgelet.memLp_tanhWeightedFn` (theorem) in LeanRidgelet.Activation.Tanh
+- `LeanRidgelet.tanhWeightedCoordinate` (def) in LeanRidgelet.Activation.Tanh
+- `LeanRidgelet.tanhWeightedCoordinate_coe_ae` (theorem) in LeanRidgelet.Activation.Tanh
+- `LeanRidgelet.tanhWeightedCoordinate_ne_zero` (theorem) in LeanRidgelet.Activation.Tanh
+- `LeanRidgelet.tanhActivation` (def) in LeanRidgelet.Activation.Tanh
+- `LeanRidgelet.tanhActivation_ne_zero` (theorem) in LeanRidgelet.Activation.Tanh
+- `LeanRidgelet.tanhTemperedDistribution` (def) in LeanRidgelet.Activation.Tanh
+- `LeanRidgelet.tanhTemperedDistribution_eq_weight` (theorem) in LeanRidgelet.Activation.Tanh
+- `LeanRidgelet.tanhTemperedDistribution_apply` (theorem) in LeanRidgelet.Activation.Tanh
+- `LeanRidgelet.memActivationSpace_tanhTemperedDistribution` (theorem) in LeanRidgelet.Activation.Tanh
+- `LeanRidgelet.gaussianFourierCoordinateFn` (def) in LeanRidgelet.Activation.Gaussian
+- `LeanRidgelet.memLp_gaussianFourierCoordinateFn` (theorem) in LeanRidgelet.Activation.Gaussian
+- `LeanRidgelet.gaussianActivation` (def) in LeanRidgelet.Activation.Gaussian
+- `LeanRidgelet.gaussianActivation_ne_zero` (theorem) in LeanRidgelet.Activation.Gaussian
+- `LeanRidgelet.activationDistribution_gaussianActivation` (theorem) in LeanRidgelet.Activation.Gaussian
+- `LeanRidgelet.relu` (def) in LeanRidgelet.Activation.ReLU
+- `LeanRidgelet.relu_nonneg` (theorem) in LeanRidgelet.Activation.ReLU
+- `LeanRidgelet.relu_le_norm` (theorem) in LeanRidgelet.Activation.ReLU
+- `LeanRidgelet.reluWeightedFn` (def) in LeanRidgelet.Activation.ReLU
+- `LeanRidgelet.continuous_reluWeightedFn` (theorem) in LeanRidgelet.Activation.ReLU
+- ... and 2673 more
 
-### mathlib4 (+6021)
+### mathlib4 (+6114)
 
 - `Action.tensor_ρ_apply` (theorem) in Mathlib.RepresentationTheory.Action
 - `AddEquiv.bracket_def` (theorem) in Mathlib.Algebra.Lie.TransferInstance
@@ -503,39 +503,39 @@
 - `Algebra.instLieAdmissibleAlgebra` (def) in Mathlib.Algebra.NonAssoc.LieAdmissible.Defs
 - `AlgebraicGeometry.instGeometricallyIrreducibleMorphismRestrict` (instance) in Mathlib.AlgebraicGeometry.Geometrically.Irreducible
 - `Array.toSubarray_eq_min` (theorem) in Init.Data.Slice.Array.Lemmas
-- `CartanMatrix.A` (def) in Mathlib.LinearAlgebra.Matrix.Cartan
-- `CartanMatrix.A_apply_le_zero_of_ne` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
-- `CartanMatrix.A_diag` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
-- `CartanMatrix.A_isSymm` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
-- `CartanMatrix.A_one` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
-- `CartanMatrix.A_three` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
-- `CartanMatrix.A_transpose` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
-- `CartanMatrix.A_two` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
-- `CartanMatrix.B` (def) in Mathlib.LinearAlgebra.Matrix.Cartan
-- `CartanMatrix.B_diag` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
-- `CartanMatrix.B_off_diag_nonpos` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
-- `CartanMatrix.B_one` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
-- `CartanMatrix.B_transpose` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
-- `CartanMatrix.B_two` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
-- `CartanMatrix.C` (def) in Mathlib.LinearAlgebra.Matrix.Cartan
-- `CartanMatrix.C_diag` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
-- `CartanMatrix.C_off_diag_nonpos` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
-- `CartanMatrix.C_one` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
-- `CartanMatrix.C_transpose` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
-- `CartanMatrix.C_two` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
-- `CartanMatrix.D` (def) in Mathlib.LinearAlgebra.Matrix.Cartan
-- `CartanMatrix.D_diag` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
-- `CartanMatrix.D_four` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
-- `CartanMatrix.D_isSymm` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
-- `CartanMatrix.D_off_diag_nonpos` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
-- `CartanMatrix.D_one` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
-- `CartanMatrix.D_three` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
-- `CartanMatrix.D_three'` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
-- `CartanMatrix.D_transpose` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
-- `CartanMatrix.D_two` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
-- `CartanMatrix.E` (def) in Mathlib.LinearAlgebra.Matrix.Cartan
-- `CartanMatrix.E_det` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan
-- ... and 5971 more
+- `CartanMatrix.A` (def) in Mathlib.LinearAlgebra.Matrix.Cartan.Basic
+- `CartanMatrix.A_apply_le_zero_of_ne` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan.Basic
+- `CartanMatrix.A_diag` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan.Basic
+- `CartanMatrix.A_isSymm` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan.Basic
+- `CartanMatrix.A_one` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan.Basic
+- `CartanMatrix.A_three` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan.Basic
+- `CartanMatrix.A_transpose` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan.Basic
+- `CartanMatrix.A_two` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan.Basic
+- `CartanMatrix.B` (def) in Mathlib.LinearAlgebra.Matrix.Cartan.Basic
+- `CartanMatrix.B_diag` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan.Basic
+- `CartanMatrix.B_off_diag_nonpos` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan.Basic
+- `CartanMatrix.B_one` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan.Basic
+- `CartanMatrix.B_transpose` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan.Basic
+- `CartanMatrix.B_two` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan.Basic
+- `CartanMatrix.C` (def) in Mathlib.LinearAlgebra.Matrix.Cartan.Basic
+- `CartanMatrix.C_diag` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan.Basic
+- `CartanMatrix.C_off_diag_nonpos` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan.Basic
+- `CartanMatrix.C_one` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan.Basic
+- `CartanMatrix.C_transpose` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan.Basic
+- `CartanMatrix.C_two` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan.Basic
+- `CartanMatrix.D` (def) in Mathlib.LinearAlgebra.Matrix.Cartan.Basic
+- `CartanMatrix.D_diag` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan.Basic
+- `CartanMatrix.D_four` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan.Basic
+- `CartanMatrix.D_isSymm` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan.Basic
+- `CartanMatrix.D_off_diag_nonpos` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan.Basic
+- `CartanMatrix.D_one` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan.Basic
+- `CartanMatrix.D_three` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan.Basic
+- `CartanMatrix.D_three'` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan.Basic
+- `CartanMatrix.D_transpose` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan.Basic
+- `CartanMatrix.D_two` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan.Basic
+- `CartanMatrix.E` (def) in Mathlib.LinearAlgebra.Matrix.Cartan.Basic
+- `CartanMatrix.E_det` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan.Basic
+- ... and 6064 more
 
 ### mini-representation-lie-theory (+6028)
 
@@ -597,4 +597,4 @@
 
 ## Update History (1 runs)
 
-- **2026-09-07T06:38:15.026437+00:00**: Checked 19 repos, updated 20, +65630 -0 declarations
+- **2026-09-14T06:24:57.068905+00:00**: Checked 19 repos, updated 20, +65279 -0 declarations
