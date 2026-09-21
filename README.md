@@ -2,7 +2,7 @@
 
 Topical index for Lie algebra formalization in Lean 4. **[How to use this index in your project](https://github.com/mrdouglasny/lean-index/blob/main/docs/use-topic-index.md)**
 
-**51,022 topic-matched declarations** across **11 repositories** (scanned 20 repos, 71,393 declarations).
+**51,031 topic-matched declarations** across **11 repositories** (scanned 20 repos, 71,402 declarations).
 
 Tracks Lean declarations related to:
 - **Representation theory**: Lie modules, weight spaces, irreducibility, Schur's lemma
@@ -18,7 +18,7 @@ See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](RE
 | [mathlib-initiative/Etingof-RepresentationTheory-draft1](https://github.com/mathlib-initiative/Etingof-RepresentationTheory-draft1) | 15,152 |  |
 | [mathlib-initiative/EtingofRepresentationTheory](https://github.com/mathlib-initiative/EtingofRepresentationTheory) | 14,216 |  |
 | [mathlib-initiative/EtingofRepresentationTheory-bak00](https://github.com/mathlib-initiative/EtingofRepresentationTheory-bak00) | 13,789 |  |
-| [leanprover-community/mathlib4](https://github.com/leanprover-community/mathlib4) | 6,114 | Mathlib: the math library for Lean 4 |
+| [leanprover-community/mathlib4](https://github.com/leanprover-community/mathlib4) | 6,123 | Mathlib: the math library for Lean 4 |
 | [rootkiller6788/mini-representation-lie-theory](https://github.com/rootkiller6788/mini-representation-lie-theory) | 1,085 | Representation theory and Lie theory built from scratch, learn algebraic... |
 | [LieLean/LowDimSolvClassification](https://github.com/LieLean/LowDimSolvClassification) | 249 | Low-dimensional solvable Lie algebra classification (Lean 4) |
 | [shosonoda/lean-ridgelet](https://github.com/shosonoda/lean-ridgelet) | 171 | Lean formalization and Blueprint for integral-representation neural networks... |

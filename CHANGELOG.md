@@ -1,6 +1,6 @@
-# Changelog (since 2026-09-07)
+# Changelog (since 2026-09-14)
 
-## New Declarations (71393)
+## New Declarations (71402)
 
 ### Etingof-RepresentationTheory-draft1 (+27812)
 
@@ -483,7 +483,7 @@
 - `LeanRidgelet.continuous_reluWeightedFn` (theorem) in LeanRidgelet.Activation.ReLU
 - ... and 2673 more
 
-### mathlib4 (+6114)
+### mathlib4 (+6123)
 
 - `Action.tensor_ρ_apply` (theorem) in Mathlib.RepresentationTheory.Action
 - `AddEquiv.bracket_def` (theorem) in Mathlib.Algebra.Lie.TransferInstance
@@ -535,7 +535,7 @@
 - `CartanMatrix.D_two` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan.Basic
 - `CartanMatrix.E` (def) in Mathlib.LinearAlgebra.Matrix.Cartan.Basic
 - `CartanMatrix.E_det` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan.Basic
-- ... and 6064 more
+- ... and 6073 more
 
 ### mini-representation-lie-theory (+6028)
 
@@ -597,4 +597,4 @@
 
 ## Update History (1 runs)
 
-- **2026-09-14T06:24:57.068905+00:00**: Checked 19 repos, updated 20, +65279 -0 declarations
+- **2026-09-21T06:32:15.017015+00:00**: Checked 19 repos, updated 20, +65279 -0 declarations
