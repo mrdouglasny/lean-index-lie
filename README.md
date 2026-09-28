@@ -2,7 +2,7 @@
 
 Topical index for Lie algebra formalization in Lean 4. **[How to use this index in your project](https://github.com/mrdouglasny/lean-index/blob/main/docs/use-topic-index.md)**
 
-**51,031 topic-matched declarations** across **11 repositories** (scanned 20 repos, 71,402 declarations).
+**51,065 topic-matched declarations** across **13 repositories** (scanned 22 repos, 72,566 declarations).
 
 Tracks Lean declarations related to:
 - **Representation theory**: Lie modules, weight spaces, irreducibility, Schur's lemma
@@ -15,17 +15,19 @@ See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](RE
 
 | Repository | Topic Matches | Description |
 |-----------|:---:|-------------|
-| [mathlib-initiative/Etingof-RepresentationTheory-draft1](https://github.com/mathlib-initiative/Etingof-RepresentationTheory-draft1) | 15,152 |  |
+| [mathlib-initiative/Etingof-RepresentationTheory-draft1](https://github.com/mathlib-initiative/Etingof-RepresentationTheory-draft1) | 15,164 |  |
 | [mathlib-initiative/EtingofRepresentationTheory](https://github.com/mathlib-initiative/EtingofRepresentationTheory) | 14,216 |  |
 | [mathlib-initiative/EtingofRepresentationTheory-bak00](https://github.com/mathlib-initiative/EtingofRepresentationTheory-bak00) | 13,789 |  |
-| [leanprover-community/mathlib4](https://github.com/leanprover-community/mathlib4) | 6,123 | Mathlib: the math library for Lean 4 |
+| [leanprover-community/mathlib4](https://github.com/leanprover-community/mathlib4) | 6,124 | Mathlib: the math library for Lean 4 |
 | [rootkiller6788/mini-representation-lie-theory](https://github.com/rootkiller6788/mini-representation-lie-theory) | 1,085 | Representation theory and Lie theory built from scratch, learn algebraic... |
 | [LieLean/LowDimSolvClassification](https://github.com/LieLean/LowDimSolvClassification) | 249 | Low-dimensional solvable Lie algebra classification (Lean 4) |
 | [shosonoda/lean-ridgelet](https://github.com/shosonoda/lean-ridgelet) | 171 | Lean formalization and Blueprint for integral-representation neural networks... |
 | [TomOleDiem/QuantumRepresentationTheory](https://github.com/TomOleDiem/QuantumRepresentationTheory) | 162 |  |
 | [mrdouglasny/TauCeti-reviews-pr62](https://github.com/mrdouglasny/TauCeti-reviews-pr62) | 46 | Supervised, question-driven review of TauCetiRoadmap PR #62... |
 | [bicmr-ai4math/Group6-Formalization-on-Lie-algebra-rep](https://github.com/bicmr-ai4math/Group6-Formalization-on-Lie-algebra-rep) | 32 | Formalization of finite-dimensional Lie algebra representations (Lean 4) |
+| [ramlaf/lean-LieGroups](https://github.com/ramlaf/lean-LieGroups) | 19 | A repository containing Lean formal verifications of basic results in the... |
 | [awodey/joyal](https://github.com/awodey/joyal) | 6 |  |
+| [buare/CubeToSU3Lean_QCDDynamics](https://github.com/buare/CubeToSU3Lean_QCDDynamics) | 2 | A Lean 4 formalization of how the eight vertices of the unit cube {0,1}³, read... |
 
 ## Usage
 
