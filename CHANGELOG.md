@@ -1,6 +1,6 @@
-# Changelog (since 2026-09-21)
+# Changelog (since 2026-09-28)
 
-## New Declarations (72566)
+## New Declarations (75964)
 
 ### CubeToSU3Lean_QCDDynamics (+1139)
 
@@ -55,6 +55,60 @@
 - `CubeToSU3.Lattice.constConn` (def) in CubeToSU3Lean_QCDDynamics.CubeToSU3.LatticeNonFlat
 - `CubeToSU3.Lattice.constConn_plaquette` (theorem) in CubeToSU3Lean_QCDDynamics.CubeToSU3.LatticeNonFlat
 - ... and 1089 more
+
+### DenseMatrix (+320)
+
+- `DenseMatrix.smokeA23` (def) in ProvableComputationTest.DenseMatrix
+- `DenseMatrix.smokeB32` (def) in ProvableComputationTest.DenseMatrix
+- `DenseMatrix.smokeA20` (def) in ProvableComputationTest.DenseMatrix
+- `DenseMatrix.smokeB03` (def) in ProvableComputationTest.DenseMatrix
+- `DenseMatrix.smokeA23Swapped` (def) in ProvableComputationTest.DenseMatrix
+- `DenseMatrix.smokeA23ScaledRow0` (def) in ProvableComputationTest.DenseMatrix
+- `DenseMatrix.smokeA23ReplacedRow1` (def) in ProvableComputationTest.DenseMatrix
+- `DenseMatrix.smokeA23Transpose` (def) in ProvableComputationTest.DenseMatrix
+- `Matrix.swap2` (def) in ProvableComputationTest.Determinant
+- `DenseMatrix.testZeroRow` (def) in ProvableComputationTest.DenseMatrixEchelon
+- `DenseMatrix.testEchelon` (def) in ProvableComputationTest.DenseMatrixEchelon
+- `DenseMatrix.testReducedEchelon` (def) in ProvableComputationTest.DenseMatrixEchelon
+- `DenseMatrix.get_ofMatrix_fn` (theorem) in ProvableComputationTest.DenseMatrixEchelon
+- `DenseMatrix.testEchelon_isEchelon` (theorem) in ProvableComputationTest.DenseMatrixEchelon
+- `DenseMatrix.testReducedEchelon_isEchelon` (theorem) in ProvableComputationTest.DenseMatrixEchelon
+- `DenseMatrix.testReducedEchelon_isReduced` (theorem) in ProvableComputationTest.DenseMatrixEchelon
+- `sampleMatrix` (def) in ProvableComputation.Examples.DenseGaussianEliminationDemos
+- `sampleMatrix2` (def) in ProvableComputation.Examples.DenseGaussianEliminationDemos
+- `sampleMatrix3` (def) in ProvableComputation.Examples.DenseGaussianEliminationDemos
+- `sampleMatrix4` (def) in ProvableComputation.Examples.DenseGaussianEliminationDemos
+- `sampleMatrix5` (def) in ProvableComputation.Examples.DenseGaussianEliminationDemos
+- `sampleMatrix6` (def) in ProvableComputation.Examples.DenseGaussianEliminationDemos
+- `DenseMatrixBench.BenchSample` (structure) in ProvableComputation.Bench.DenseMatrixBench
+- `DenseMatrixBench.BenchMeta` (structure) in ProvableComputation.Bench.DenseMatrixBench
+- `DenseMatrixBench.BenchConfig` (structure) in ProvableComputation.Bench.DenseMatrixBench
+- `DenseMatrixBench.Shape` (structure) in ProvableComputation.Bench.DenseMatrixBench
+- `DenseMatrixBench.ReductionOutput` (structure) in ProvableComputation.Bench.DenseMatrixBench
+- `DenseMatrixBench.defaultConfig` (def) in ProvableComputation.Bench.DenseMatrixBench
+- `DenseMatrixBench.recordedSamples` (def) in ProvableComputation.Bench.DenseMatrixBench
+- `DenseMatrixBench.warmups` (def) in ProvableComputation.Bench.DenseMatrixBench
+- `DenseMatrixBench.opaquePure` (def) in ProvableComputation.Bench.DenseMatrixBench
+- `DenseMatrixBench.mix` (def) in ProvableComputation.Bench.DenseMatrixBench
+- `DenseMatrixBench.fingerprintArray` (def) in ProvableComputation.Bench.DenseMatrixBench
+- `DenseMatrixBench.fingerprintNatArray` (def) in ProvableComputation.Bench.DenseMatrixBench
+- `DenseMatrixBench.fingerprintRatArray` (def) in ProvableComputation.Bench.DenseMatrixBench
+- `DenseMatrixBench.fingerprintUInt64Array` (def) in ProvableComputation.Bench.DenseMatrixBench
+- `DenseMatrixBench.fingerprintReduction` (def) in ProvableComputation.Bench.DenseMatrixBench
+- `DenseMatrixBench.materializeMatrix` (def) in ProvableComputation.Bench.DenseMatrixBench
+- `DenseMatrixBench.entryNat` (def) in ProvableComputation.Bench.DenseMatrixBench
+- `DenseMatrixBench.entryRat` (def) in ProvableComputation.Bench.DenseMatrixBench
+- `DenseMatrixBench.entryRatPattern` (def) in ProvableComputation.Bench.DenseMatrixBench
+- `DenseMatrixBench.pivotEntry` (def) in ProvableComputation.Bench.DenseMatrixBench
+- `DenseMatrixBench.denseNat` (def) in ProvableComputation.Bench.DenseMatrixBench
+- `DenseMatrixBench.matrixNat` (def) in ProvableComputation.Bench.DenseMatrixBench
+- `DenseMatrixBench.denseRat` (def) in ProvableComputation.Bench.DenseMatrixBench
+- `DenseMatrixBench.matrixRat` (def) in ProvableComputation.Bench.DenseMatrixBench
+- `DenseMatrixBench.densePivot` (def) in ProvableComputation.Bench.DenseMatrixBench
+- `DenseMatrixBench.matrixPivot` (def) in ProvableComputation.Bench.DenseMatrixBench
+- `DenseMatrixBench.nativeNatArray` (def) in ProvableComputation.Bench.DenseMatrixBench
+- `DenseMatrixBench.nativeRatArray` (def) in ProvableComputation.Bench.DenseMatrixBench
+- ... and 270 more
 
 ### Etingof-RepresentationTheory-draft1 (+27812)
 
@@ -564,7 +618,61 @@
 - `MeasureTheory.continuous_integral_of_compactSpace` (theorem) in LeanRidgelet.ToMathlib.ContDiffParametricIntegral
 - ... and 2673 more
 
-### mathlib4 (+6124)
+### lie-algebras (+3074)
+
+- `LieRings.IsFinitelyGenerated` (def) in LieRings.Basic
+- `or` (theorem) in LieRings.Publication.Results
+- `LieRings.Publication.theoremA` (theorem) in LieRings.Publication.Results
+- `LieRings.Publication.theoremB` (theorem) in LieRings.Publication.Results
+- `LieRings.Publication.theoremC` (theorem) in LieRings.Publication.Results
+- `LieRings.Publication.corollaryD` (theorem) in LieRings.Publication.Results
+- `LieRings.Publication.corollaryE` (theorem) in LieRings.Publication.Results
+- `LieRings.Publication.lemmaTopLayer` (theorem) in LieRings.Publication.Results
+- `LieRings.Publication.equationSixRelations` (theorem) in LieRings.Publication.Results
+- `LieRings.Publication.lemmaAOrder` (theorem) in LieRings.Publication.Results
+- `LieRings.Publication.equationAFactorization` (theorem) in LieRings.Publication.Results
+- `LieRings.Publication.lemmaAHeight` (theorem) in LieRings.Publication.Results
+- `LieRings.Publication.lemmaCriticalNormalForm` (theorem) in LieRings.Publication.Results
+- `LieRings.Publication.lemmaLastInitialForm` (theorem) in LieRings.Publication.Results
+- `LieRings.Publication.corollaryFiveSeven` (theorem) in LieRings.Publication.Results
+- `LieRings.Publication.corollaryFiveEight` (theorem) in LieRings.Publication.Results
+- `LieRings.Publication.corollaryFiveNine` (theorem) in LieRings.Publication.Results
+- `LieRings.Publication.corollaryFiveTen` (theorem) in LieRings.Publication.Results
+- `LieRings.IntegralPolarization.RatCircle` (abbrev) in LieRings.Homological.IntegralPolarization
+- `LieRings.IntegralPolarization.BilinearForm` (abbrev) in LieRings.Homological.IntegralPolarization
+- `LieRings.IntegralPolarization.ExteriorForm` (abbrev) in LieRings.Homological.IntegralPolarization
+- `LieRings.IntegralPolarization.wedgeTwo` (def) in LieRings.Homological.IntegralPolarization
+- `LieRings.IntegralPolarization.wedgeTwo_skew` (theorem) in LieRings.Homological.IntegralPolarization
+- `LieRings.IntegralPolarization.wedgeTwo_zsmul_left` (theorem) in LieRings.Homological.IntegralPolarization
+- `LieRings.IntegralPolarization.tensorAugmentation` (def) in LieRings.Homological.IntegralPolarization
+- `LieRings.IntegralPolarization.tensorAugmentationOpposite` (def) in LieRings.Homological.IntegralPolarization
+- `LieRings.IntegralPolarization.exteriorBilinear` (def) in LieRings.Homological.IntegralPolarization
+- `LieRings.IntegralPolarization.exteriorLieStructure` (def) in LieRings.Homological.IntegralPolarization
+- `LieRings.IntegralPolarization.exteriorToCommutatorAlternating` (def) in LieRings.Homological.IntegralPolarization
+- `LieRings.IntegralPolarization.exteriorToCommutator` (def) in LieRings.Homological.IntegralPolarization
+- `LieRings.IntegralPolarization.exteriorToCommutator_injective` (theorem) in LieRings.Homological.IntegralPolarization
+- `LieRings.IntegralPolarization.tensorProductToTensorAlgebra` (def) in LieRings.Homological.IntegralPolarization
+- `LieRings.IntegralPolarization.exteriorToCommutator_coe` (theorem) in LieRings.Homological.IntegralPolarization
+- `LieRings.IntegralPolarization.exteriorTwoToTensor_injective` (theorem) in LieRings.Homological.IntegralPolarization
+- `LieRings.IntegralPolarization.exists_bilinear_skew_eq` (theorem) in LieRings.Homological.IntegralPolarization
+- `SymmetricPower.IsSymmetric` (def) in LieRings.Homological.SymmetricPower
+- `SymmetricPower.liftAddHom` (def) in LieRings.Homological.SymmetricPower
+- `SymmetricPower.lift` (def) in LieRings.Homological.SymmetricPower
+- `SymmetricPower.lift_tprod` (theorem) in LieRings.Homological.SymmetricPower
+- `SymmetricPower.linearMap_ext` (theorem) in LieRings.Homological.SymmetricPower
+- `SymmetricPower.map` (def) in LieRings.Homological.SymmetricPower
+- `SymmetricPower.map_tprod` (theorem) in LieRings.Homological.SymmetricPower
+- `SymmetricPower.map_id` (theorem) in LieRings.Homological.SymmetricPower
+- `SymmetricPower.map_comp` (theorem) in LieRings.Homological.SymmetricPower
+- `SymmetricPower.reindex` (def) in LieRings.Homological.SymmetricPower
+- `SymmetricPower.reindex_tprod` (theorem) in LieRings.Homological.SymmetricPower
+- `SymmetricPower.reindex_map` (theorem) in LieRings.Homological.SymmetricPower
+- `SymmetricPower.omitPerm` (def) in LieRings.Homological.SymmetricPower
+- `SymmetricPower.omitPerm_spec` (theorem) in LieRings.Homological.SymmetricPower
+- `SymmetricPower.polarizeMultilinear` (def) in LieRings.Homological.SymmetricPower
+- ... and 3024 more
+
+### mathlib4 (+6128)
 
 - `Action.tensor_ρ_apply` (theorem) in Mathlib.RepresentationTheory.Action
 - `AddEquiv.bracket_def` (theorem) in Mathlib.Algebra.Lie.TransferInstance
@@ -616,7 +724,7 @@
 - `CartanMatrix.D_two` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan.Basic
 - `CartanMatrix.E` (def) in Mathlib.LinearAlgebra.Matrix.Cartan.Basic
 - `CartanMatrix.E_det` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan.Basic
-- ... and 6074 more
+- ... and 6078 more
 
 ### mini-representation-lie-theory (+6028)
 
@@ -678,4 +786,4 @@
 
 ## Update History (1 runs)
 
-- **2026-09-28T06:32:44.517467+00:00**: Checked 21 repos, updated 22, +66442 -0 declarations
+- **2026-10-05T06:29:18.103452+00:00**: Checked 23 repos, updated 24, +69836 -0 declarations
