@@ -1,6 +1,6 @@
-# Changelog (since 2026-09-28)
+# Changelog (since 2026-10-05)
 
-## New Declarations (75964)
+## New Declarations (76211)
 
 ### CubeToSU3Lean_QCDDynamics (+1139)
 
@@ -110,7 +110,7 @@
 - `DenseMatrixBench.nativeRatArray` (def) in ProvableComputation.Bench.DenseMatrixBench
 - ... and 270 more
 
-### Etingof-RepresentationTheory-draft1 (+27812)
+### Etingof-RepresentationTheory-draft1 (+27814)
 
 - `expectedJson` (def) in alignment-spike.Tests
 - `malformedAttributeIsRejected` (theorem) in alignment-spike.Tests
@@ -162,7 +162,7 @@
 - `Etingof.tensorRightMap_smul` (theorem) in clean-code.tainted.EtingofRepresentationTheory.Chapter8.TensorRightFunctorK
 - `Etingof.tensorRightMapₖ` (def) in clean-code.tainted.EtingofRepresentationTheory.Chapter8.TensorRightFunctorK
 - `Etingof.tensorRightFunctorₖ` (def) in clean-code.tainted.EtingofRepresentationTheory.Chapter8.TensorRightFunctorK
-- ... and 27762 more
+- ... and 27764 more
 
 ### EtingofRepresentationTheory (+14267)
 
@@ -474,6 +474,60 @@
 - `TauCetiRoadmap.RepresentationTheory.InductionRestriction.mackeySubgroup` (def) in roadmaps.InductionRestriction.Suggested
 - `TauCetiRoadmap.RepresentationTheory.InductionRestriction.schurMultiplier` (def) in roadmaps.InductionRestriction.Suggested
 
+### coxeter (+206)
+
+- `Coxeter.V` (abbrev) in Coxeter.GeometricRepresentation
+- `Coxeter.stdBasis` (def) in Coxeter.GeometricRepresentation
+- `Coxeter.bil` (def) in Coxeter.GeometricRepresentation
+- `Coxeter.bil_isSymm` (theorem) in Coxeter.GeometricRepresentation
+- `Coxeter.bil_eq` (theorem) in Coxeter.GeometricRepresentation
+- `Coxeter.bil_diag` (theorem) in Coxeter.GeometricRepresentation
+- `Coxeter.bil_off_diag_le` (theorem) in Coxeter.GeometricRepresentation
+- `Coxeter.geomRepAux` (def) in Coxeter.GeometricRepresentation
+- `Coxeter.geomRepAux_apply` (theorem) in Coxeter.GeometricRepresentation
+- `Coxeter.geomRepAux_involutive` (theorem) in Coxeter.GeometricRepresentation
+- `Coxeter.orderOf_geomRepAux_mul_geomRepAux₁` (theorem) in Coxeter.GeometricRepresentation
+- `Coxeter.geomRepAux_stdBasis` (theorem) in Coxeter.GeometricRepresentation
+- `Coxeter.E` (def) in Coxeter.GeometricRepresentation
+- `Coxeter.E_eq_span` (theorem) in Coxeter.GeometricRepresentation
+- `Coxeter.mem_E_iff` (theorem) in Coxeter.GeometricRepresentation
+- `Coxeter.E_symm` (theorem) in Coxeter.GeometricRepresentation
+- `Coxeter.bil_restrict_E_diag` (theorem) in Coxeter.GeometricRepresentation
+- `Coxeter.bil_restrict_E_isSymm` (theorem) in Coxeter.GeometricRepresentation
+- `Coxeter.bil_restrict_E_nonneg` (theorem) in Coxeter.GeometricRepresentation
+- `Coxeter.bil_restrict_E_isPosSemidef` (theorem) in Coxeter.GeometricRepresentation
+- `Coxeter.bil_restrict_E_nondegenerate_iff` (theorem) in Coxeter.GeometricRepresentation
+- `Coxeter.geomRepAux_E_perp_left` (theorem) in Coxeter.GeometricRepresentation
+- `Coxeter.geomRepAux_E_perp_right` (theorem) in Coxeter.GeometricRepresentation
+- `Coxeter.geomRepAux_E_left` (theorem) in Coxeter.GeometricRepresentation
+- `Coxeter.geomRepAux_E_right` (theorem) in Coxeter.GeometricRepresentation
+- `Coxeter.geomRepAux_E_2` (theorem) in Coxeter.GeometricRepresentation
+- `Coxeter.restrict_geomRepAux_mul` (theorem) in Coxeter.GeometricRepresentation
+- `Coxeter.geomRepAux_mul_geomRepAux_pow₀` (theorem) in Coxeter.GeometricRepresentation
+- `Coxeter.orderOf_geomRepAux_mul_geomRepAux₀` (theorem) in Coxeter.GeometricRepresentation
+- `Coxeter.index_ne` (theorem) in Coxeter.GeometricRepresentation
+- `Coxeter.e` (def) in Coxeter.GeometricRepresentation
+- `Coxeter.stdBasisE` (def) in Coxeter.GeometricRepresentation
+- `Coxeter.stdBasisE_0` (theorem) in Coxeter.GeometricRepresentation
+- `Coxeter.stdBasisE_1` (theorem) in Coxeter.GeometricRepresentation
+- `Coxeter.finrank_E_eq_two` (theorem) in Coxeter.GeometricRepresentation
+- `Coxeter.E_sup_orthogonal` (theorem) in Coxeter.GeometricRepresentation
+- `Coxeter.orderOf_geomRepAux_mul_geomRepAux_eq_orderOf_restrict` (theorem) in Coxeter.GeometricRepresentation
+- `Coxeter.norm_stdBasisE_0` (theorem) in Coxeter.GeometricRepresentation
+- `Coxeter.norm_stdBasisE_1` (theorem) in Coxeter.GeometricRepresentation
+- `Coxeter.inner_stdBasisE_0_1` (theorem) in Coxeter.GeometricRepresentation
+- `Coxeter.oangle_stdBasisE` (theorem) in Coxeter.GeometricRepresentation
+- `Coxeter.restrict_geomRepAux_left_eq_reflect` (theorem) in Coxeter.GeometricRepresentation
+- `Coxeter.restrict_geomRepAux_right_eq_reflect` (theorem) in Coxeter.GeometricRepresentation
+- `Coxeter.restrict_geomRepAux_mul_geomRep_aux_eq_rotate` (theorem) in Coxeter.GeometricRepresentation
+- `Coxeter.orderOf_geomRepAux_mul_geomRepAux₂` (theorem) in Coxeter.GeometricRepresentation
+- `Coxeter.geomRepAux_liftable` (theorem) in Coxeter.GeometricRepresentation
+- `Coxeter.geomRep` (def) in Coxeter.GeometricRepresentation
+- `Coxeter.geomRep_simple` (theorem) in Coxeter.GeometricRepresentation
+- `Coxeter.geomRep_simple_apply` (theorem) in Coxeter.GeometricRepresentation
+- `Coxeter.orderOf_geomRep_simple_mul_simple` (theorem) in Coxeter.GeometricRepresentation
+- ... and 156 more
+
 ### finite-groups (+48)
 
 - `FG.matrix_representation` (structure) in src.matrix_representation
@@ -537,32 +591,59 @@
 - `joyalRepresentation.orderEmbedding` (def) in JoyalRepresentationTheorem
 - `joyalRepresentation.heytingHom` (def) in JoyalRepresentationTheorem
 
-### lean-LieGroups (+24)
+### lean-LieGroups (+72)
 
+- `LieGroups.mulInvariantVectorFieldInChart` (def) in LieGroups.InvariantFieldCoordinates
+- `LieGroups.mulInvariantVectorFieldInChart_apply` (theorem) in LieGroups.InvariantFieldCoordinates
+- `LieGroups.hasDerivWithinAt_invariantFieldInChart` (theorem) in LieGroups.InvariantFieldCoordinates
+- `LieGroups.hasMFDerivAt_of_invariantFieldInChart` (theorem) in LieGroups.InvariantFieldCoordinates
+- `LieGroups.contDiffOn_mulInvariantVectorFieldInChart` (theorem) in LieGroups.InvariantFieldCoordinates
+- `LieGroups.exists_contDiff_mulInvariantVectorFieldInChart` (theorem) in LieGroups.InvariantFieldCoordinates
+- `LieGroups.exists_contMDiffOn_oneParameterCurve_near` (theorem) in LieGroups.ExponentialSmooth
+- `LieGroups.oneParameterCurve_nat_mul` (theorem) in LieGroups.ExponentialSmooth
+- `LieGroups.lieExp_contMDiffAt_model` (theorem) in LieGroups.ExponentialSmooth
+- `LieGroups.lieExp_contMDiff_model` (theorem) in LieGroups.ExponentialSmooth
+- `LieGroups.invariantFieldInChart_one` (theorem) in LieGroups.ExponentialLocalChart
+- `LieGroups.lieExp_fderiv_chart_zero_model` (theorem) in LieGroups.ExponentialLocalChart
+- `LieGroups.exists_lieExp_localHomeomorph_model` (theorem) in LieGroups.ExponentialLocalChart
+- `LieGroups.exists_lieExp_localDiffeomorph_model` (theorem) in LieGroups.ExponentialLocalChart
+- `LieGroups.lieExp_isLocalDiffeomorphAt_model` (theorem) in LieGroups.ExponentialLocalChart
+- `LieGroups.lieExp` (def) in LieGroups.Exponential
+- `LieGroups.lieExp_smul` (theorem) in LieGroups.Exponential
+- `LieGroups.lieExp_add_smul` (theorem) in LieGroups.Exponential
+- `LieGroups.lieExp_int_smul` (theorem) in LieGroups.Exponential
+- `LieGroups.lieExp_smul_contMDiff` (theorem) in LieGroups.Exponential
+- `LieGroups.lieExp_smul_hasMFDerivAt_zero` (theorem) in LieGroups.Exponential
+- `LieGroups.mfderiv_mul_left_mulInvariantVectorField` (theorem) in LieGroups.OneParameterSubgroup
+- `LieGroups.isMIntegralCurveOn_mul_left` (theorem) in LieGroups.OneParameterSubgroup
+- `LieGroups.isMIntegralCurve_mul_left` (theorem) in LieGroups.OneParameterSubgroup
+- `LieGroups.lieAlgebraModelEquiv` (def) in LieGroups.OneParameterSubgroup
+- `LieGroups.contMDiff_mulInvariantVectorField_joint` (theorem) in LieGroups.OneParameterSubgroup
+- `LieGroups.contMDiff_infty_mulInvariantVectorField` (theorem) in LieGroups.OneParameterSubgroup
+- `LieGroups.contMDiff_one_mulInvariantVectorField` (theorem) in LieGroups.OneParameterSubgroup
+- `LieGroups.exists_isMIntegralCurve_mulInvariantVectorField` (theorem) in LieGroups.OneParameterSubgroup
+- `LieGroups.isMIntegralCurve_mulInvariantVectorField_unique` (theorem) in LieGroups.OneParameterSubgroup
+- `LieGroups.isMIntegralCurve_mulInvariantVectorField_add` (theorem) in LieGroups.OneParameterSubgroup
+- `LieGroups.oneParameterCurve` (def) in LieGroups.OneParameterSubgroup
+- `LieGroups.oneParameterCurve_isMIntegralCurve` (theorem) in LieGroups.OneParameterSubgroup
+- `LieGroups.oneParameterCurve_unique` (theorem) in LieGroups.OneParameterSubgroup
+- `LieGroups.oneParameterCurve_add` (theorem) in LieGroups.OneParameterSubgroup
+- `LieGroups.oneParameterCurve_continuous` (theorem) in LieGroups.OneParameterSubgroup
+- `LieGroups.oneParameterCurve_mdifferentiable` (theorem) in LieGroups.OneParameterSubgroup
+- `LieGroups.oneParameterCurve_contMDiff` (theorem) in LieGroups.OneParameterSubgroup
+- `LieGroups.oneParameterCurve_hasMFDerivAt_zero` (theorem) in LieGroups.OneParameterSubgroup
+- `LieGroups.oneParameterCurve_smul` (theorem) in LieGroups.OneParameterSubgroup
+- `LieGroups.oneParameterSubgroup` (def) in LieGroups.OneParameterSubgroup
 - `SubmersionCriterionCheck.quadraticProjection` (def) in scripts.CheckSubmersionCriterion
 - `SubmersionCriterionCheck.quadraticProjection_contDiff` (theorem) in scripts.CheckSubmersionCriterion
 - `SubmersionCriterionCheck.quadraticProjection_hasFDerivAt` (theorem) in scripts.CheckSubmersionCriterion
 - `SubmersionCriterionCheck.quadraticProjection_surjective_mfderiv` (theorem) in scripts.CheckSubmersionCriterion
 - `SubmersionCriterionCheck.quadraticProjection_localSections` (theorem) in scripts.CheckSubmersionCriterion
+- `OneParameterSubgroupCheck.oneParameterCurve_eq_smul` (theorem) in scripts.CheckOneParameterSubgroup
 - `LieGroups.Manifold.isSubmersionAt_of_localProductChart` (theorem) in LieGroups.Manifold.SubmersionCriterion
 - `LieGroups.Manifold.isSubmersionAt_of_rightInverse_mfderiv` (theorem) in LieGroups.Manifold.SubmersionCriterion
 - `LieGroups.Manifold.isSubmersionAt_of_surjective_mfderiv` (theorem) in LieGroups.Manifold.SubmersionCriterion
-- `LieGroups.Manifold.exists_contMDiffAt_localSection_of_surjective_mfderiv` (theorem) in LieGroups.Manifold.SubmersionCriterion
-- `LieGroups.Manifold.hasContMDiffLocalSections_of_surjective_split_mfderiv` (theorem) in LieGroups.Manifold.SubmersionCriterion
-- `LieGroups.Manifold.hasContMDiffLocalSections_of_surjective_mfderiv` (theorem) in LieGroups.Manifold.SubmersionCriterion
-- `LieGroups.Manifold.exists_contMDiffAt_localSection_of_isSubmersionAt` (theorem) in LieGroups.Manifold.SubmersionLocalSections
-- `LieGroups.Manifold.hasContMDiffLocalSections_of_surjective_submersion` (theorem) in LieGroups.Manifold.SubmersionLocalSections
-- `LieGroups.Manifold.HasContMDiffLocalSections` (def) in LieGroups.Manifold.LocalSections
-- `LieGroups.Manifold.HasContMDiffLocalSections.surjective` (theorem) in LieGroups.Manifold.LocalSections
-- `LieGroups.Manifold.HasContMDiffLocalSections.contMDiff_of_comp` (theorem) in LieGroups.Manifold.LocalSections
-- `LieGroups.Manifold.HasContMDiffLocalSections.contMDiff_iff_comp` (theorem) in LieGroups.Manifold.LocalSections
-- `LieGroups.Manifold.exists_contDiffOn_localInverse` (theorem) in LieGroups.Manifold.SubmersionDifferential
-- `LieGroups.Manifold.exists_contDiffOn_localProduct_of_rightInverse` (theorem) in LieGroups.Manifold.SubmersionDifferential
-- `LieGroups.Manifold.exists_contDiffAt_localProduct_of_rightInverse` (theorem) in LieGroups.Manifold.SubmersionDifferential
-- `LieGroups.Manifold.exists_contDiffAt_localSection_of_rightInverse` (theorem) in LieGroups.Manifold.SubmersionDifferential
-- `LieGroups.Manifold.exists_contDiffAt_localSection_of_surjective` (theorem) in LieGroups.Manifold.SubmersionDifferential
-- `LieGroups.Manifold.hasContMDiffLocalSections_of_surjective_splitDifferential` (theorem) in LieGroups.Manifold.SubmersionDifferential
-- `LieGroups.Manifold.hasContMDiffLocalSections_of_surjective_differential` (theorem) in LieGroups.Manifold.SubmersionDifferential
+- ... and 22 more
 
 ### lean-ridgelet (+2723)
 
@@ -672,7 +753,7 @@
 - `SymmetricPower.polarizeMultilinear` (def) in LieRings.Homological.SymmetricPower
 - ... and 3024 more
 
-### mathlib4 (+6128)
+### mathlib4 (+6119)
 
 - `Action.tensor_ρ_apply` (theorem) in Mathlib.RepresentationTheory.Action
 - `AddEquiv.bracket_def` (theorem) in Mathlib.Algebra.Lie.TransferInstance
@@ -724,7 +805,7 @@
 - `CartanMatrix.D_two` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan.Basic
 - `CartanMatrix.E` (def) in Mathlib.LinearAlgebra.Matrix.Cartan.Basic
 - `CartanMatrix.E_det` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan.Basic
-- ... and 6078 more
+- ... and 6069 more
 
 ### mini-representation-lie-theory (+6028)
 
@@ -786,4 +867,4 @@
 
 ## Update History (1 runs)
 
-- **2026-10-05T06:29:18.103452+00:00**: Checked 23 repos, updated 24, +69836 -0 declarations
+- **2026-10-12T06:43:39.337229+00:00**: Checked 24 repos, updated 25, +70092 -0 declarations
