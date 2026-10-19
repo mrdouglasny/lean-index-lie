@@ -1,6 +1,6 @@
-# Changelog (since 2026-10-05)
+# Changelog (since 2026-10-12)
 
-## New Declarations (76211)
+## New Declarations (77533)
 
 ### CubeToSU3Lean_QCDDynamics (+1139)
 
@@ -591,59 +591,59 @@
 - `joyalRepresentation.orderEmbedding` (def) in JoyalRepresentationTheorem
 - `joyalRepresentation.heytingHom` (def) in JoyalRepresentationTheorem
 
-### lean-LieGroups (+72)
+### lean-LieGroups (+1363)
 
-- `LieGroups.mulInvariantVectorFieldInChart` (def) in LieGroups.InvariantFieldCoordinates
-- `LieGroups.mulInvariantVectorFieldInChart_apply` (theorem) in LieGroups.InvariantFieldCoordinates
-- `LieGroups.hasDerivWithinAt_invariantFieldInChart` (theorem) in LieGroups.InvariantFieldCoordinates
-- `LieGroups.hasMFDerivAt_of_invariantFieldInChart` (theorem) in LieGroups.InvariantFieldCoordinates
-- `LieGroups.contDiffOn_mulInvariantVectorFieldInChart` (theorem) in LieGroups.InvariantFieldCoordinates
-- `LieGroups.exists_contDiff_mulInvariantVectorFieldInChart` (theorem) in LieGroups.InvariantFieldCoordinates
-- `LieGroups.exists_contMDiffOn_oneParameterCurve_near` (theorem) in LieGroups.ExponentialSmooth
-- `LieGroups.oneParameterCurve_nat_mul` (theorem) in LieGroups.ExponentialSmooth
-- `LieGroups.lieExp_contMDiffAt_model` (theorem) in LieGroups.ExponentialSmooth
-- `LieGroups.lieExp_contMDiff_model` (theorem) in LieGroups.ExponentialSmooth
-- `LieGroups.invariantFieldInChart_one` (theorem) in LieGroups.ExponentialLocalChart
-- `LieGroups.lieExp_fderiv_chart_zero_model` (theorem) in LieGroups.ExponentialLocalChart
-- `LieGroups.exists_lieExp_localHomeomorph_model` (theorem) in LieGroups.ExponentialLocalChart
-- `LieGroups.exists_lieExp_localDiffeomorph_model` (theorem) in LieGroups.ExponentialLocalChart
-- `LieGroups.lieExp_isLocalDiffeomorphAt_model` (theorem) in LieGroups.ExponentialLocalChart
-- `LieGroups.lieExp` (def) in LieGroups.Exponential
-- `LieGroups.lieExp_smul` (theorem) in LieGroups.Exponential
-- `LieGroups.lieExp_add_smul` (theorem) in LieGroups.Exponential
-- `LieGroups.lieExp_int_smul` (theorem) in LieGroups.Exponential
-- `LieGroups.lieExp_smul_contMDiff` (theorem) in LieGroups.Exponential
-- `LieGroups.lieExp_smul_hasMFDerivAt_zero` (theorem) in LieGroups.Exponential
-- `LieGroups.mfderiv_mul_left_mulInvariantVectorField` (theorem) in LieGroups.OneParameterSubgroup
-- `LieGroups.isMIntegralCurveOn_mul_left` (theorem) in LieGroups.OneParameterSubgroup
-- `LieGroups.isMIntegralCurve_mul_left` (theorem) in LieGroups.OneParameterSubgroup
-- `LieGroups.lieAlgebraModelEquiv` (def) in LieGroups.OneParameterSubgroup
-- `LieGroups.contMDiff_mulInvariantVectorField_joint` (theorem) in LieGroups.OneParameterSubgroup
-- `LieGroups.contMDiff_infty_mulInvariantVectorField` (theorem) in LieGroups.OneParameterSubgroup
-- `LieGroups.contMDiff_one_mulInvariantVectorField` (theorem) in LieGroups.OneParameterSubgroup
-- `LieGroups.exists_isMIntegralCurve_mulInvariantVectorField` (theorem) in LieGroups.OneParameterSubgroup
-- `LieGroups.isMIntegralCurve_mulInvariantVectorField_unique` (theorem) in LieGroups.OneParameterSubgroup
-- `LieGroups.isMIntegralCurve_mulInvariantVectorField_add` (theorem) in LieGroups.OneParameterSubgroup
-- `LieGroups.oneParameterCurve` (def) in LieGroups.OneParameterSubgroup
-- `LieGroups.oneParameterCurve_isMIntegralCurve` (theorem) in LieGroups.OneParameterSubgroup
-- `LieGroups.oneParameterCurve_unique` (theorem) in LieGroups.OneParameterSubgroup
-- `LieGroups.oneParameterCurve_add` (theorem) in LieGroups.OneParameterSubgroup
-- `LieGroups.oneParameterCurve_continuous` (theorem) in LieGroups.OneParameterSubgroup
-- `LieGroups.oneParameterCurve_mdifferentiable` (theorem) in LieGroups.OneParameterSubgroup
-- `LieGroups.oneParameterCurve_contMDiff` (theorem) in LieGroups.OneParameterSubgroup
-- `LieGroups.oneParameterCurve_hasMFDerivAt_zero` (theorem) in LieGroups.OneParameterSubgroup
-- `LieGroups.oneParameterCurve_smul` (theorem) in LieGroups.OneParameterSubgroup
-- `LieGroups.oneParameterSubgroup` (def) in LieGroups.OneParameterSubgroup
-- `SubmersionCriterionCheck.quadraticProjection` (def) in scripts.CheckSubmersionCriterion
-- `SubmersionCriterionCheck.quadraticProjection_contDiff` (theorem) in scripts.CheckSubmersionCriterion
-- `SubmersionCriterionCheck.quadraticProjection_hasFDerivAt` (theorem) in scripts.CheckSubmersionCriterion
-- `SubmersionCriterionCheck.quadraticProjection_surjective_mfderiv` (theorem) in scripts.CheckSubmersionCriterion
-- `SubmersionCriterionCheck.quadraticProjection_localSections` (theorem) in scripts.CheckSubmersionCriterion
-- `OneParameterSubgroupCheck.oneParameterCurve_eq_smul` (theorem) in scripts.CheckOneParameterSubgroup
-- `LieGroups.Manifold.isSubmersionAt_of_localProductChart` (theorem) in LieGroups.Manifold.SubmersionCriterion
-- `LieGroups.Manifold.isSubmersionAt_of_rightInverse_mfderiv` (theorem) in LieGroups.Manifold.SubmersionCriterion
-- `LieGroups.Manifold.isSubmersionAt_of_surjective_mfderiv` (theorem) in LieGroups.Manifold.SubmersionCriterion
-- ... and 22 more
+- `LieGroups.LieHomomorphismIntegration` (structure) in LieGroups.LieHomomorphismIntegration
+- `LieGroups.LieHomomorphismIntegration.refl` (def) in LieGroups.LieHomomorphismIntegration
+- `LieGroups.LieHomomorphismIntegration.comp` (def) in LieGroups.LieHomomorphismIntegration
+- `LieGroups.isClosed_subgroup_map_iff` (theorem) in LieGroups.ClosedSubgroupTransport
+- `LieGroups.lieSubalgebraSubgroup_map` (theorem) in LieGroups.ClosedSubgroupTransport
+- `LieGroups.isClosed_lieSubalgebraSubgroup_map_iff` (theorem) in LieGroups.ClosedSubgroupTransport
+- `LieGroups.exists_homogeneousQuotient_of_isClosed` (theorem) in LieGroups.ClosedSubgroupQuotient
+- `LieGroups.nonempty_homogeneousQuotient_of_isClosed` (theorem) in LieGroups.ClosedSubgroupQuotient
+- `LieGroups.HomogeneousQuotient.ker_mfderiv_one_eq_subgroupTangentSubmodule` (theorem) in LieGroups.ClosedSubgroupQuotient
+- `LieGroups.HomogeneousQuotient.lieAlgebraQuotientEquiv` (def) in LieGroups.ClosedSubgroupQuotient
+- `LieGroups.HomogeneousQuotient.lieAlgebraQuotientEquiv_mk` (theorem) in LieGroups.ClosedSubgroupQuotient
+- `LieGroups.isLocalHomeomorph_hom_of_at_one` (theorem) in LieGroups.CoveringGroup
+- `LieGroups.isDiscrete_ker_of_isLocalHomeomorph` (theorem) in LieGroups.CoveringGroup
+- `LieGroups.isQuotientCoveringMap_hom_of_isLocalHomeomorph` (theorem) in LieGroups.CoveringGroup
+- `LieGroups.isCoveringMap_hom_of_isLocalHomeomorph` (theorem) in LieGroups.CoveringGroup
+- `LieGroups.surjective_hom_of_isLocalHomeomorph` (theorem) in LieGroups.CoveringGroup
+- `LieGroups.isCoveringMap_hom_of_at_one` (theorem) in LieGroups.CoveringGroup
+- `LieGroups.ker_le_center_of_isCoveringMap` (theorem) in LieGroups.CoveringGroup
+- `LieGroups.LieHomomorphismGraphIntegration` (abbrev) in LieGroups.GraphIntegration
+- `LieGroups.LieHomomorphismGraphIntegration.sourceHom` (def) in LieGroups.GraphIntegration
+- `LieGroups.LieHomomorphismGraphIntegration.targetHom` (def) in LieGroups.GraphIntegration
+- `LieGroups.LieHomomorphismGraphIntegration.contMDiff_sourceHom` (theorem) in LieGroups.GraphIntegration
+- `LieGroups.LieHomomorphismGraphIntegration.contMDiff_targetHom` (theorem) in LieGroups.GraphIntegration
+- `LieGroups.LieHomomorphismGraphIntegration.sourceDifferential_apply` (theorem) in LieGroups.GraphIntegration
+- `LieGroups.LieHomomorphismGraphIntegration.targetDifferential_apply` (theorem) in LieGroups.GraphIntegration
+- `LieGroups.LieHomomorphismGraphIntegration.differential_relation` (theorem) in LieGroups.GraphIntegration
+- `LieGroups.LieHomomorphismGraphIntegration.sourceDifferential_bijective` (theorem) in LieGroups.GraphIntegration
+- `LieGroups.LieHomomorphismGraphIntegration.sourceHom_surjective` (theorem) in LieGroups.GraphIntegration
+- `LieGroups.nonempty_lieHomomorphismGraphIntegration` (theorem) in LieGroups.GraphIntegration
+- `LieGroups.UniversalCoverGroup.sigmaCompactSpace` (theorem) in LieGroups.UniversalCoverCountability
+- `LieGroups.UniversalCoverGroup.secondCountableTopology` (theorem) in LieGroups.UniversalCoverCountability
+- `LieGroups.ClosedSubgroupChart.translation` (def) in LieGroups.ClosedSubgroupAtlas
+- `LieGroups.ClosedSubgroupChart.ambientChart` (def) in LieGroups.ClosedSubgroupAtlas
+- `LieGroups.ClosedSubgroupChart.mem_ambientChart_source` (theorem) in LieGroups.ClosedSubgroupAtlas
+- `LieGroups.ClosedSubgroupChart.ambientChart_mem_iff` (theorem) in LieGroups.ClosedSubgroupAtlas
+- `LieGroups.ClosedSubgroupChart.ambientChart_symm_mem` (theorem) in LieGroups.ClosedSubgroupAtlas
+- `LieGroups.ClosedSubgroupChart.Space` (def) in LieGroups.ClosedSubgroupAtlas
+- `LieGroups.ClosedSubgroupChart.inclusion` (def) in LieGroups.ClosedSubgroupAtlas
+- `LieGroups.ClosedSubgroupChart.isEmbedding_inclusion` (theorem) in LieGroups.ClosedSubgroupAtlas
+- `LieGroups.ClosedSubgroupChart.chartInv` (def) in LieGroups.ClosedSubgroupAtlas
+- `LieGroups.ClosedSubgroupChart.inclusion_chartInv` (theorem) in LieGroups.ClosedSubgroupAtlas
+- `LieGroups.ClosedSubgroupChart.subgroupChart` (def) in LieGroups.ClosedSubgroupAtlas
+- `LieGroups.ClosedSubgroupChart.inclusion_subgroupChart_symm` (theorem) in LieGroups.ClosedSubgroupAtlas
+- `LieGroups.ClosedSubgroupChart.subgroupChart_mem_atlas` (theorem) in LieGroups.ClosedSubgroupAtlas
+- `LieGroups.ClosedSubgroupChart.contMDiffAt_inclusion_chartInv` (theorem) in LieGroups.ClosedSubgroupAtlas
+- `LieGroups.ClosedSubgroupChart.contMDiff_inclusion` (theorem) in LieGroups.ClosedSubgroupAtlas
+- `LieGroups.ClosedSubgroupChart.contMDiffAt_of_inclusion` (theorem) in LieGroups.ClosedSubgroupAtlas
+- `LieGroups.ClosedSubgroupChart.contMDiff_iff_inclusion` (theorem) in LieGroups.ClosedSubgroupAtlas
+- `LieGroups.ClosedSubgroupChart.modelDiffeomorph` (def) in LieGroups.ClosedSubgroupAtlas
+- `LieGroups.ClosedSubgroupChart.immersionChart` (def) in LieGroups.ClosedSubgroupAtlas
+- ... and 1313 more
 
 ### lean-ridgelet (+2723)
 
@@ -753,7 +753,7 @@
 - `SymmetricPower.polarizeMultilinear` (def) in LieRings.Homological.SymmetricPower
 - ... and 3024 more
 
-### mathlib4 (+6119)
+### mathlib4 (+6150)
 
 - `Action.tensor_ρ_apply` (theorem) in Mathlib.RepresentationTheory.Action
 - `AddEquiv.bracket_def` (theorem) in Mathlib.Algebra.Lie.TransferInstance
@@ -805,7 +805,7 @@
 - `CartanMatrix.D_two` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan.Basic
 - `CartanMatrix.E` (def) in Mathlib.LinearAlgebra.Matrix.Cartan.Basic
 - `CartanMatrix.E_det` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan.Basic
-- ... and 6069 more
+- ... and 6100 more
 
 ### mini-representation-lie-theory (+6028)
 
@@ -867,4 +867,4 @@
 
 ## Update History (1 runs)
 
-- **2026-10-12T06:43:39.337229+00:00**: Checked 24 repos, updated 25, +70092 -0 declarations
+- **2026-10-19T06:40:03.074553+00:00**: Checked 24 repos, updated 25, +71383 -0 declarations
