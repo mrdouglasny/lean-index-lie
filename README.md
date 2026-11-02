@@ -2,7 +2,7 @@
 
 Topical index for Lie algebra formalization in Lean 4. **[How to use this index in your project](https://github.com/mrdouglasny/lean-index/blob/main/docs/use-topic-index.md)**
 
-**55,240 topic-matched declarations** across **15 repositories** (scanned 25 repos, 77,533 declarations).
+**55,378 topic-matched declarations** across **15 repositories** (scanned 25 repos, 77,910 declarations).
 
 Tracks Lean declarations related to:
 - **Representation theory**: Lie modules, weight spaces, irreducibility, Schur's lemma
@@ -18,9 +18,9 @@ See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](RE
 | [mathlib-initiative/Etingof-RepresentationTheory-draft1](https://github.com/mathlib-initiative/Etingof-RepresentationTheory-draft1) | 15,153 |  |
 | [mathlib-initiative/EtingofRepresentationTheory](https://github.com/mathlib-initiative/EtingofRepresentationTheory) | 14,216 |  |
 | [mathlib-initiative/EtingofRepresentationTheory-bak00](https://github.com/mathlib-initiative/EtingofRepresentationTheory-bak00) | 13,789 |  |
-| [leanprover-community/mathlib4](https://github.com/leanprover-community/mathlib4) | 6,150 | Mathlib: the math library for Lean 4 |
+| [leanprover-community/mathlib4](https://github.com/leanprover-community/mathlib4) | 6,153 | Mathlib: the math library for Lean 4 |
 | [TimmPeterson/lie-algebras](https://github.com/TimmPeterson/lie-algebras) | 2,777 | This repository formalizes a small part of the theory of Lie algebras in Lean... |
-| [ramlaf/lean-LieGroups](https://github.com/ramlaf/lean-LieGroups) | 1,199 | A repository containing Lean formal verifications of basic results in the... |
+| [ramlaf/lean-LieGroups](https://github.com/ramlaf/lean-LieGroups) | 1,334 | A repository containing Lean formal verifications of basic results in the... |
 | [rootkiller6788/mini-representation-lie-theory](https://github.com/rootkiller6788/mini-representation-lie-theory) | 1,085 | Representation theory and Lie theory built from scratch, learn algebraic... |
 | [LieLean/LowDimSolvClassification](https://github.com/LieLean/LowDimSolvClassification) | 249 | Low-dimensional solvable Lie algebra classification (Lean 4) |
 | [mlyean/lean-coxeter](https://github.com/mlyean/lean-coxeter) | 203 | Coxeter groups in Lean 4 |
