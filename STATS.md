@@ -1,13 +1,13 @@
 # Lean Index Statistics
 
-**61,442 topic-matched declarations** across **15 repositories**
-(77,910 total declarations scanned from 25 repos)
+**61,448 topic-matched declarations** across **15 repositories**
+(77,916 total declarations scanned from 25 repos)
 
 ## By Topic
 
 | Topic                          |    Matches |
 |--------------------------------|------------|
-| representation-theory          |     47,079 |
+| representation-theory          |     47,085 |
 | lie-algebras                   |     11,958 |
 | root-systems                   |      2,405 |
 
@@ -15,7 +15,7 @@
 
 | Kind            |      Count |
 |-----------------|------------|
-| theorem         |     27,707 |
+| theorem         |     27,713 |
 | def             |     13,327 |
 | lemma           |      9,746 |
 | instance        |      2,229 |
@@ -32,7 +32,7 @@
 | Etingof-RepresentationTheory-draft1 |     15,153 |     27,814 |
 | EtingofRepresentationTheory         |     14,216 |     14,267 |
 | EtingofRepresentationTheory-bak00   |     13,789 |     13,840 |
-| mathlib4                            |      6,153 |      6,153 |
+| mathlib4                            |      6,159 |      6,159 |
 | lie-algebras                        |      2,777 |      3,074 |
 | lean-LieGroups                      |      1,334 |      1,648 |
 | mini-representation-lie-theory      |      1,085 |      6,028 |
@@ -47,7 +47,7 @@
 
 ## Last Update
 
-- **When**: 2026-11-02T06:24:52.578149+00:00
+- **When**: 2026-11-09T06:30:08.701887+00:00
 - **Repos checked**: 24
 - **Repos updated**: 25
 - **New declarations**: 71757
