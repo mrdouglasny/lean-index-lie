@@ -1,6 +1,6 @@
-# Changelog (since 2026-11-02)
+# Changelog (since 2026-11-09)
 
-## New Declarations (77916)
+## New Declarations (85090)
 
 ### CubeToSU3Lean_QCDDynamics (+1228)
 
@@ -316,6 +316,60 @@
 - `hello` (def) in LieAlgRep.Basic
 - `card_eq_card_quotient_mul_card_subgroup'` (theorem) in Exercise.abstract_algebra
 - `center_eq_top'` (lemma) in Exercise.abstract_algebra
+
+### Lie-Groups-Lie-Algebras-and-Their-Representations-V.-S.-Varadarajan-auth-lean4 (+6211)
+
+- `Varadarajan.cube` (def) in Varadarajan.Basic
+- `Varadarajan.cubeC` (def) in Varadarajan.Basic
+- `Varadarajan.padZero` (def) in Varadarajan.Basic
+- `Varadarajan.cinf` (def) in Varadarajan.Basic
+- `Varadarajan.mem_cinf_iff` (theorem) in Varadarajan.Basic
+- `Varadarajan.evalCinf` (def) in Varadarajan.Basic
+- `Varadarajan.idealJ` (def) in Varadarajan.Basic
+- `arguments.` (instance) in Varadarajan.Ch2.S2_1_LieGroups
+- `Varadarajan.IsAnalyticGroupV` (def) in Varadarajan.Ch2.S2_1_LieGroups
+- `Varadarajan.lieGroup_isTopologicalGroup_locallyCompact` (theorem) in Varadarajan.Ch2.S2_1_LieGroups
+- `Varadarajan.eq_2_1_1` (theorem) in Varadarajan.Ch2.S2_1_LieGroups
+- `Varadarajan.leftTransl` (def) in Varadarajan.Ch2.S2_1_LieGroups
+- `Varadarajan.rightTransl` (def) in Varadarajan.Ch2.S2_1_LieGroups
+- `Varadarajan.eq_2_1_2` (theorem) in Varadarajan.Ch2.S2_1_LieGroups
+- `Varadarajan.IsLieGroupIso` (def) in Varadarajan.Ch2.S2_1_LieGroups
+- `Varadarajan.eq_2_1_3` (theorem) in Varadarajan.Ch2.S2_1_LieGroups
+- `Varadarajan.prod_lieGroup` (theorem) in Varadarajan.Ch2.S2_1_LieGroups
+- `Varadarajan.s2_1_qr_contMDiff` (theorem) in Varadarajan.Ch2.S2_1_LieGroups
+- `Varadarajan.thm_2_1_1` (theorem) in Varadarajan.Ch2.S2_1_LieGroups
+- `Varadarajan.s2_1_openSubgroup_lieSubgroupV` (theorem) in Varadarajan.Ch2.S2_1_LieGroups
+- `Varadarajan.identityComponent_analytic` (theorem) in Varadarajan.Ch2.S2_1_LieGroups
+- `Varadarajan.s2_1_contMDiff_restrictScalars` (theorem) in Varadarajan.Ch2.S2_1_LieGroups
+- `Varadarajan.complexLieGroup_real` (theorem) in Varadarajan.Ch2.S2_1_LieGroups
+- `Varadarajan.IsClosedLieSubgroupOf` (def) in Varadarajan.Ch2.S2_1_LieGroups
+- `Varadarajan.s2_1_mem_closure_iff` (theorem) in Varadarajan.Ch2.S2_1_LieGroups
+- `Varadarajan.s2_1_regsub_units` (theorem) in Varadarajan.Ch2.S2_1_LieGroups
+- `Varadarajan.exm_2_1_1` (theorem) in Varadarajan.Ch2.S2_1_LieGroups
+- `Varadarajan.s2_1_connectedSpace_units` (theorem) in Varadarajan.Ch2.S2_1_LieGroups
+- `Varadarajan.s2_1_isConnected_units_complex` (theorem) in Varadarajan.Ch2.S2_1_LieGroups
+- `Varadarajan.exm_2_1_2` (theorem) in Varadarajan.Ch2.S2_1_LieGroups
+- `Varadarajan.torusV` (def) in Varadarajan.Ch2.S2_1_LieGroups
+- `Varadarajan.torusExp` (def) in Varadarajan.Ch2.S2_1_LieGroups
+- `Varadarajan.s2_1_mem_torusV` (theorem) in Varadarajan.Ch2.S2_1_LieGroups
+- `Varadarajan.s2_1_torus_range` (theorem) in Varadarajan.Ch2.S2_1_LieGroups
+- `Varadarajan.s2_1_torusExp_immersion` (theorem) in Varadarajan.Ch2.S2_1_LieGroups
+- `Varadarajan.s2_1_torus_closedLie` (theorem) in Varadarajan.Ch2.S2_1_LieGroups
+- `Varadarajan.exm_2_1_3` (theorem) in Varadarajan.Ch2.S2_1_LieGroups
+- `Varadarajan.glV` (abbrev) in Varadarajan.Ch2.S2_1_LieGroups
+- `Varadarajan.matOf` (def) in Varadarajan.Ch2.S2_1_LieGroups
+- `Varadarajan.upperUnitriV` (def) in Varadarajan.Ch2.S2_1_LieGroups
+- `Varadarajan.specialLinearV` (def) in Varadarajan.Ch2.S2_1_LieGroups
+- `Varadarajan.orthogonalV` (def) in Varadarajan.Ch2.S2_1_LieGroups
+- `Varadarajan.specialOrthogonalV` (def) in Varadarajan.Ch2.S2_1_LieGroups
+- `Varadarajan.IsAlgebraicGroupV` (def) in Varadarajan.Ch2.S2_1_LieGroups
+- `Varadarajan.sympFormV` (def) in Varadarajan.Ch2.S2_1_LieGroups
+- `Varadarajan.sympMatF` (def) in Varadarajan.Ch2.S2_1_LieGroups
+- `Varadarajan.symplecticV` (def) in Varadarajan.Ch2.S2_1_LieGroups
+- `Varadarajan.unitaryV` (def) in Varadarajan.Ch2.S2_1_LieGroups
+- `Varadarajan.specialUnitaryV` (def) in Varadarajan.Ch2.S2_1_LieGroups
+- `Varadarajan.compactSymplecticV` (def) in Varadarajan.Ch2.S2_1_LieGroups
+- ... and 6161 more
 
 ### LowDimSolvClassification (+300)
 
@@ -753,7 +807,7 @@
 - `LieRings.Homological.FreePresentation.secondHomologyMap_id` (theorem) in LieRings.Homological.SecondHomology
 - ... and 3024 more
 
-### mathlib4 (+6159)
+### mathlib4 (+6181)
 
 - `Action.tensor_ρ_apply` (theorem) in Mathlib.RepresentationTheory.Action
 - `AddEquiv.bracket_def` (theorem) in Mathlib.Algebra.Lie.TransferInstance
@@ -805,7 +859,7 @@
 - `CartanMatrix.D_two` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan.Basic
 - `CartanMatrix.E` (def) in Mathlib.LinearAlgebra.Matrix.Cartan.Basic
 - `CartanMatrix.E_det` (theorem) in Mathlib.LinearAlgebra.Matrix.Cartan.Basic
-- ... and 6109 more
+- ... and 6131 more
 
 ### mini-representation-lie-theory (+6028)
 
@@ -861,10 +915,64 @@
 - `MiniAlgebraicGroups.HomogeneousSpace` (structure) in mini-algebraic-groups.MiniAlgebraicGroups.Constructions.Quotients
 - ... and 5978 more
 
+### minkowski-lorentz-algebra (+941)
+
+- `YangMills.Axis` (abbrev) in ReleaseAdapter.Carried
+- `YangMills.SpaceAxis` (abbrev) in ReleaseAdapter.Carried
+- `YangMills.timeAxis` (abbrev) in ReleaseAdapter.Carried
+- `YangMills.Spacetime` (abbrev) in ReleaseAdapter.Carried
+- `YangMills.Space` (abbrev) in ReleaseAdapter.Carried
+- `YangMills.time` (def) in ReleaseAdapter.Carried
+- `YangMills.spatial` (def) in ReleaseAdapter.Carried
+- `YangMills.forwardCone` (def) in ReleaseAdapter.Carried
+- `YangMills.minkowskiSquare` (def) in ReleaseAdapter.Carried
+- `YangMills.ProperLorentz` (abbrev) in ReleaseAdapter.Carried
+- `YangMills.PoincareCoordinates` (abbrev) in ReleaseAdapter.Carried
+- `MinkowskiLorentz.minkowskiBilin` (def) in Solution
+- `MinkowskiLorentz.lorentzAlgebra` (def) in Solution
+- `MinkowskiLorentz.boostEnd` (def) in Solution
+- `MinkowskiLorentz.rotEnd` (def) in Solution
+- `MinkowskiLorentz.hodgeMatrix` (def) in Solution
+- `MinkowskiLorentz.hodgeEnd` (def) in Solution
+- `MinkowskiLorentz.sl2CReal` (abbrev) in Solution
+- `MinkowskiLorentz.sl2CRealMat` (def) in Solution
+- `MinkowskiLorentz.pauli` (def) in Solution
+- `MinkowskiLorentz.spinOf` (def) in Solution
+- `MinkowskiLorentz.spinMatrix` (def) in Solution
+- `MinkowskiLorentz.Bridge.lorentzAlgebra_eq` (theorem) in Solution
+- `MinkowskiLorentz.Bridge.sl2CRealMat_eq` (theorem) in Solution
+- `MinkowskiLorentz.Bridge.hodgeMatrix_eq` (theorem) in Solution
+- `MinkowskiLorentz.Bridge.lorentzHodge_coe` (theorem) in Solution
+- `MinkowskiLorentz.Bridge.form_eq` (theorem) in Solution
+- `MinkowskiLorentz.Bridge.s6` (theorem) in Solution
+- `MinkowskiLorentz.Bridge.s8` (theorem) in Solution
+- `MinkowskiLorentz.Bridge.cs0` (theorem) in Solution
+- `MinkowskiLorentz.Bridge.cs1` (theorem) in Solution
+- `MinkowskiLorentz.Bridge.cs2` (theorem) in Solution
+- `MinkowskiLorentz.Bridge.tA` (theorem) in Solution
+- `MinkowskiLorentz.Bridge.spinOf_eq` (theorem) in Solution
+- `MinkowskiLorentz.Bridge.spinMatrix_toEuclideanLin` (theorem) in Solution
+- `MinkowskiLorentz.Bridge.skew_entries` (theorem) in Solution
+- `MinkowskiLorentz.Bridge.spinOf_hodgeMatrix` (theorem) in Solution
+- `MinkowskiLorentz.Bridge.s4a` (theorem) in Solution
+- `MinkowskiLorentz.Bridge.s4b` (theorem) in Solution
+- `MinkowskiLorentz.Bridge.gmat` (def) in Solution
+- `MinkowskiLorentz.Bridge.gimat` (def) in Solution
+- `MinkowskiLorentz.Bridge.gmat_mul_gimat` (theorem) in Solution
+- `MinkowskiLorentz.Bridge.gimat_mul_gmat` (theorem) in Solution
+- `MinkowskiLorentz.Bridge.conj_trace` (theorem) in Solution
+- `MinkowskiLorentz.Bridge.conj_trace'` (theorem) in Solution
+- `MinkowskiLorentz.Bridge.conj_mul` (theorem) in Solution
+- `MinkowskiLorentz.Bridge.conj_inv_left` (theorem) in Solution
+- `MinkowskiLorentz.Bridge.conj_inv_right` (theorem) in Solution
+- `MinkowskiLorentz.Bridge.conjG` (def) in Solution
+- `MinkowskiLorentz.Bridge.conj_spinMat` (theorem) in Solution
+- ... and 891 more
+
 ### modularreptheory (+1)
 
 - `fixedSubalgebra` (def) in Modularreptheory.Basic
 
 ## Update History (1 runs)
 
-- **2026-11-09T06:30:08.701887+00:00**: Checked 24 repos, updated 25, +71757 -0 declarations
+- **2026-11-16T06:36:45.435871+00:00**: Checked 26 repos, updated 27, +78909 -0 declarations

@@ -2,7 +2,7 @@
 
 Topical index for Lie algebra formalization in Lean 4. **[How to use this index in your project](https://github.com/mrdouglasny/lean-index/blob/main/docs/use-topic-index.md)**
 
-**55,384 topic-matched declarations** across **15 repositories** (scanned 25 repos, 77,916 declarations).
+**56,747 topic-matched declarations** across **17 repositories** (scanned 27 repos, 85,090 declarations).
 
 Tracks Lean declarations related to:
 - **Representation theory**: Lie modules, weight spaces, irreducibility, Schur's lemma
@@ -18,15 +18,17 @@ See [SELECTION.md](SELECTION.md) for exact selection criteria. See [REPOS.md](RE
 | [mathlib-initiative/Etingof-RepresentationTheory-draft1](https://github.com/mathlib-initiative/Etingof-RepresentationTheory-draft1) | 15,153 |  |
 | [mathlib-initiative/EtingofRepresentationTheory](https://github.com/mathlib-initiative/EtingofRepresentationTheory) | 14,216 |  |
 | [mathlib-initiative/EtingofRepresentationTheory-bak00](https://github.com/mathlib-initiative/EtingofRepresentationTheory-bak00) | 13,789 |  |
-| [leanprover-community/mathlib4](https://github.com/leanprover-community/mathlib4) | 6,159 | Mathlib: the math library for Lean 4 |
+| [leanprover-community/mathlib4](https://github.com/leanprover-community/mathlib4) | 6,181 | Mathlib: the math library for Lean 4 |
 | [TimmPeterson/lie-algebras](https://github.com/TimmPeterson/lie-algebras) | 2,777 | This repository formalizes a small part of the theory of Lie algebras in Lean... |
 | [ramlaf/lean-LieGroups](https://github.com/ramlaf/lean-LieGroups) | 1,334 | A repository containing Lean formal verifications of basic results in the... |
+| [xiaodaonaoyangyang-prog/Lie-Groups-Lie-Algebras-and-Their-Representations-V.-S.-Varadarajan-auth-lean4](https://github.com/xiaodaonaoyangyang-prog/Lie-Groups-Lie-Algebras-and-Their-Representations-V.-S.-Varadarajan-auth-lean4) | 1,302 | 关于李群李代数的形式化 |
 | [rootkiller6788/mini-representation-lie-theory](https://github.com/rootkiller6788/mini-representation-lie-theory) | 1,085 | Representation theory and Lie theory built from scratch, learn algebraic... |
 | [LieLean/LowDimSolvClassification](https://github.com/LieLean/LowDimSolvClassification) | 249 | Low-dimensional solvable Lie algebra classification (Lean 4) |
 | [mlyean/lean-coxeter](https://github.com/mlyean/lean-coxeter) | 203 | Coxeter groups in Lean 4 |
 | [shosonoda/lean-ridgelet](https://github.com/shosonoda/lean-ridgelet) | 171 | Lean formalization and Blueprint for integral-representation neural networks... |
 | [TomOleDiem/QuantumRepresentationTheory](https://github.com/TomOleDiem/QuantumRepresentationTheory) | 162 |  |
 | [mrdouglasny/TauCeti-reviews-pr62](https://github.com/mrdouglasny/TauCeti-reviews-pr62) | 46 | Supervised, question-driven review of TauCetiRoadmap PR #62... |
+| [stalex444/minkowski-lorentz-algebra](https://github.com/stalex444/minkowski-lorentz-algebra) | 39 | Invariant bilinear forms on the Lorentz Lie algebra so(3,1): the two-parameter... |
 | [bicmr-ai4math/Group6-Formalization-on-Lie-algebra-rep](https://github.com/bicmr-ai4math/Group6-Formalization-on-Lie-algebra-rep) | 32 | Formalization of finite-dimensional Lie algebra representations (Lean 4) |
 | [awodey/joyal](https://github.com/awodey/joyal) | 6 |  |
 | [buare/CubeToSU3Lean_QCDDynamics](https://github.com/buare/CubeToSU3Lean_QCDDynamics) | 2 | A Lean 4 formalization of how the eight vertices of the unit cube {0,1}³, read... |
