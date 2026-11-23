@@ -1,27 +1,27 @@
 # Lean Index Statistics
 
-**62,913 topic-matched declarations** across **17 repositories**
-(85,090 total declarations scanned from 27 repos)
+**63,065 topic-matched declarations** across **18 repositories**
+(85,439 total declarations scanned from 28 repos)
 
 ## By Topic
 
 | Topic                          |    Matches |
 |--------------------------------|------------|
-| representation-theory          |     47,192 |
-| lie-algebras                   |     13,268 |
+| representation-theory          |     47,218 |
+| lie-algebras                   |     13,394 |
 | root-systems                   |      2,453 |
 
 ## By Kind (topic-matched only)
 
 | Kind            |      Count |
 |-----------------|------------|
-| theorem         |     28,588 |
-| def             |     13,510 |
-| lemma           |     10,006 |
-| instance        |      2,241 |
-| abbrev          |      1,645 |
-| structure       |        527 |
-| ctor            |         97 |
+| theorem         |     28,684 |
+| def             |     13,532 |
+| lemma           |     10,011 |
+| instance        |      2,264 |
+| abbrev          |      1,646 |
+| structure       |        530 |
+| ctor            |         98 |
 | inductive       |         68 |
 | class           |         65 |
 
@@ -29,10 +29,10 @@
 
 | Repository                          |    Matched |      Total |
 |-------------------------------------|------------|------------|
-| Etingof-RepresentationTheory-draft1 |     15,153 |     27,814 |
+| Etingof-RepresentationTheory-draft1 |     15,166 |     27,814 |
 | EtingofRepresentationTheory         |     14,216 |     14,267 |
 | EtingofRepresentationTheory-bak00   |     13,789 |     13,840 |
-| mathlib4                            |      6,181 |      6,181 |
+| mathlib4                            |      6,268 |      6,268 |
 | lie-algebras                        |      2,777 |      3,074 |
 | lean-LieGroups                      |      1,334 |      1,648 |
 | Lie-Groups-Lie-Algebras-and-Their-R |      1,302 |      6,211 |
@@ -41,6 +41,7 @@
 | coxeter                             |        203 |        206 |
 | lean-ridgelet                       |        171 |      2,723 |
 | QuantumRepresentationTheory         |        162 |        163 |
+| gelfand-kirillov-g2-cn              |         51 |        262 |
 | TauCeti-reviews-pr62                |         46 |         46 |
 | minkowski-lorentz-algebra           |         39 |        941 |
 | Group6-Formalization-on-Lie-algebra |         32 |         42 |
@@ -49,9 +50,9 @@
 
 ## Last Update
 
-- **When**: 2026-11-16T06:36:45.435871+00:00
-- **Repos checked**: 26
-- **Repos updated**: 27
-- **New declarations**: 78909
+- **When**: 2026-11-23T06:23:36.082117+00:00
+- **Repos checked**: 27
+- **Repos updated**: 28
+- **New declarations**: 79171
 - **Removed declarations**: 0
-- **Summary**: Checked 26 repos, updated 27, +78909 -0 declarations
+- **Summary**: Checked 27 repos, updated 28, +79171 -0 declarations
